@@ -1,0 +1,50 @@
+.bseu-section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  line-height:17px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    flex-direction: column;
+  }
+}
+
+.bseu-section__text {
+  width: 40%;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
+}
+
+.bseu-section__details {
+  color: $blue;
+}
+
+.bseu-section__details-arrow {
+  top: 2px;
+  position: relative;
+}
+
+.bseu-section__image {
+  width: 40%;
+  background: url(../assets/images/bseu-section-image.jpeg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  @media only screen and (max-width: $breakpoint_tablet) {
+    margin-top: 40px;
+    width: 100%;
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+
+.bseu-section_without-image {
+  width: 85%;
+  display: block;
+}
+
+.bseu-section__text_without-image {
+  width: 85%;
+}

@@ -1,0 +1,50 @@
+.documents-section {
+
+}
+
+.documents-section__cards_list {
+  width: 80%;
+  margin-left: 20%;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.documents-section__card {
+  box-shadow: $shadow;
+  margin-bottom: 15px;
+  padding: 25px;
+}
+
+.documents-section__card-title {
+  color: $grey;
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.documents-section__card-link {
+  color: $blue;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.documents-section__controls {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  margin-left: 20%;
+  justify-content: center;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    margin: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.documents-section__control-item {
+  margin: 10px 6px;
+  cursor: pointer;
+}

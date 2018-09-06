@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+    cursor: pointer;
+}
+
+.logo__img {
+  width: 55px;
+  height: 55px;
+}
+
+.logo__text {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}

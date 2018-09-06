@@ -1,0 +1,14 @@
+.triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-bottom: 20px solid;
+  border-bottom-color: transparent;
+}
+
+.triangle_dark-blue {
+  border-bottom-color: $dark_blue;
+}

@@ -1,0 +1,45 @@
+.tabs-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs-component__nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 10%;
+  margin-bottom: 0px;
+  width: 80%;
+  font-size: 21px;
+  line-height: 25px;
+  color: $grey;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.tabs-component__nav-arrow {
+  @media only screen and (max-width: $breakpoint_tablet) {
+    display: none;
+  }
+}
+
+.tabs-component__nav-item {
+  cursor: pointer;
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  @media only screen and (max-width: $breakpoint_tablet) {
+    padding: 15px;
+  }
+}
+
+.tabs-component__nav_active {
+  color: $blue;
+}
+
+.tabs-component__content {
+  width: 100%;
+}

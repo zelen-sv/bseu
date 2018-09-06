@@ -1,0 +1,19 @@
+.circle-text-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle-text-icon_bordered {
+  border: 1px solid;
+}
+
+.circle-text-icon__text {
+  line-height: normal;
+  font-size: 17px;
+}

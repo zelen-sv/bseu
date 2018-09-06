@@ -1,0 +1,65 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  font-size: 17px;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    display: none;
+  }
+  border-bottom: 0.5px $light_grey solid;
+}
+
+.navbar__logo-container {
+  display: flex;
+  width: 16%;
+  justify-content: center;
+  align-items: center
+}
+
+.navbar__menu {
+  display: flex;
+  width: 63%;
+  justify-content: space-between;
+  align-items: center;
+  line-height: normal;
+  color: $grey;
+}
+
+.navbar__menu-item {
+  cursor: pointer;
+}
+
+.navbar__buttons {
+  display: flex;
+  width: 21%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar__buttons-item_blue {
+  color: $blue;
+}
+
+.navbar__buttons-item_icon {
+  display: flex;
+}
+
+.navbar__buttons-item-text {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.navbar__buttons-language {
+  color: $grey;
+  background-color: $light_grey;
+  cursor: pointer;
+}
+
+.navbar__circle-button-text {
+  line-height: normal;
+  font-size: 17px;
+}
+

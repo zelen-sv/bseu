@@ -1,0 +1,45 @@
+.specialty-card {
+  box-shadow: $shadow;
+  height: 350px;
+  min-width: 250px;
+  cursor: pointer;
+}
+
+.specialty-card__image-conteiner {
+  height: 50%;
+}
+
+.specialty-card__image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.specialty-card__data {
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.specialty-card__education-form {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: bold;
+  color: $grey;
+  text-transform: uppercase;
+}
+
+.specialty-card__title {
+  color: $blue;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.specialty-card__price {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+}
+

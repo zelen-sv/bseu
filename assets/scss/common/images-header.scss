@@ -1,0 +1,10 @@
+.images-header {
+  width: 100%;
+  display: flex;
+}
+
+.images-header__picture {
+  width: 25%;
+  height: 40vh;
+  object-fit: cover;
+}

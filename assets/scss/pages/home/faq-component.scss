@@ -1,0 +1,22 @@
+.faq-component {
+  width: 100%;
+  display: flex;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    flex-direction: column;
+  }
+}
+
+.faq-component__questions-section {
+  width: 55%;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.faq-component__documents-section {
+  width: 45%;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
+}

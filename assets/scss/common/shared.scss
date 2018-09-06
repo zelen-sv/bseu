@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+  line-height: normal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.circle_text_icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: $light_grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+

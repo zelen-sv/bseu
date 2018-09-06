@@ -1,0 +1,26 @@
+.button {
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button_bordered {
+    border: 1px solid;
+    background-color: white;
+}
+
+.button_toggle_active {
+  min-width: 102px;
+  background-color: $blue;
+  color: white;
+}
+
+.button_toggle_in-active{
+  min-width: 102px;
+  border: 1px $light_grey solid;
+  padding: 9px 23px;
+  color: $grey;
+}

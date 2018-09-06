@@ -1,0 +1,33 @@
+.specialty-line {
+  padding: 10px 20px;
+  display: flex;
+}
+
+.specialty-line_hovered:hover {
+  background-color: $light_grey;
+}
+
+.specialty-line__data {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.specialty-line__title {
+  color: $blue;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.specialty-line__term {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.specialty-line__cost {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}

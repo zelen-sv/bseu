@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('/fonts/MyriadPro-Bold.eot');
+  src: url('/fonts/MyriadPro-Bold.eot?#iefix') format("embedded-opentype"), url('/fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Myriad Pro SemiExt';
+    src: url('/fonts/MyriadPro-BoldSemiExt.eot');
+    src: url('/fonts/MyriadPro-BoldSemiExt.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/MyriadPro-BoldSemiExt.woff2') format('woff2'),
+        url('/fonts/MyriadPro-BoldSemiExt.woff') format('woff'),
+        url('/fonts/MyriadPro-BoldSemiExt.svg#MyriadPro-BoldSemiExt') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: semi-expanded;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Black SemiCond';
+  src: url('/fonts/MyriadPro-BlackSemiCn.eot');
+  src: url('/fonts/MyriadPro-BlackSemiCn.eot?#iefix') format("embedded-opentype"), url('/fonts/MyriadPro-BlackSemiCn.woff2') format("woff2"), url('/fonts/MyriadPro-BlackSemiCn.woff') format("woff"), url('/fonts/MyriadPro-BlackSemiCn.svg#MyriadPro-BlackSemiCn') format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: semi-condensed;
+  unicode-range: U+0020-00FE;
+}

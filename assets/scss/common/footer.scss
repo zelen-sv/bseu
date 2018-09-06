@@ -1,0 +1,64 @@
+.footer {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #DFDFDF;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    flex-direction: column;
+  }
+}
+
+.footer__link {
+  font-size: 21px;
+  line-height: 25px;
+  color: black;
+  margin: 15px 0;
+}
+
+.footer__logo {
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.footer__link_active {
+  color: $blue;
+}
+
+.footer__column {
+  width: 30%;
+  margin-top: 30px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
+}
+
+.footer__column_right_align {
+  text-align: right;
+}
+
+.footer__phone {
+  margin: 15px 0;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.footer__phone_with_messangers {
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.footer__messangers {
+  font-size: 22px;
+  line-height: 26px;
+  color: $grey;
+}
+
+.footer__mail {
+  margin-top: 25px;
+  font-size: 22px;
+  line-height: 26px;
+}
