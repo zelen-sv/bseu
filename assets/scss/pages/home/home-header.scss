@@ -1,7 +1,7 @@
 .home-header {
   height: 60vh;
   width: 100%;
-  background: url(../assets/images/main-header-img.jpeg) no-repeat center center fixed;
+  background: url(/assets/images/main-header-img.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,6 +28,7 @@
   letter-spacing: 2%;
   padding-bottom: 20px;
   @media only screen and (max-width: $breakpoint_mobile) {
+    text-align: center;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 1%;
@@ -42,4 +43,8 @@
   line-height: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  @media only screen and (max-width: $breakpoint_mobile) {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }

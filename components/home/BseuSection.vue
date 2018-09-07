@@ -3,7 +3,7 @@
     <div class="bseu-section__text">
       <h3 class="section__side-legend">{{ $t("pages.home.bseu-section.legend") }}</h3>
       <div class="bseu-section__description">
-        <p>{{ $t("pages.home.bseu-section.description_p1") }}</p>
+        <p v-html="$t('pages.home.bseu-section.description_p1')"></p>
         <p>{{ $t("pages.home.bseu-section.description_p2") }}</p>
         <p>{{ $t("pages.home.bseu-section.description_p3") }}</p>
       </div>

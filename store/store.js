@@ -1,4 +1,4 @@
-export const POPULAR_SPECIALTIES = [
+export const POPULAR_SPECIALTIES_FIRST = [
   {
     "education_form": "Первое высшее",
     "title": "Мировая экономика",
@@ -22,7 +22,10 @@ export const POPULAR_SPECIALTIES = [
     "title": "Мировая экономика",
     "price": "3000 $ год",
     "image_href": ""
-  },
+  }
+]
+
+export const POPULAR_SPECIALTIES_SECOND = [
   {
     "education_form": "Первое высшее",
     "title": "Мировая экономика",

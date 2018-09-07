@@ -1,15 +1,25 @@
 .specialties-section__list {
   color: blue;
+  margin-top: 40px;
 }
 
-.specialties-section__list {
+.specialties-section__row {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 40px;
+  justify-content: space-between;
+  @media screen and (max-width: $breakpoint_mobile) {
+    justify-content: center;
+  }
 }
 
 .specialties-section__item {
-  margin: 0 20px;
   margin-top: 40px;
+  flex: 0 2 calc(25% - 2em);
+  @media screen and (max-width: $breakpoint_tablet) {
+    flex: 0 2 calc(50% - 2em);
+  }
+  @media screen and (max-width: $breakpoint_mobile) {
+    flex: 0 2 calc(100% - 2em);
+  }
 }

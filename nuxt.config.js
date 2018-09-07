@@ -22,18 +22,39 @@ module.exports = {
         '@/assets/scss/variables/index.scss',
         '@/assets/scss/common/index.scss',
     ]],
-  ],
+    ['nuxt-i18n', {
+      vueI18n: {
+        silentTranslationWarn: true
+      },
+      defaultLocale: 'ru',
+      locales: [
+        {
+          code: 'en',
+          name: 'EN',
+          iso: 'en-US',
+          file: 'en-US.js'
+        },
+        {
+          code: 'ru',
+          name: 'RU',
+          iso: 'ru-RU',
+          file: 'ru-RU.js'
+        },
+        {
+          code: 'tm',
+          name: 'TM',
+          iso: 'tm-TM',
+          file: 'tm-TM.js'
+        }
+      ],
+      lazy: true,
+      langDir: 'locales/'
+    }]
+    ],
   /*
   ** Build configuration
   */
   build: {
-    vendor: ['vue-i18n']
-  },
-  plugins: ['~/plugins/i18n.js'],
-  build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
