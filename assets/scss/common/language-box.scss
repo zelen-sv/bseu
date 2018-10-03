@@ -1,0 +1,48 @@
+.language-box__icon {
+  color: $grey;
+  background-color: $light_grey;
+  cursor: pointer;
+}
+
+.language-box__icon_active {
+  color: white;
+  background-color: $light_blue;
+}
+
+.language-box__select-container {
+  position: absolute;
+}
+
+.language-box__select {
+  position: relative;
+  top: 5px;
+  right: 60px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.language-box__select-item {
+  padding: 6px 10px;
+  display: flex;
+  font-size: 17px;
+  line-height: 20px;
+
+  &:hover {
+    background-color: $transparent_blue;
+  }
+}
+
+.language-box__select-icon {
+  width: 15px;
+  margin-right: 7px;
+}
+
+.language-box__select-link {
+  color: $grey;
+  text-decoration: none;
+}
+
+.language-box__select-link_active {
+  color: $light_blue;
+}
+

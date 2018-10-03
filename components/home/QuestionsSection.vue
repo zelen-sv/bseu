@@ -39,12 +39,14 @@
 <script>
 
   export default {
-    props: {
-      questions: { type: Array }
-    },
     data () {
       return {
         show_all_questions: false
+      }
+    },
+    computed: {
+      questions () {
+        return this.$t("pages.home.faq-component.questions")
       }
     },
     methods: {

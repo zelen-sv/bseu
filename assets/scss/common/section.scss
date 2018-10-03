@@ -27,11 +27,16 @@
 
 
 .content-section {
+  width: 85%;
   margin: 60px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    margin: auto;
+    margin-top: 30px;
+  }
 }
 
 .content-section__legend {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-size: 28px;
   font-weight: bold;
   line-height: 33px;

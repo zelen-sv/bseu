@@ -8,6 +8,8 @@
       <bseu-section />
       <specialties-data-section />
       <admission-documents />
+      <arriving-documents />
+      <how-to-enter />
     </div>
   </div>
 </template>
@@ -23,10 +25,18 @@
   import BseuSection from '~/components/first-higher/BseuSection.vue'
   import SpecialtiesDataSection from '~/components/first-higher/SpecialtiesDataSection.vue'
   import AdmissionDocuments from '~/components/first-higher/AdmissionDocuments.vue'
+  import ArrivingDocuments from '~/components/first-higher/ArrivingDocuments.vue'
+  import HowToEnter from '~/components/first-higher/HowToEnter.vue'
 
   export default {
     components: {
-      ImagesHeader, Sidebar, BseuSection, SpecialtiesDataSection, AdmissionDocuments
+      ImagesHeader,
+      Sidebar,
+      BseuSection,
+      SpecialtiesDataSection,
+      AdmissionDocuments,
+      ArrivingDocuments,
+      HowToEnter
     }
   }
 </script>

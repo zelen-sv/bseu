@@ -1,3 +1,5 @@
+const nodeExternals = require('webpack-node-externals');
+
 module.exports = {
   /*
   ** Headers of the page
@@ -22,6 +24,7 @@ module.exports = {
         '@/assets/scss/variables/index.scss',
         '@/assets/scss/common/index.scss',
     ]],
+
     ['nuxt-i18n', {
       vueI18n: {
         silentTranslationWarn: true
@@ -31,29 +34,39 @@ module.exports = {
         {
           code: 'en',
           name: 'EN',
+          fullname: 'English',
           iso: 'en-US',
           file: 'en-US.js'
         },
         {
           code: 'ru',
           name: 'RU',
+          fullname: 'Русский',
           iso: 'ru-RU',
           file: 'ru-RU.js'
         },
         {
           code: 'tm',
           name: 'TM',
+          fullname: 'Türkmen',
           iso: 'tm-TM',
           file: 'tm-TM.js'
         }
       ],
       lazy: true,
       langDir: 'locales/'
-    }]
-    ],
-  /*
-  ** Build configuration
-  */
+    }],
+
+    ['@nuxtjs/apollo']
+  ],
+  plugins: [
+    '~plugins/vue-scrollto', '~plugins/vue-svgicon', '~plugins/filters.js'
+  ],
+  apollo: {
+    clientConfigs: {
+      default: '~/plugins/default-apollo-config.js'
+    }
+  },
   build: {
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {

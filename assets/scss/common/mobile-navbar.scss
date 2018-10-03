@@ -5,7 +5,7 @@
   position: sticky;
   top: 0;
   background-color: white;
-  @media only screen and (max-width: $breakpoint_mini_laptop) {
+  @media only screen and (max-width: $breakpoint_tablet) {
     display: block;
   }
 }
@@ -38,9 +38,14 @@
 
 .mobile-navbar__menu-item {
   text-align: center;
-  text-transform: uppercase;
   padding: 12px;
+  color: $grey;
+
+  &.nuxt-link-exact-active {
+    color: $blue;
+  }
 }
+
 .mobile-navbar__bid {
   color: $blue;
   border-color: $blue;

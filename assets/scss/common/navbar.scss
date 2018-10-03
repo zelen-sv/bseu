@@ -2,20 +2,28 @@
   height: 80px;
   display: flex;
   font-size: 17px;
+  line-height: 20px;
   position: sticky;
   background-color: white;
   top: 0;
-  @media only screen and (max-width: $breakpoint_mini_laptop) {
+  z-index: 100;
+  border-bottom: 0.5px $light_grey solid;
+  @media only screen and (max-width: $breakpoint_tablet) {
     display: none;
   }
-  border-bottom: 0.5px $light_grey solid;
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    height: 100px;
+  }
 }
 
 .navbar__logo-container {
   display: flex;
   width: 16%;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    width: 25%;
+  }
 }
 
 .navbar__menu {
@@ -25,10 +33,23 @@
   align-items: center;
   line-height: normal;
   color: $grey;
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+  }
 }
 
 .navbar__menu-item {
   cursor: pointer;
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    text-align: center;
+    width: 30%;
+  }
+
+  &.nuxt-link-exact-active {
+    color: $blue;
+  }
 }
 
 .navbar__buttons {
@@ -36,6 +57,9 @@
   width: 21%;
   justify-content: space-evenly;
   align-items: center;
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    width: 25%;
+  }
 }
 
 .navbar__buttons-item_blue {
@@ -50,12 +74,6 @@
   display: flex;
   align-items: center;
   padding-left: 15px;
-}
-
-.navbar__buttons-language {
-  color: $grey;
-  background-color: $light_grey;
-  cursor: pointer;
 }
 
 .navbar__circle-button-text {

@@ -1,3 +1,5 @@
+import firstHigherspecialties from './ru/firstHigherspecialties.js'
+
 export default {
   "pages": {
     "home": {
@@ -18,7 +20,86 @@ export default {
       "select-admission": {
         "legend": "Как поступить"
       },
-      "faq-component": { }
+      "faq-component": {
+        questions: [
+          {
+            title: "БГЭУ – что это за университет?",
+            description: "Белорусский государственный университет (БГЭУ) – это ведущий научно-практический-центр в стране. Здесь ежегодно обучаются тысячи студентов, магистрантов и аспирантов (в том числе из-за рубежа). Все они успешно осваивают современные специальности. По окончании ВУЗа можно стать востребованным профессионалом как в Беларуси, так и своей стране по возвращении. Диплом о высшем образовании БГЭУ признается во многих странах по всему миру. Образовательный процесс интересный и содержательный. ",
+            active: false
+          },
+          {
+            title: "Какие документы нужны иностранцу для поступления?",
+            description: "Иностранные граждане, поступающие в БГЭУ, предоставляют документы в два этапа: до приезда, по приезду. В первом случае необходимо заполнение онлайн-заявления, отправка по e-mail копий страниц паспорта и документов о полном начальном и/или среднем образовании. По прибытии в Беларусь потребуется паспорт с действующей учебной визой, оригинал приглашения, оригинал документа о полном о полном начальном и/или среднем образовании, оригинал свидетельства о рождении, медицинский сертификат о состоянии здоровья, 10 фотографий (формат 3х4 см).",
+            active: false
+          },
+          {
+            title: "Как проходит поступление и зачисление в студенты?",
+            description: "Правила поступления в БГЭУ в 2018 году указаны на официальном сайте университете. Первое, что определяет приемная комиссия – уровень владения иностранным гражданином одним из государственных языков Республики Беларусь: русский или белорусский. Это важный момент, поскольку обучение происходит только на государственных языках (на английском обучение не ведется). По результатам собеседования и изучения предоставленных приемной комиссии документов принимается решение о зачислении в студенты.",
+            active: false
+          },
+          {
+            title: "Можно ли подготовиться к поступлению в БГЭУ?",
+            description: "В случае, если уровень владения русским или белорусским языком окажется недостаточным для освоения содержания учебной программы, приемная комиссия может предложить поступить на специальный подготовительный факультет (подготовительное отделение). Все вопросы поступления можно уточнить у наших специалистов.",
+            active: false
+          },
+          {
+            title: "Какие специальности наиболее перспективные?",
+            description: "Каждая из содержащихся в списке специальностей по-своему перспективная и востребованная. Вы можете стать специалистом в области управления внешнеэкономической деятельности, международного маркетинга, логистики, рекламной деятельности, бизнес-администрирования, международных инвестиций, туристической индустрии и иных направлениях. В зависимости от ваших предпочтений поможем определиться с наиболее подходящей специальностью.",
+            active: false
+          },
+          {
+            title: "Как организованы проживание и досуг?",
+            description: "В материальную базу БГЭУ входит общежитие, специально предназначенное для иностранных граждан. Все комнаты оснащены необходимыми удобствами. Во всех учебных корпусах есть недорогие и уютные столовые и буфеты. Проводятся культурные и спортивные мероприятия. Другие студенты и преподаватели помогают освоиться иностранцам для максимально комфортного проживания в Минске во время учебы. Со своей стороны, мы помогаем решить все организационные и бытовые вопросы, всегда оставаясь на связи.",
+            active: false
+          }
+        ],
+        documents: [
+          {
+            title: 'Каталог специальностей (магистратура)',
+            document_link: 'documents/magistracy.pdf'
+          },
+          {
+            title: 'Каталог специальностей (первое высшее)',
+            document_link: 'documents/first-higher.pdf'
+          },
+          {
+            title: 'Название документа 3',
+            document_link: '#'
+          },
+          {
+            title: 'Название документа 4',
+            document_link: '#'
+          },
+          {
+            title: 'Название документа 5',
+            document_link: '#'
+          },
+          {
+            title: 'Название документа 6',
+            document_link: '#'
+          },
+          {
+            title: 'Название документа 7',
+            document_link: '#'
+          },
+          {
+            title: 'Название документа 8',
+            document_link: '#'
+          },
+          {
+            title: 'Название документа 9',
+            document_link: '#'
+          },
+          {
+            title: 'Название документа 10',
+            document_link: '#'
+          },
+          {
+            title: 'Название документа 11',
+            document_link: '#'
+          }
+        ]
+      }
     },
     "first-higher": {
       "sidebar": {
@@ -30,14 +111,15 @@ export default {
       },
       "bseu-section": {
         "legend": "Высшее образование в БГЭУ",
-        "description_p1": "Eu duo petentium suavitate, sit ut oblique interesset. Te dicant nullam singulis quo. <br />Te dicant nullam singulis quo. ",
-        "description_p2": "Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum persius cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu.",
-        "description_p3": "Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum общежитие cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu, mea quaestio delicata ad, cum eu quot case explicari. Ius te dico intellegam. Amet quando aeterno cu vel. Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum persius cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu, mea quaestio delicata ad, cum eu quot case explicari. Ius te dico intellegam. Amet quando aeterno cu vel."
+        "description_p1": "Решение – поступить в БГЭУ для иностранных граждан в любом случае выигрышное. Данный ВУЗ является ведущим научно-практическим центром Беларуси. Осваиваемые здесь специальности являются актуальными, а подготавливаемые специалисты всегда востребованы в своих странах. Белорусское экономическое образование, полученное в рамках первой ступени, находится на хорошем счету во многих зарубежных странах, а сам университет постоянно занимает уверенные позиции в профильных рейтингах.",
+        "description_p2": "Иностранные граждане получают высшее образование в БГЭУ на платной основе. Приемная кампания длится с 30 августа до 15 октября. Наравне с остальными студентами сформированные учебные группы после успешного прохождения вступительных экзаменов приступают к занятиям. При необходимости перед непосредственным изучением экономики в БГЭУ возможна адаптация в рамках подготовительного факультета (изучение русского, белорусского языков, подготовка к вступительным экзаменам).",
+        "description_p3": "Желаете стать успешным маркетологом, освоить международную логистику или бизнес-администрирование? Доступен широкий выбор специальностей БГЭУ, полный перечень которых представлен далее на этой странице. Выбирайте подходящее направление!"
       },
       "specialties-data-section": {
         "legend": "Наши специальности",
         "ochno": "очно",
-        "zaochno": "заочно"
+        "zaochno": "заочно",
+        specialties: firstHigherspecialties
       },
       "admission-documents": {
         "legend": "Документы необходимые для поступления",
@@ -45,6 +127,7 @@ export default {
         "without-visa": "виза не нужна",
         "description-p1": "Документы необходимо выслать не позднее 15 сентября.",
         "description-p2": "Подавайте документы онлайн и после их рассмотрения<br />мы сообщим Вам, когда сможем выслать официальное приглашение!",
+        "description-no-visa": "Документы спустя 2 недели",
         "online-application": "Онлайн-заявление",
         "application-details": ", в котором обязательно указываете:",
         "application-document-1": "факультет",
@@ -52,18 +135,170 @@ export default {
         "application-document-3": "форма обучения (очно, заочно)",
         "application-document-4": "полный почтовый адрес",
         "application-document-5": "адрес электронной почты или номер факса",
+        "passport-copy": "Копии страниц паспорта",
+        "passport-info": "со следующей личной информацией:",
+        "passport-fullname": "полное имя латинскими буквами",
+        "passport-number": "номер паспорта",
+        "passport-term": "срок действия паспорта",
+        "passport-country": "страна выдавшая документ",
+        "passport-translate": "заверенный  перевод на русский язык копий страниц",
+        "education-documents-copy": "Копии документов об образовании",
+        "education-documents-info": "(полном среднем, высшем)",
+        "education-documents-translate": "заверенный  перевод копий на русский язык"
+      },
+      "arriving-documents": {
+        "legend": "Документы необходимые по приезду",
+        "original-invitation": "Оригинал приглашения",
+        "original-education-document": "Оригинал документа об образовании",
+        "original-education-document-translate": "заверенный перевод на русский язык с указанием изученных предметов и полученных по ним на экзаменах отметок (баллов)",
+        "original-birth-certificate": "Оригинал свидетельства о рождении",
+        "original-birth-certificate-copy": "нотариально заверенная копия",
+        "medical-certificate": "Медицинский сертификат о состоянии здоровья",
+        "medical-certificate-vich": "отсутствие заболеваний ВИЧ, туберкулеза, гепатита",
+        "medical-certificate-ebola": "отсутствие вируса Эбола (для африканских абитуриентов)",
+        "medical-certificate-climat": "возможность проживания в климатических условиях Республики Беларусь",
+        "medical-certificate-translate": "нотариально заверенный перевод сертификата на русский язык",
+        "passport-study-visa": "Паспорт с учебной визой на въезд в РБ",
+        "fotos": "10 фотографий (3х4см)"
+      },
+      "how-to-enter": {
+        "legend": "Как поступить"
       }
-    }
+    },
+    "second-higher": {
+      "sidebar": {
+        "bseu-education": "Второе высшее в БГЭУ",
+        "specialties-list": "Список специальностей",
+        "admission-documents": "Документы для поступления",
+        "local-documents": "Документы по приезду",
+        "admission": "Как поступить"
+      },
+      "bseu-section": {
+        "legend": "Второе высшее в БГЭУ",
+        "description_p1": "Второе высшее образование в БГЭУ – это отличный вариант для обретения углубленных знаний в определенной области либо освоении принципиально новой специальности. В современном, активно изменяющемся мире, важно оказаться подготовленным к новым вызовам и решению самых сложных задач. Так, будущему директору компании окажутся важны знания не только управленческого, но и экономического порядка. Во многом поэтому получение иностранными гражданами в 2018 году второго высшего образования в БГЭУ стало как никогда ранее популярным направлением",
+        "description_p2": "Повторное поступление в ВУЗ открывает для обучающегося новые возможности. Некоторые в более зрелом возрасте понимают истинную ценность новых знаний и навыков, другие решают изменить свою жизнь в освоении новой для себя профессии. Вместе с тем, многие ценят белорусское высшее образование и для 2 специальности выбирают БГЭУ – ведущий экономический научно-практический центр.",
+        "description_p3": "Ниже на странице представлены специальности в рамках второго высшего образования в БГЭУ. При возникновении каких-либо сложностей с выбором мы всегда поможем определиться!"
+      },
+      "specialties-data-section": {
+        "legend": "Наши специальности",
+        "vshyp": "вшуп",
+        "retraining": "переподготовка"
+      },
+      "admission-documents": {
+        "legend": "Документы необходимые для поступления",
+        "visa": "требуется виза",
+        "without-visa": "виза не нужна",
+        "description-p1": "Документы необходимо выслать не позднее 15 сентября.",
+        "description-p2": "Подавайте документы онлайн и после их рассмотрения<br />мы сообщим Вам, когда сможем выслать официальное приглашение!",
+        "description-no-visa": "Документы спустя 2 недели",
+        "online-application": "Онлайн-заявление",
+        "application-details": ", в котором обязательно указываете:",
+        "application-document-1": "факультет",
+        "application-document-2": "специальность",
+        "application-document-3": "форма обучения (очно, заочно)",
+        "application-document-4": "полный почтовый адрес",
+        "application-document-5": "адрес электронной почты или номер факса",
+        "passport-copy": "Копии страниц паспорта",
+        "passport-info": "со следующей личной информацией:",
+        "passport-fullname": "полное имя латинскими буквами",
+        "passport-number": "номер паспорта",
+        "passport-term": "срок действия паспорта",
+        "passport-country": "страна выдавшая документ",
+        "passport-translate": "заверенный  перевод на русский язык копий страниц",
+        "education-documents-copy": "Копии документов об образовании",
+        "education-documents-info": "диплом и выписка к диплому",
+        "education-documents-translate": "заверенный  перевод копий на русский язык"
+      },
+      "arriving-documents": {
+        "legend": "Документы необходимые по приезду",
+        "original-education-document": "Оригинал диплома и выписка к диплому",
+        "original-education-document-translate": "нотариально заверенный перевод на русский язык с указанием изученных предметов и полученных по ним на экзаменах отметок (баллов)",
+        "original-birth-certificate": "Оригинал свидетельства о рождении",
+        "original-birth-certificate-copy": "нотариально заверенная копия",
+        "medical-certificate": "Медицинский сертификат о состоянии здоровья",
+        "medical-certificate-vich": "отсутствие заболеваний ВИЧ, туберкулеза, гепатита",
+        "medical-certificate-ebola": "отсутствие вируса Эбола (для африканских абитуриентов)",
+        "medical-certificate-climat": "возможность проживания в климатических условиях Республики Беларусь",
+        "medical-certificate-translate": "нотариально заверенный перевод сертификата на русский язык",
+        "passport-study-visa": "Паспорт с учебной визой на въезд в РБ",
+        "fotos": "10 фотографий (3х4см)"
+      },
+      "how-to-enter": {
+        "legend": "Как поступить"
+      }
+    },
+    "magistracy": {
+      "sidebar": {
+        "bseu-education": "Магистратура в БГЭУ",
+        "specialties-list": "Список специальностей",
+        "admission-documents": "Документы для поступления",
+        "local-documents": "Документы по приезду",
+        "admission": "Как поступить"
+      },
+      "bseu-section": {
+        "legend": "Магистратура в БГЭУ",
+        "description_p1": "Eu duo petentium suavitate, sit ut oblique interesset. Te dicant nullam singulis quo. <br />Te dicant nullam singulis quo.",
+        "description_p2": "Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum persius cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu.",
+        "description_p3": "Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu, mea quaestio delicata ad, cum eu quot case explicari. Ius te dico intellegam. Amet quando aeterno cu vel. Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum persius cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu, mea quaestio delicata ad, cum eu quot case explicari. Ius te dico intellegam. Amet quando aeterno cu vel."
+      },
+      "specialties-data-section": {
+        "legend": "Наши специальности",
+        "vshyp": "вшуп",
+        "retraining": "переподготовка"
+      },
+      "admission-documents": {
+        "legend": "Документы необходимые для поступления",
+        "visa": "требуется виза",
+        "without-visa": "виза не нужна",
+        "description-p1": "Документы необходимо выслать не позднее 15 сентября.",
+        "description-p2": "Подавайте документы онлайн и после их рассмотрения<br />мы сообщим Вам, когда сможем выслать официальное приглашение!",
+        "description-no-visa": "Документы спустя 2 недели",
+        "online-application": "Онлайн-заявление",
+        "application-details": ", в котором обязательно указываете:",
+        "application-document-1": "факультет",
+        "application-document-2": "специальность",
+        "application-document-3": "форма обучения (очно, заочно)",
+        "application-document-4": "полный почтовый адрес",
+        "application-document-5": "адрес электронной почты или номер факса",
+        "passport-copy": "Копии страниц паспорта",
+        "passport-info": "со следующей личной информацией:",
+        "passport-fullname": "полное имя латинскими буквами",
+        "passport-number": "номер паспорта",
+        "passport-term": "срок действия паспорта",
+        "passport-country": "страна выдавшая документ",
+        "passport-translate": "заверенный  перевод на русский язык копий страниц",
+        "education-documents-copy": "Копии документов об образовании",
+        "education-documents-info": "диплом и выписка к диплому",
+        "education-documents-translate": "заверенный  перевод копий на русский язык"
+      },
+      "arriving-documents": {
+        "legend": "Документы необходимые по приезду",
+        "original-education-document": "Оригинал диплома и выписка к диплому",
+        "original-education-document-translate": "нотариально заверенный перевод на русский язык с указанием изученных предметов и полученных по ним на экзаменах отметок (баллов)",
+        "original-birth-certificate": "Оригинал свидетельства о рождении",
+        "original-birth-certificate-copy": "нотариально заверенная копия",
+        "medical-certificate": "Медицинский сертификат о состоянии здоровья",
+        "medical-certificate-vich": "отсутствие заболеваний ВИЧ, туберкулеза, гепатита",
+        "medical-certificate-ebola": "отсутствие вируса Эбола (для африканских абитуриентов)",
+        "medical-certificate-climat": "возможность проживания в климатических условиях Республики Беларусь",
+        "medical-certificate-translate": "нотариально заверенный перевод сертификата на русский язык",
+        "passport-study-visa": "Паспорт с учебной визой на въезд в РБ",
+        "fotos": "10 фотографий (3х4см)"
+      },
+      "how-to-enter": {
+        "legend": "Как поступить"
+      }
+    },
   },
   "components": {
     "navbar": {
       "magistracy": "Магистратура",
-      "about_university": "Об университете",
-      "graduate_school": "Аспирантура",
-      "second_higher": "Второе высшее",
-      "first_higher": "Первое высшее",
-      "prepare_courses": "Подготовка и курсы",
-      "documents_button": "Подача документов"
+      "about-university": "Об университете",
+      "requalification": "Переподготовка",
+      "second-higher": "Второе высшее",
+      "first-higher": "Первое высшее",
+      "prepare-courses": "Подготовка и курсы",
+      "documents-button": "Подача документов"
     },
     "main-footer": {
       "link_main": "Главная",

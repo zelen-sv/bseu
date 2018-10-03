@@ -2,7 +2,9 @@
   <div class="mobile-navbar">
     <div class="mobile-navbar__header">
       <div class="mobile-navbar__logo-container">
-        <logo />
+        <nuxt-link v-on:click.native="toggleMobileMenu()" to="/" tag="div" class="mobile-navbar__menu-item">
+          <logo />
+        </nuxt-link>
       </div>
       <div class="mobile-navbar__hamburger" @click="toggleMobileMenu()">
         <hamburger :active="expanded_menu" />
@@ -10,17 +12,30 @@
     </div>
     <div v-show="expanded_menu" class="mobile-navbar__content">
       <div class="mobile-navbar__menu">
-        <div class="mobile-navbar__menu-item">{{ $t("components.navbar.prepare_courses") }}</div>
-        <div class="mobile-navbar__menu-item">{{ $t("components.navbar.first_higher") }}</div>
-        <div class="mobile-navbar__menu-item">{{ $t("components.navbar.second_higher") }}</div>
-        <div class="mobile-navbar__menu-item">{{ $t("components.navbar.magistracy") }}</div>
-        <div class="mobile-navbar__menu-item">{{ $t("components.navbar.graduate_school") }}</div>
-        <div class="mobile-navbar__menu-item">{{ $t("components.navbar.about_university") }}</div>
+          <nuxt-link to="/courses" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+            {{ $t("components.navbar.prepare-courses") }}
+          </nuxt-link>
+          <nuxt-link to="/first-higher" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+            {{ $t("components.navbar.first-higher") }}
+          </nuxt-link>
+          <nuxt-link to="/second-higher" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+            {{ $t("components.navbar.second-higher") }}
+          </nuxt-link>
+          <nuxt-link to="/magistracy" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+            {{ $t("components.navbar.magistracy") }}
+          </nuxt-link>
+          <nuxt-link to="/graduate-school" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+            {{ $t("components.navbar.graduate_school") }}
+          </nuxt-link>
+          <nuxt-link to="/about-university" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+            {{ $t("components.navbar.about-university") }}
+          </nuxt-link>
       </div>
-      <button class="mobile-navbar__bid button button_bordered">{{ $t("components.navbar.documents_button") }}</button>
+      <button class="mobile-navbar__bid button button_bordered">{{ $t("components.navbar.documents-button") }}</button>
       <div class="mobile-navbar__languages">
         <nuxt-link
           class="mobile-navbar__language-item circle-text-icon circle-text-icon_bordered"
+          v-on:click.native="toggleMobileMenu()"
           v-for="locale in $i18n.locales"
           v-if="locale.code !== $i18n.locale"
           :key="locale.code"

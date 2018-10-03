@@ -1,0 +1,115 @@
+.specialty-modal {
+  width: 60vw;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.specialty-modal__header {
+  height: 300px;
+  display: flex;
+  background: url(/assets/images/specialty-back.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  justify-content: space-between;
+}
+
+.specialty-modal__header-buttons {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.specialty-modal__header-button {
+  margin: 5px;
+  background-color: white;
+  opacity: 0.8;
+  width: 49px;
+  height: 49px;
+
+  &:hover {
+    opacity: 1;
+    transition: all 1s easy;
+  }
+}
+
+.specialty-modal__header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+  color: white;
+}
+
+.specialty-modal__header-title {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.specialty-modal__header-department {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.specialty-modal__icons {
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+}
+
+.specialty-modal__icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specialty-modal__icon-item {
+  padding: 15px;
+}
+
+.specialty-modal__icon-text {
+  text-align: center;
+}
+
+.specialty-modal__description {
+  background-color: $second_grey;
+  padding: 50px;
+}
+
+.specialty-modal__description-title {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: bold;
+  padding-bottom: 30xp;
+  text-align: center;
+}
+
+.specialty-modal__description-text {
+  font-size: 18px;
+  line-height: 21px;
+  color: $dark;
+}
+
+.specialty-modal__description-text {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.specialty-modal__footer {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specialty-modal__footer-title {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: bold;
+  padding-bottom: 30xp;
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+.documents-list {
+
+}
+
+.documents-list__description {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 21px;
+  color: $dark;
+}
+
+.documents-list__buttons {
+  margin: 10px 0;
+}
+
+.documents-list__sections {
+  display: flex;
+  width: 85%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
+}
+
+.documents-list__section {
+  width: 45%;
+  display: flex;
+  padding-bottom: 25px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
+}
+
+.documents-list__section-icon {
+  width: 10%;
+  text-align: left;
+  padding-top: 5px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 20%;
+  }
+}
+
+.documents-list__section-data {
+  width: 85%;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 80%;
+  }
+}
+
+.documents-list__section-title {
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 15px;
+}
+
+.documents-list__section-item {
+  padding-bottom: 10px;
+}
+
+.documents-list__section-common {
+  padding-bottom: 20px;
+}
+
+.documents-list__section-item_selected {
+  font-size: 17px;
+  line-height: 20px;
+  color: $blue;
+  font-weight: bold;
+}

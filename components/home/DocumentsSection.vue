@@ -3,7 +3,7 @@
     <div class="documents-section__cards_list">
       <div v-for="document_item in current_documents" :key="document_item.id" class="documents-section__card">
         <div class="documents-section__card-title">{{ document_item.title }}</div>
-        <a class="documents-section__card-link" :href="document_item.document_link">Скачать</a>
+        <a class="documents-section__card-link" target="_blank"  :href="document_item.document_link">Скачать</a>
       </div>
     </div>
     <div class="documents-section__controls">
@@ -18,14 +18,16 @@
 
 <script>
   export default {
-    props: {
-      documents: { type: Array }
-    },
     data () {
       return {
         current_document_page: 0,
         document_pages: 1,
         current_documents: []
+      }
+    },
+    computed: {
+      documents () {
+        return this.$t("pages.home.faq-component.documents")
       }
     },
     mounted () {

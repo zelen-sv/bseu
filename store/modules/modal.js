@@ -14,10 +14,10 @@ const mutations = {
 }
 
 const actions = {
-  show (context, payload) {
+  showModal (context, payload) {
     context.commit('SHOW_MODAL', payload)
   },
-  close (context) {
+  closeModal (context) {
     context.commit('CLOSE_MODAL')
   }
 }

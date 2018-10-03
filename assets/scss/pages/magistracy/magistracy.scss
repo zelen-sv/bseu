@@ -1,0 +1,19 @@
+.magistracy {
+  width: 100%;
+  display: flex;
+}
+
+.magistracy__sidebar {
+  width: 25%;
+  background-color: #F3F3F3;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    display: none;
+  }
+}
+
+.magistracy__content {
+  width: 75%;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
+}

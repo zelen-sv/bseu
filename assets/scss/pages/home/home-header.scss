@@ -34,17 +34,3 @@
     letter-spacing: 1%;
   }
 }
-
-.home-header__button {
-  margin-top: 10px;
-  background-color: blue;
-  color: white;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  @media only screen and (max-width: $breakpoint_mobile) {
-    font-size: 12px;
-    line-height: 15px;
-  }
-}

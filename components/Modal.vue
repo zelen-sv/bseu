@@ -21,10 +21,10 @@
     },
     computed: {
       visible () {
-        return this.$store.getters.modalState
+        return this.$store.getters['modalState']
       },
       modalComponent () {
-        return this.$store.getters.modalComponent
+        return this.$store.getters['modalComponent']
       }
     },
     watch: {
@@ -41,7 +41,7 @@
     },
     methods: {
       close() {
-        this.$store.dispatch('close')
+        this.$store.dispatch('closeModal')
       },
     },
   };

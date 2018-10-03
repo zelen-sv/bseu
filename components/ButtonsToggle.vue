@@ -1,9 +1,9 @@
 <template>
   <div class="buttons-toggle">
-    <div @click="$emit('change-state', 0)"
-         class="buttons-toggle__item button" :class="isActive(0)">{{ text_1 }}</div>
-    <div @click="$emit('change-state', 1)"
-         class="buttons-toggle__item  button" :class="isActive(1)">{{ text_2 }}</div>
+    <div @click="$emit('change-state', true)"
+         class="buttons-toggle__item button" :class="isActive(true)">{{ text_1 }}</div>
+    <div @click="$emit('change-state', false)"
+         class="buttons-toggle__item  button" :class="isActive(false)">{{ text_2 }}</div>
   </div>
 </template>
 
@@ -19,8 +19,8 @@
         default: ''
       },
       current_state: {
-        type: Number,
-        default: 0
+        type: Boolean,
+        default: true
       }
     },
     methods: {

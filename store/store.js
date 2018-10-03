@@ -75,39 +75,6 @@ export const ADMISSION_TABS_DATA = [
   }
 ]
 
-export const FAQ_QUESTIONS = [
-  {
-    title: "Ei has scripta disputando ullamcorper. Vis dicat mundi at. Eos omnes complectitur ne per?",
-    description: "Ei has scripta disputando ullamcorper.  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe Vis dicat mundi at. Eos omnes complectitur ne per",
-    active: false
-  },
-  {
-    title: "Ei has scripta disputando ullamcorper. Vis dicat mundi at. Eos omnes complectitur ne per?",
-    description: "Ei has scripta disputando ullamcorper.  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe Vis dicat mundi at. Eos omnes complectitur ne per",
-    active: false
-  },
-  {
-    title: "Ei has scripta disputando ullamcorper. Vis dicat mundi at. Eos omnes complectitur ne per?",
-    description: "Ei has scripta disputando ullamcorper.  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe Vis dicat mundi at. Eos omnes complectitur ne per",
-    active: false
-  },
-  {
-    title: "Ei has scripta disputando ullamcorper. Vis dicat mundi at. Eos omnes complectitur ne per?",
-    description: "Ei has scripta disputando ullamcorper.  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe Vis dicat mundi at. Eos omnes complectitur ne per",
-    active: false
-  },
-  {
-    title: "Ei has scripta disputando ullamcorper. Vis dicat mundi at. Eos omnes complectitur ne per?",
-    description: "Ei has scripta disputando ullamcorper.  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe Vis dicat mundi at. Eos omnes complectitur ne per",
-    active: false
-  },
-  {
-    title: "Ei has scripta disputando ullamcorper. Vis dicat mundi at. Eos omnes complectitur ne per?",
-    description: "Ei has scripta disputando ullamcorper.  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe  Vis dicat mundi at. Eos omnes complectitur ne pe Vis dicat mundi at. Eos omnes complectitur ne per",
-    active: false
-  }
-]
-
 export const FAQ_DOCUMENTS = [
   {
     title: 'Название документа 1',

@@ -1,6 +1,9 @@
 .specialty-line {
   padding: 10px 20px;
   display: flex;
+  min-height: 40px;
+  align-items: center;
+  cursor: pointer;
 }
 
 .specialty-line_hovered:hover {

@@ -24,3 +24,25 @@
   padding: 9px 23px;
   color: $grey;
 }
+
+.button_application {
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 4px;
+  @media only screen and (max-width: $breakpoint_mobile) {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .button_application__icon {
+    padding-right: 10px;
+  }
+}

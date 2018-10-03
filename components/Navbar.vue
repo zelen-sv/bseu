@@ -4,30 +4,31 @@
       <logo />
     </nuxt-link>
     <div class="navbar__menu">
-      <nuxt-link to="" tag="div" class="navbar__menu-item">
-        {{ $t("components.navbar.prepare_courses") }}
+      <nuxt-link to="/courses" tag="div" class="navbar__menu-item">
+        {{ $t("components.navbar.prepare-courses") }}
       </nuxt-link>
       <nuxt-link to="/first-higher" tag="div" class="navbar__menu-item">
-        {{ $t("components.navbar.first_higher") }}
+        {{ $t("components.navbar.first-higher") }}
       </nuxt-link>
-      <div class="navbar__menu-item">{{ $t("components.navbar.second_higher") }}</div>
-      <div class="navbar__menu-item">{{ $t("components.navbar.magistracy") }}</div>
-      <div class="navbar__menu-item">{{ $t("components.navbar.graduate_school") }}</div>
-      <div class="navbar__menu-item">{{ $t("components.navbar.about_university") }}</div>
+      <nuxt-link to="/second-higher" tag="div" class="navbar__menu-item">
+        {{ $t("components.navbar.second-higher") }}
+      </nuxt-link>
+      <nuxt-link to="/magistracy" tag="div" class="navbar__menu-item">
+        {{ $t("components.navbar.magistracy") }}
+      </nuxt-link>
+      <nuxt-link to="/requalification" tag="div" class="navbar__menu-item">
+        {{ $t("components.navbar.requalification") }}
+      </nuxt-link>
+      <nuxt-link to="/about-university" tag="div" class="navbar__menu-item">
+        {{ $t("components.navbar.about-university") }}
+      </nuxt-link>
     </div>
     <div class="navbar__buttons">
       <div class="navbar__buttons-item navbar__buttons-item_blue navbar__buttons-item_icon">
-      <div class="navbar__buttons-item-text">{{ $t("components.navbar.documents_button") }}</div>
+      <div class="navbar__buttons-item-text">{{ $t("components.navbar.documents-button") }}</div>
       </div>
       <div class="navbar__buttons-item">
-        <nuxt-link
-          class="navbar__buttons-language circle-text-icon"
-          v-for="locale in $i18n.locales"
-          v-if="locale.code !== $i18n.locale"
-          :key="locale.code"
-          :to="switchLocalePath(locale.code)">
-            <div class="circle-text-icon__text">{{ locale.name }}</div>
-          </nuxt-link>
+        <language-box />
       </div>
     </div>
   </div>
@@ -35,10 +36,11 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import LanguageBox from '~/components/LanguageBox.vue'
 
 export default {
   components: {
-    Logo
+    Logo, LanguageBox
   }
 }
 </script>
