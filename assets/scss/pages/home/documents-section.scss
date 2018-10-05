@@ -29,6 +29,12 @@
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.documents-section__card-icon {
+  padding-right: 10px;
 }
 
 .documents-section__controls {

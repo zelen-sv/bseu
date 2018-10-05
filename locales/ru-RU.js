@@ -181,8 +181,7 @@ export default {
       },
       "specialties-data-section": {
         "legend": "Наши специальности",
-        "vshyp": "вшуп",
-        "retraining": "переподготовка"
+        "zaochno": "заочное обучение"
       },
       "admission-documents": {
         "legend": "Документы необходимые для поступления",
@@ -243,8 +242,8 @@ export default {
       },
       "specialties-data-section": {
         "legend": "Наши специальности",
-        "vshyp": "вшуп",
-        "retraining": "переподготовка"
+        "ochno": "Очно",
+        "zaochno": "Заочно"
       },
       "admission-documents": {
         "legend": "Документы необходимые для поступления",
@@ -305,6 +304,13 @@ export default {
       "link_questions": "Частые вопросы",
       "link_documents": "Подача документов онлайн",
       "link_news": "Новости"
+    },
+    "documents-list": {
+      "document-link": "Скачать список документов"
     }
+  },
+  "educationForm": {
+    "Ochno": "Очное",
+    "Zaochno": "Заочно"
   }
 }

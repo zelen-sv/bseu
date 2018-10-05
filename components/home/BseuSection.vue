@@ -8,9 +8,14 @@
         <p>{{ $t("pages.home.bseu-section.description_p3") }}</p>
       </div>
       <p class="bseu-section__details">
+        <svgicon icon="univer" width="20" height="20" color="#1405F8"></svgicon>
         {{ $t("pages.home.bseu-section.details") }} <span class="bseu-section__details-arrow">></span>
       </p>
     </div>
     <div class="bseu-section__image"></div>
   </div>
 </template>
+
+<script>
+  import '@/components/icons/univer.js'
+</script>

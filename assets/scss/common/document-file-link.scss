@@ -1,0 +1,10 @@
+.document-file-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $blue;
+}
+
+.document-file-link__text {
+  padding-left: 10px;
+}

@@ -3,7 +3,10 @@
   display: flex;
   min-height: 40px;
   align-items: center;
+  font-size: 17px;
+  line-height: 20px;
   cursor: pointer;
+  color: $dark;
 }
 
 .specialty-line_hovered:hover {
@@ -14,6 +17,9 @@
   width: 60%;
   display: flex;
   flex-direction: column;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
 }
 
 .specialty-line__title {
@@ -26,6 +32,10 @@
   width: 20%;
   display: flex;
   justify-content: flex-end;
+  align-items: start;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    display: none;
+  }
 }
 
 .specialty-line__cost {
@@ -33,4 +43,7 @@
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    display: none;
+  }
 }

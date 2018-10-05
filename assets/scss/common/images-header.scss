@@ -7,6 +7,9 @@
   width: 25%;
   height: 40vh;
   object-fit: cover;
+  @media only screen and (max-width: $breakpoint_mobile) {
+    display: none;
+  }
 }
 
 .images-header__picture_left {
@@ -17,3 +20,9 @@
   object-position: right;
 }
 
+.images-header__picture_mobile {
+  @media only screen and (max-width: $breakpoint_mobile) {
+    width: 100%;
+    display: block;
+  }
+}

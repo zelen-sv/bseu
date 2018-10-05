@@ -24,8 +24,13 @@
       </nuxt-link>
     </div>
     <div class="navbar__buttons">
-      <div class="navbar__buttons-item navbar__buttons-item_blue navbar__buttons-item_icon">
-      <div class="navbar__buttons-item-text">{{ $t("components.navbar.documents-button") }}</div>
+      <div class="navbar__buttons-item navbar__buttons-item_blue">
+        <div class="navbar__buttons-item_icon">
+          <svgicon icon="envelope" width="21" height="16" color="#1405F8"></svgicon>
+        </div>
+        <div class="navbar__buttons-item-text">
+          {{ $t("components.navbar.documents-button") }}
+        </div>
       </div>
       <div class="navbar__buttons-item">
         <language-box />
@@ -37,6 +42,7 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import LanguageBox from '~/components/LanguageBox.vue'
+import '@/components/icons/envelope.js'
 
 export default {
   components: {

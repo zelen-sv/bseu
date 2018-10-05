@@ -1,3 +1,12 @@
 .buttons-toggle {
   text-transform: uppercase;
+  @media only screen and (max-width: $breakpoint_mobile) {
+    width: 100%;
+  }
+}
+
+.buttons-toggle__item {
+  @media only screen and (max-width: $breakpoint_mobile) {
+    width: -webkit-fill-available;
+  }
 }

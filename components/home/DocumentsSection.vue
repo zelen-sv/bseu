@@ -3,7 +3,7 @@
     <div class="documents-section__cards_list">
       <div v-for="document_item in current_documents" :key="document_item.id" class="documents-section__card">
         <div class="documents-section__card-title">{{ document_item.title }}</div>
-        <a class="documents-section__card-link" target="_blank"  :href="document_item.document_link">Скачать</a>
+        <document-file-link class="documents-section__card-link" text="Скачать" :link="document_item.document_link"/>
       </div>
     </div>
     <div class="documents-section__controls">
@@ -17,7 +17,13 @@
 </template>
 
 <script>
+  import '@/components/icons/document.js'
+  import DocumentFileLink from '@/components/DocumentFileLink.vue'
+
   export default {
+    components: {
+      DocumentFileLink
+    },
     data () {
       return {
         current_document_page: 0,

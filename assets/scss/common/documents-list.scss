@@ -4,7 +4,7 @@
 
 .documents-list__description {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-size: 18px;
   line-height: 21px;
   color: $dark;
@@ -66,6 +66,6 @@
 .documents-list__section-item_selected {
   font-size: 17px;
   line-height: 20px;
-  color: $blue;
+  color: $grey;
   font-weight: bold;
 }

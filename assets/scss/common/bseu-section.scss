@@ -17,6 +17,7 @@
 
 .bseu-section__details {
   color: $blue;
+  cursor: pointer;
 }
 
 .bseu-section__details-arrow {
@@ -36,7 +37,7 @@
     margin-top: 40px;
     width: 100%;
     min-width: 250px;
-    min-height: 250px;
+    min-height: 300px;
   }
 }
 

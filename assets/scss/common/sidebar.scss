@@ -7,6 +7,9 @@
   padding: 60px;
   padding-left: 20%;
   padding-right: 5%;
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    padding-left: 5%;
+  }
 }
 
 .sidebar__icon {
@@ -14,6 +17,9 @@
   margin-right: 10px;
   display: flex;
   align-items: center;
+  @media only screen and (max-width: $breakpoint_big_tablet) {
+    display: none;
+  }
 }
 
 .sidebar__link {
@@ -23,6 +29,7 @@
   line-height: 20px;
   color: $grey;
   cursor: pointer;
+  fill: $grey;
 }
 
 .sidebar__link_active {
@@ -31,4 +38,5 @@
   font-size: 17px;
   line-height: 20px;
   color: black;
+  fill: black;
 }

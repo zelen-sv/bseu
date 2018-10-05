@@ -1,7 +1,7 @@
 <template>
   <div class="faq-component section">
-    <questions-section class="faq-component__questions-section" :questions="faq_questions"/>
-    <documents-section class="faq-component__documents-section" :documents="faq_documents"/>
+    <questions-section class="faq-component__questions-section"/>
+    <documents-section class="faq-component__documents-section"/>
   </div>
 </template>
 

@@ -1,8 +1,8 @@
 .navbar {
   height: 80px;
   display: flex;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 17px;
   position: sticky;
   background-color: white;
   top: 0;
@@ -24,6 +24,9 @@
   @media only screen and (max-width: $breakpoint_mini_laptop) {
     width: 25%;
   }
+  @media only screen and (max-width: $breakpoint_big_tablet) {
+    width: 20%;
+  }
 }
 
 .navbar__menu {
@@ -37,6 +40,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
     width: 50%;
+  }
+  @media only screen and (max-width: $breakpoint_big_tablet) {
+    width: 60%;
   }
 }
 
@@ -60,20 +66,36 @@
   @media only screen and (max-width: $breakpoint_mini_laptop) {
     width: 25%;
   }
+  @media only screen and (max-width: $breakpoint_big_tablet) {
+    width: 20%;
+  }
 }
 
 .navbar__buttons-item_blue {
   color: $blue;
 }
 
-.navbar__buttons-item_icon {
+.navbar__buttons-item {
   display: flex;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+.navbar__buttons-item_icon {
+  padding-right: 6px;
+  padding-top: 2px;
 }
 
 .navbar__buttons-item-text {
   display: flex;
   align-items: center;
-  padding-left: 15px;
+  @media only screen and (max-width: $breakpoint_big_tablet) {
+    display: none;
+  }
 }
 
 .navbar__circle-button-text {

@@ -31,12 +31,14 @@
 
     </div>
     <div class="questions-section__show-all" @click="toggleQuestions()">
+      <svgicon icon="questions" width="20" height="19" color="#1405F8"></svgicon>
       {{ this.questionsState() }}
     </div>
   </div>
 </template>
 
 <script>
+  import '@/components/icons/questions.js'
 
   export default {
     data () {

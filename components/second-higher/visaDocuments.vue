@@ -3,6 +3,7 @@
     <div class="documents-list__description">
       <p>{{ $t("pages.second-higher.admission-documents.description-p1") }}</p>
       <p v-html="$t('pages.second-higher.admission-documents.description-p2')"></p>
+      <document-file-link :text="$t('components.documents-list.document-link')"/>
     </div>
     <div class="documents-list__sections">
       <div class="documents-list__section">
@@ -82,3 +83,13 @@
     </div>
   </div>
 </template>
+
+<script>
+    import DocumentFileLink from '@/components/DocumentFileLink.vue'
+
+    export default {
+      components: {
+        DocumentFileLink
+      }
+    }
+</script>

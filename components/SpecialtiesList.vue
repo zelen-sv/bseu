@@ -1,18 +1,14 @@
 <template>
   <div class="specialties-list">
-    <half-circle-spinner v-show="loading"/>
-    <div v-for="faculty in faculties" :key="faculty.id">
+    <half-circle-spinner v-show="loading" class="specialties-list__spinner"/>
+    <div v-show="!loading" v-for="faculty in faculties" :key="faculty.id">
       <div class="specialties-list__department">
-        {{ faculty.title }}
+        {{ faculty }}
       </div>
-      <specialty-line v-for="specialty in faculty.specialties"
+      <specialty-line v-for="specialty in facultySpecialties(faculty)"
         :key="specialty.id"
         @click.native="openSpecialtyModal(specialty)"
-        :title="specialty.title"
-        :qualification="specialty.qualification"
-        :term="specialty.specialtyFormat[0].term"
-        :price="specialty.specialtyFormat[0].price"
-        class="specialties-list__specialty"/>
+        v-bind="specialty"/>
     </div>
   </div>
 </template>
@@ -23,7 +19,7 @@
 
   export default {
     props: {
-      faculties: {
+      specialties: {
         type: Array
       },
       loading: {
@@ -34,13 +30,20 @@
     components: {
       SpecialtyLine, HalfCircleSpinner
     },
+    computed: {
+      faculties () {
+        let specialtyFaculties = this.specialties.map(specialty => { return specialty.faculty.title })
+
+        return  [...new Set(specialtyFaculties)]
+      }
+    },
     methods: {
       openSpecialtyModal(specialty) {
         this.$store.dispatch('showModal', 'SpecialtyModal')
         this.$store.dispatch('activateSpecialty', specialty)
       },
-      departmentSpecialties(department) {
-        return this.specialties.filter(specialty => specialty.department == department);
+      facultySpecialties (faculty) {
+        return this.specialties.filter(specialty => { return specialty.faculty.title == faculty })
       }
     }
   }

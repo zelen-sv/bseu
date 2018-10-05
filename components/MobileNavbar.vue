@@ -25,7 +25,7 @@
             {{ $t("components.navbar.magistracy") }}
           </nuxt-link>
           <nuxt-link to="/graduate-school" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
-            {{ $t("components.navbar.graduate_school") }}
+            {{ $t("components.navbar.prepare-courses") }}
           </nuxt-link>
           <nuxt-link to="/about-university" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.about-university") }}
