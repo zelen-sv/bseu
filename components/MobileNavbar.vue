@@ -12,7 +12,7 @@
     </div>
     <div v-show="expanded_menu" class="mobile-navbar__content">
       <div class="mobile-navbar__menu">
-          <nuxt-link to="/courses" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link to="/training-and-courses" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.prepare-courses") }}
           </nuxt-link>
           <nuxt-link to="/first-higher" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
@@ -31,13 +31,20 @@
             {{ $t("components.navbar.about-university") }}
           </nuxt-link>
       </div>
-      <button class="mobile-navbar__bid button button_bordered">{{ $t("components.navbar.documents-button") }}</button>
+      <div class="mobile-navbar__bid">
+        <div class="mobile-navbar__bid-icon">
+          <svgicon icon="envelope" width="21" height="16" color="#1405F8"></svgicon>
+        </div>
+        <div class="mobile-navbar__bid-text">
+          {{ $t("components.navbar.documents-button") }}
+        </div>
+      </div>
       <div class="mobile-navbar__languages">
         <nuxt-link
-          class="mobile-navbar__language-item circle-text-icon circle-text-icon_bordered"
+          class="mobile-navbar__language-item circle-text-icon"
           v-on:click.native="toggleMobileMenu()"
+          :class="locale.code == $i18n.locale ? 'mobile-navbar__language-item_active' : ''"
           v-for="locale in $i18n.locales"
-          v-if="locale.code !== $i18n.locale"
           :key="locale.code"
           :to="switchLocalePath(locale.code)">
             <div class="circle-text-icon__text">{{ locale.name }}</div>

@@ -1,0 +1,38 @@
+.training-profiles-list {
+  width: 85%;
+  padding: 10px 0;
+  margin: 30px 0;
+  box-shadow: $shadow;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
+}
+
+
+.training-profiles-list__item {
+  padding: 0 20px;
+  height: 75px;
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  font-size: 17px;
+  line-height: 20px;
+  color: $dark;
+}
+
+.training-profiles-list__item_hovered:hover {
+  background-color: $light_grey;
+}
+
+.training-profiles-list__item-title {
+  width: 60%;
+  color: $blue;
+  cursor: default;
+}
+
+.training-profiles-list__item-price {
+  text-align: center;
+  width: 40%;
+  color: $dark;
+  cursor: default;
+}

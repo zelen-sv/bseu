@@ -50,8 +50,20 @@
   color: $blue;
   border-color: $blue;
   font-size: 17px;
-  margin-top: 20px;
+  margin-top: 40px;
+  display: flex;
 }
+
+.mobile-navbar__bid-icon {
+  padding-right: 6px;
+  padding-top: 2px;
+}
+
+.mobile-navbar__bid-text {
+  display: flex;
+  align-items: center;
+}
+
 
 .mobile-navbar__languages {
   display: flex;
@@ -62,9 +74,14 @@
 }
 
 .mobile-navbar__language-item {
-  color: $blue;
-  border-color: $blue;
-  background-color: white;
+  color: $grey;
+  background-color: $light_grey;
+  cursor: pointer;
+}
+
+.mobile-navbar__language-item_active {
+  color: white;
+  background-color: $light_blue;
 }
 
 .mobile-navbar__logo-container {

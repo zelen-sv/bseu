@@ -4,12 +4,7 @@
   padding-right: 10%;
   padding-top: 20px;
   padding-bottom: 50px;
-  display: flex;
-  justify-content: space-between;
   background-color: #DFDFDF;
-  @media only screen and (max-width: $breakpoint_tablet) {
-    flex-direction: column;
-  }
 }
 
 .footer__link {
@@ -26,6 +21,14 @@
 
 .footer__link_active {
   color: $blue;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    flex-direction: column;
+  }
 }
 
 .footer__column {
@@ -61,4 +64,11 @@
   margin-top: 25px;
   font-size: 22px;
   line-height: 26px;
+}
+
+.footer__text {
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 22px;
+  color: $dark;
 }

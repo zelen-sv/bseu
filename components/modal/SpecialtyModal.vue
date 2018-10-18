@@ -49,10 +49,7 @@
           <div class="specialty-modal__footer-qualification-text">{{ qualification | capitalize }}</div>
         </div>
       </div>
-      <button class="button_application button">
-        <svgicon icon="envelope" width="21" height="16" color="#fff" class="button_application__icon"></svgicon>
-        Подача документов онлайн
-      </button>
+      <application-button />
     </div>
   </div>
 </template>
@@ -67,8 +64,12 @@
   import '@/components/icons/cross.js'
   import printElement from '@/utils/printElement.js'
   import modalStyles from '@/assets/scss/common/specialty-modal.scss'
+  import ApplicationButton from '@/components/ApplicationButton.vue'
 
   export default {
+    components: {
+      ApplicationButton
+    },
     computed: {
       specialty () {
         return this.$store.getters.currentSpecialty

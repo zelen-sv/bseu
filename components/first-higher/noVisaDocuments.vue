@@ -81,16 +81,23 @@
           </div>
         </div>
       </div>
+
+      <div class="documents-list__section">
+        <div class="documents-list__application">
+          <application-button />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
     import DocumentFileLink from '@/components/DocumentFileLink.vue'
+    import ApplicationButton from '@/components/ApplicationButton.vue'
 
     export default {
       components: {
-        DocumentFileLink
+        DocumentFileLink, ApplicationButton
       }
     }
 </script>

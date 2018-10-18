@@ -5,6 +5,7 @@
     <nuxt/>
     <main-footer/>
     <modal />
+    <image-separator />
   </div>
 </template>
 
@@ -13,10 +14,11 @@
   import MobileNavbar from '~/components/MobileNavbar.vue'
   import MainFooter from '~/components/MainFooter.vue'
   import Modal from '~/components/Modal.vue'
+  import ImageSeparator from '~/components/ImageSeparator.vue'
 
   export default {
     components: {
-      Navbar, MainFooter, MobileNavbar, Modal
+      Navbar, MainFooter, MobileNavbar, Modal, ImageSeparator
     }
   }
 </script>

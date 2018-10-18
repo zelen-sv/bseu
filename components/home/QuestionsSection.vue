@@ -1,7 +1,7 @@
 <template>
   <div class="questions-section">
     <div class="questions-section__header section__side-legend">
-      Часто задаваемые вопросы
+      {{ $t("pages.home.questions-section.legend") }}
     </div>
     <div class="questions-section__list questions-section__list">
       <div v-show="!show_all_questions" v-for="(quiestion, index) in lastQuestions()"

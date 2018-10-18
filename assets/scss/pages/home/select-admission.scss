@@ -2,3 +2,13 @@
 .select-admission__content {
 
 }
+
+.select-admission__button {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  @media only screen and (max-width: $breakpoint_mobile) {
+    margin: auto;
+    width: 80%;
+  }
+}

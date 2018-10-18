@@ -2,6 +2,7 @@
   width: 50vw;
   max-height: 80vh;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   @media only screen and (max-width: $breakpoint_big_tablet) {
     width: 70vw;
     max-height: 90vh;
@@ -24,16 +25,15 @@
 }
 
 .specialty-modal__header-buttons {
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  right: 15px;
+  top: 15px;
   @media only screen and (max-width: $breakpoint_tablet) {
-    padding-left: 0;
+    position: absolute;
   }
 }
 
 .specialty-modal__header-button {
-  margin: 5px;
   background-color: white;
   opacity: 0.8;
   width: 49px;
@@ -61,12 +61,20 @@
   line-height: 36px;
   font-weight: bold;
   padding-bottom: 15px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 .specialty-modal__header-department {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 19px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    font-size: 15px;
+    line-height: 18px;
+  }
 }
 
 .specialty-modal__icons {
@@ -102,6 +110,9 @@
   background-color: $second_grey;
   text-align: center;
   padding: 50px;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    padding: 15px;
+  }
 }
 
 .specialty-modal__description-title {

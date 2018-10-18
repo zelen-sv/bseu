@@ -22,3 +22,4 @@ Vue.filter('capitalizeArraw', function (array) {
 Vue.filter('usd', function (string) {
     return `${string} $`
 })
+

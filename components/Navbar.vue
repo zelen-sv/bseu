@@ -4,7 +4,7 @@
       <logo />
     </nuxt-link>
     <div class="navbar__menu">
-      <nuxt-link to="/courses" tag="div" class="navbar__menu-item">
+      <nuxt-link to="/training-and-courses" tag="div" class="navbar__menu-item">
         {{ $t("components.navbar.prepare-courses") }}
       </nuxt-link>
       <nuxt-link to="/first-higher" tag="div" class="navbar__menu-item">

@@ -4,7 +4,7 @@
       {{ $t("pages.second-higher.specialties-data-section.legend") }}
     </div>
     <div class="buttons-toggle">
-      <div class="buttons-toggle__item button button_toggle_active">
+      <div class="buttons-toggle__item button buttons-toggle__item_hovered button_toggle_active">
         {{ $t('pages.second-higher.specialties-data-section.zaochno') }}
       </div>
     </div>

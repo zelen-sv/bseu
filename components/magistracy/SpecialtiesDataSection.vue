@@ -3,15 +3,23 @@
     <div class="specialties-data-section__title content-section__legend">
       {{ $t("pages.magistracy.specialties-data-section.legend") }}
     </div>
-    <buttons-toggle @change-state="chageComponentState"
-                    :text_1="$t('pages.magistracy.specialties-data-section.ochno')"
-                    :text_2="$t('pages.magistracy.specialties-data-section.zaochno')"
-                    :current_state="current_state"/>
-    <div v-show="current_state == true">
+    <div class="buttons-toggle">
+      <div @click="choseSpecialtiesForm('ochno')"
+        :class="specialtiesForm == 'ochno' ? 'button_toggle_active' : ''"
+        class="buttons-toggle__item buttons-toggle__item_hovered button">
+        {{ $t('pages.magistracy.specialties-data-section.ochno') }}
+      </div>
+      <div @click="choseSpecialtiesForm('zaochno')"
+        :class="specialtiesForm == 'zaochno' ? 'button_toggle_active' : ''"
+        class="buttons-toggle__item buttons-toggle__item_hovered  button">
+        {{ $t('pages.magistracy.specialties-data-section.zaochno') }}
+      </div>
+    </div>
+    <div v-show="specialtiesForm == 'ochno'">
       <specialties-list :loading="$apollo.queries.ochnoSpecialties.loading"
                         :specialties="ochnoSpecialties"/>
     </div>
-    <div v-show="current_state == false">
+    <div v-show="specialtiesForm == 'zaochno'">
       <specialties-list :loading="$apollo.queries.zaochnoSpecialties.loading"
                         :specialties="zaochnoSpecialties"/>
     </div>
@@ -19,17 +27,16 @@
 </template>
 
 <script>
-  import ButtonsToggle from "@/components/ButtonsToggle.vue"
   import SpecialtiesList from "@/components/SpecialtiesList.vue"
   import {specialtiesByDataQuery} from "@/queries/specialtiesByDataQuery.js"
 
   export default {
     components: {
-      ButtonsToggle, SpecialtiesList
+      SpecialtiesList
     },
     data () {
       return {
-        current_state: true,
+        specialtiesForm: 'ochno',
         ochnoSpecialties: [],
         zaochnoSpecialties: []
       }
@@ -58,8 +65,8 @@
       }
     },
     methods: {
-      chageComponentState (state) {
-        this.current_state = state
+      choseSpecialtiesForm (form) {
+        this.specialtiesForm = form
       }
     }
   }

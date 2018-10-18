@@ -1,0 +1,33 @@
+.training-section__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.training-section__icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+
+}
+
+.training-section__icon {
+  width: 130px;
+  padding-bottom: 30px;
+}
+
+.training-section__additionally {
+  font-size: 15px;
+  line-height: 18px;
+  color: $dark_blue;
+}
+
+.training-section__icon-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+}

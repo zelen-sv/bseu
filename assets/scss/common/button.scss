@@ -12,19 +12,6 @@
     background-color: white;
 }
 
-.button_toggle_active {
-  min-width: 102px;
-  background-color: $blue;
-  color: white;
-}
-
-.button_toggle_in-active{
-  min-width: 102px;
-  border: 1px $light_grey solid;
-  padding: 9px 23px;
-  color: $grey;
-}
-
 .button_application {
   margin-top: 10px;
   background-color: blue;
@@ -37,6 +24,11 @@
   align-items: center;
   padding: 15px 20px;
   border-radius: 4px;
+  -webkit-transition: background-color 0.4s linear;
+  -moz-transition: background-color 0.4s linear;
+  -o-transition: background-color 0.4s linear;
+  -ms-transition: background-color 0.4s linear;
+  transition: background-color 0.4s linear;
   @media only screen and (max-width: $breakpoint_mobile) {
     font-size: 12px;
     line-height: 15px;
@@ -44,5 +36,11 @@
 
   .button_application__icon {
     padding-right: 10px;
+  }
+}
+
+.button_application_hovered {
+  &:hover {
+    background-color: $navy;
   }
 }

@@ -1,24 +1,44 @@
 <template>
   <div class="select-admission section">
     <div class="section__legend">{{ $t("pages.home.select-admission.legend") }}</div>
-    <tabs-component :tabs-components="admission_tabs_components"
-                     default-component="BachelorAdmission"
-                     class="select-admission__content" />
+    <div class="select-admission__button buttons-toggle">
+      <div @click="setVisaMode(true)"
+        :class="visaMode ? 'button_toggle_active' : ''"
+        class="buttons-toggle__item buttons-toggle__item_hovered button">
+        {{ $t("visaMode.with-visa") }}
+      </div>
+      <div @click="setVisaMode(false)"
+        :class="visaMode ? '' : 'button_toggle_active'"
+        class="buttons-toggle__item buttons-toggle__item_hovered  button">
+        {{ $t("visaMode.visa-free") }}
+      </div>
+    </div>
+    <visa-admission-scheme v-show="visaMode"/>
+    <no-visa-admission-scheme v-show="!visaMode"/>
   </div>
 </template>
 
 <script>
-  import TabsComponent from "@/components/TabsComponent"
-  import { ADMISSION_TABS_DATA } from "@/store/store.js"
+  import VisaAdmissionScheme from '@/components/VisaAdmissionScheme.vue'
+  import NoVisaAdmissionScheme from '@/components/NoVisaAdmissionScheme.vue'
 
   export default {
     components: {
-      TabsComponent
+      VisaAdmissionScheme, NoVisaAdmissionScheme
     },
-    data () {
-      return {
-        admission_tabs_components: ADMISSION_TABS_DATA
+    computed: {
+      visaMode () {
+        return this.$store.getters.homePageViseMode
       }
+    },
+    methods: {
+      setVisaMode (state) {
+        if (state) {
+          this.$store.dispatch('setVisaMode', 'home')
+        } else {
+          this.$store.dispatch('setVisaFreeMode', 'home')
+        }
+      },
     }
   }
 </script>

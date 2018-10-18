@@ -1,25 +1,23 @@
 .specialties-section__list {
   color: blue;
   margin-top: 40px;
-}
-
-.specialties-section__row {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  @media screen and (max-width: $breakpoint_mobile) {
-    justify-content: center;
-  }
+  justify-content: space-around;
 }
 
 .specialties-section__item {
+  width: 250px;
+  height: 350px;
+  margin: 0 10px;
   margin-top: 40px;
-  flex: 0 2 calc(25% - 2em);
-  @media screen and (max-width: $breakpoint_tablet) {
-    flex: 0 2 calc(50% - 2em);
+}
+
+.specialties-section__item_hidden {
+  @media only screen and (max-width: $breakpoint_mini_laptop) {
+    display: none;
   }
-  @media screen and (max-width: $breakpoint_mobile) {
-    flex: 0 2 calc(100% - 2em);
+  @media only screen and (max-width: $breakpoint_big_tablet) {
+    display: block;
   }
 }
