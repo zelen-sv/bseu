@@ -1,61 +1,46 @@
 <template>
-  <div class="sidebar">
-    <div class="sidebar__link"
-        :class="addActiveStatus('bseu-education')"
-        @click="setActive('bseu-education')"
-        v-scroll-to="'#bseu-education'">
+  <scrollactive class="sidebar" active-class="sidebar__link_active" :offset="100" :duration="800">
+    <a class="sidebar__link scrollactive-item" href="#bseu-education">
       <div class="sidebar__icon">
         <svgicon icon="library" width="21" height="16"></svgicon>
       </div>
       <div class="sidebar__text">
         {{ $t("pages.second-higher.sidebar.bseu-education") }}
       </div>
-    </div>
-    <div class="sidebar__link"
-        :class="addActiveStatus('specialties-list')"
-        @click="setActive('specialties-list')"
-         v-scroll-to="'#specialties-list'">
+    </a>
+    <a class="sidebar__link scrollactive-item" href="#specialties-list">
       <div class="sidebar__icon">
         <svgicon icon="student" width="18" height="22"></svgicon>
       </div>
       <div class="sidebar__text">
         {{ $t("pages.second-higher.sidebar.specialties-list") }}
       </div>
-    </div>
-    <div class="sidebar__link"
-        :class="addActiveStatus('admission-documents')"
-        @click="setActive('admission-documents')"
-        v-scroll-to="'#admission-documents'">
+    </a>
+    <a class="sidebar__link scrollactive-item" href="#admission-documents">
       <div class="sidebar__icon">
         <svgicon icon="cw" width="18" height="22"></svgicon>
       </div>
       <div class="sidebar__text">
         {{ $t("pages.second-higher.sidebar.admission-documents") }}
       </div>
-    </div>
-    <div class="sidebar__link"
-        :class="addActiveStatus('arriving-documents')"
-        @click="setActive('arriving-documents')"
-        v-scroll-to="'#arriving-documents'">
+    </a>
+    <a class="sidebar__link scrollactive-item" href="#arriving-documents">
       <div class="sidebar__icon">
         <svgicon icon="plain" width="21" height="14"></svgicon>
       </div>
       <div class="sidebar__text">
         {{ $t("pages.second-higher.sidebar.local-documents") }}
       </div>
-    </div>
-    <div class="sidebar__link"
-        :class="addActiveStatus('how-to-enter')"
-        @click="setActive('how-to-enter')"
-        v-scroll-to="'#how-to-enter'">
+    </a>
+    <a class="sidebar__link scrollactive-item" href="#how-to-enter">
       <div class="sidebar__icon">
         <svgicon icon="question" width="20" height="20"></svgicon>
       </div>
       <div class="sidebar__text">
         {{ $t("pages.second-higher.sidebar.admission") }}
       </div>
-    </div>
-  </div>
+    </a>
+  </scrollactive>
 </template>
 
 <script>
@@ -65,26 +50,5 @@
   import '@/components/icons/plain.js'
   import '@/components/icons/question.js'
 
-  export default {
-    data () {
-      return {
-        active: 'bseu-education'
-      }
-    },
-    methods: {
-      setActive (link) {
-        this.active = link
-      },
-      isActive (link) {
-        return this.active == link
-      },
-      addActiveStatus (link) {
-        if (this.isActive(link)) {
-          return 'sidebar__link_active'
-        } else {
-          return ''
-        }
-      }
-    }
-  }
+  export default {}
 </script>

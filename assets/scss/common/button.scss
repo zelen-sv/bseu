@@ -44,3 +44,8 @@
     background-color: $navy;
   }
 }
+
+.button_application_disabled {
+  background-color: $form_grey;
+  cursor: not-allowed;
+}

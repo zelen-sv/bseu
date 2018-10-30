@@ -49,8 +49,8 @@
           education_type: "Magistracy",
           education_form: "Ochno"
         },
-        result (result) {
-          this.ochnoSpecialties = result.data.specialties
+        update (data) {
+          return data.specialties
         }
       },
       zaochnoSpecialties: {
@@ -59,8 +59,8 @@
           education_type: "Magistracy",
           education_form: "Zaochno"
         },
-        result (result) {
-          this.zaochnoSpecialties = result.data.specialties
+        update (data) {
+          return data.specialties
         }
       }
     },

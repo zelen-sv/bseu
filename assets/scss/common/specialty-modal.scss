@@ -1,7 +1,6 @@
 .specialty-modal {
   width: 50vw;
   max-height: 80vh;
-  overflow: auto;
   -webkit-overflow-scrolling: touch;
   @media only screen and (max-width: $breakpoint_big_tablet) {
     width: 70vw;

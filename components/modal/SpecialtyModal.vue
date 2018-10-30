@@ -6,9 +6,7 @@
         <div class="specialty-modal__header-department">{{ specialty.faculty.title }}</div>
       </div>
       <div class="specialty-modal__header-buttons">
-        <div class="specialty-modal__header-button circle-text-icon" @click="close">
-          <svgicon icon="cross" width="19" height="19" color="#0018AB"></svgicon>
-        </div>
+        <circle-cross @click.native="close" />
       </div>
     </div>
 
@@ -60,25 +58,34 @@
   import '@/components/icons/moon.js'
   import '@/components/icons/calendar.js'
   import '@/components/icons/sun.js'
+  import '@/components/icons/remote.js'
   import '@/components/icons/envelope.js'
-  import '@/components/icons/cross.js'
   import printElement from '@/utils/printElement.js'
   import modalStyles from '@/assets/scss/common/specialty-modal.scss'
   import ApplicationButton from '@/components/ApplicationButton.vue'
+  import CircleCross from '@/components/CircleCross.vue'
 
   export default {
     components: {
-      ApplicationButton
+      ApplicationButton, CircleCross
     },
     computed: {
       specialty () {
         return this.$store.getters.currentSpecialty
       },
       educationFormIcon () {
-        if (this.specialty.educationForm == 'Ochno') {
-          return 'sun'
-        } else {
-          return 'moon'
+        switch (this.specialty.educationForm) {
+          case 'Ochno':
+            return 'sun'
+            break;
+          case 'Remote':
+            return 'remote'
+            break;
+          case 'Zaochno':
+            return 'moon'
+            break;
+          default:
+            return 'sun'
         }
       }
     },

@@ -1,7 +1,7 @@
 <template>
   <div class="documents-list content-section" id="admission-documents">
     <div class="documents-list__title content-section__legend">
-      {{ $t("pages.first-higher.admission-documents.legend") }}
+      {{ $t("components.documents-list.admission-documents.legend") }}
     </div>
     <div class="buttons-toggle">
       <div @click="setVisaMode(true)"
@@ -21,24 +21,31 @@
 </template>
 
 <script>
-  import visaDocuments from '~/components/first-higher/visaDocuments.vue'
-  import noVisaDocuments from '~/components/first-higher/noVisaDocuments.vue'
+  import visaDocuments from '~/components/visaDocuments.vue'
+  import noVisaDocuments from '~/components/noVisaDocuments.vue'
 
   export default {
+    props: {
+      page: {
+        type: String,
+        default: 'home'
+      }
+    },
     components: {
       visaDocuments, noVisaDocuments
     },
     computed: {
       visaMode () {
-        return this.$store.getters.firstHigherPageViseMode
+        let currentPageVisaMode = this.page + 'PageViseMode'
+        return this.$store.getters[currentPageVisaMode]
       }
     },
     methods: {
       setVisaMode (state) {
         if (state) {
-          this.$store.dispatch('setVisaMode', 'firstHigher')
+          this.$store.dispatch('setVisaMode', this.page)
         } else {
-          this.$store.dispatch('setVisaFreeMode', 'firstHigher')
+          this.$store.dispatch('setVisaFreeMode', this.page)
         }
       },
     }

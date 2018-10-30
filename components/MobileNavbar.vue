@@ -1,8 +1,8 @@
 <template>
-  <div class="mobile-navbar">
+  <div class="mobile-navbar" v-scroll-lock="expanded_menu">
     <div class="mobile-navbar__header">
       <div class="mobile-navbar__logo-container">
-        <nuxt-link v-on:click.native="toggleMobileMenu()" to="/" tag="div" class="mobile-navbar__menu-item">
+        <nuxt-link v-on:click.native="closeMobileMenu()" :to="localePath('index')" tag="div" class="mobile-navbar__menu-item">
           <logo />
         </nuxt-link>
       </div>
@@ -12,33 +12,33 @@
     </div>
     <div v-show="expanded_menu" class="mobile-navbar__content">
       <div class="mobile-navbar__menu">
-          <nuxt-link to="/training-and-courses" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link :to="localePath('training-and-courses')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.prepare-courses") }}
           </nuxt-link>
-          <nuxt-link to="/first-higher" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link :to="localePath('first-higher')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.first-higher") }}
           </nuxt-link>
-          <nuxt-link to="/second-higher" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link :to="localePath('second-higher')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.second-higher") }}
           </nuxt-link>
-          <nuxt-link to="/magistracy" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link :to="localePath('magistracy')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.magistracy") }}
           </nuxt-link>
-          <nuxt-link to="/graduate-school" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link :to="localePath('graduate-school')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.prepare-courses") }}
           </nuxt-link>
-          <nuxt-link to="/about-university" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link :to="localePath('about-university')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.about-university") }}
           </nuxt-link>
       </div>
-      <div class="mobile-navbar__bid">
+      <nuxt-link :to="localePath('bseu-application')" tag="div" class="mobile-navbar__bid">
         <div class="mobile-navbar__bid-icon">
           <svgicon icon="envelope" width="21" height="16" color="#1405F8"></svgicon>
         </div>
         <div class="mobile-navbar__bid-text">
           {{ $t("components.navbar.documents-button") }}
         </div>
-      </div>
+      </nuxt-link>
       <div class="mobile-navbar__languages">
         <nuxt-link
           class="mobile-navbar__language-item circle-text-icon"
@@ -67,15 +67,12 @@ export default {
       expanded_menu: false
     }
   },
-  watch: {
-    expanded_menu (state) {
-      let bodyClassList = document.body.classList
-      state ? bodyClassList.add('modal-open') : bodyClassList.remove('modal-open')
-    }
-  },
   methods: {
     toggleMobileMenu () {
       this.expanded_menu = !this.expanded_menu
+    },
+    closeMobileMenu () {
+      this.expanded_menu = false
     }
   }
 }

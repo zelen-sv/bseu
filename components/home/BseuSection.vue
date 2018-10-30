@@ -18,4 +18,6 @@
 
 <script>
   import '@/components/icons/univer.js'
+
+  export default {}
 </script>

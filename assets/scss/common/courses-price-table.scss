@@ -1,0 +1,54 @@
+.courses-price-table {
+  width: 85%;
+  padding: 10px 0;
+  margin: 25px 0;
+  box-shadow: $shadow;
+  font-size: 17px;
+  line-height: 20px;
+
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 100%;
+  }
+  @media only screen and (max-width: $breakpoint_mobile) {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.courses-price-table__row {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  @media only screen and (max-width: $breakpoint_mobile) {
+    padding: 10px;
+  }
+}
+
+.courses-price-table__hours {
+  color: $blue;
+  width: 60%;
+}
+
+.courses-price-table__quantity {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses-price-table__price {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses-price-table__column-item {
+  color: $dark;
+  padding-bottom: 15px;
+}
+
+.courses-price-table__devider {
+  width: 100%;
+  border-bottom: 1px solid #C4C4C4;
+}

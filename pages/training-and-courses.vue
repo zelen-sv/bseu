@@ -3,15 +3,16 @@
     <div class="training-and-courses__sidebar">
       <sidebar />
     </div>
-    <div class="training-and-courses__content">
+    <div class="training-and-courses__content" id="training-and-courses">
       <images-header />
       <training-section />
       <training-cost-data />
-      <admission-documents />
+      <admission-documents page="trainingAndCourses" />
       <arriving-documents />
       <how-to-enter />
       <second-images-header />
       <courses-section />
+      <courses-data-section />
     </div>
   </div>
 </template>
@@ -26,11 +27,12 @@
   import Sidebar from '~/components/training-and-courses/Sidebar.vue'
   import TrainingSection from '~/components/training-and-courses/TrainingSection.vue'
   import TrainingCostData from '~/components/training-and-courses/TrainingCostData.vue'
-  import AdmissionDocuments from '~/components/training-and-courses/AdmissionDocuments.vue'
-  import ArrivingDocuments from '~/components/training-and-courses/ArrivingDocuments.vue'
+  import AdmissionDocuments from '~/components/AdmissionDocuments.vue'
+  import ArrivingDocuments from '~/components/ArrivingDocuments.vue'
   import HowToEnter from '~/components/training-and-courses/HowToEnter.vue'
   import SecondImagesHeader from '~/components/training-and-courses/SecondImagesHeader.vue'
   import CoursesSection from '~/components/training-and-courses/CoursesSection.vue'
+  import CoursesDataSection from '~/components/training-and-courses/CoursesDataSection.vue'
 
   export default {
     components: {
@@ -42,7 +44,8 @@
       ArrivingDocuments,
       HowToEnter,
       SecondImagesHeader,
-      CoursesSection
+      CoursesSection,
+      CoursesDataSection
     }
   }
 </script>

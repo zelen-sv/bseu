@@ -7,7 +7,7 @@
       <images-header />
       <bseu-section />
       <specialties-data-section />
-      <admission-documents />
+      <admission-documents page="magistracy" />
       <arriving-documents />
       <how-to-enter />
     </div>
@@ -24,8 +24,8 @@
   import Sidebar from '~/components/magistracy/Sidebar.vue'
   import BseuSection from '~/components/magistracy/BseuSection.vue'
   import SpecialtiesDataSection from '~/components/magistracy/SpecialtiesDataSection.vue'
-  import AdmissionDocuments from '~/components/magistracy/AdmissionDocuments.vue'
-  import ArrivingDocuments from '~/components/magistracy/ArrivingDocuments.vue'
+  import AdmissionDocuments from '~/components/AdmissionDocuments.vue'
+  import ArrivingDocuments from '~/components/ArrivingDocuments.vue'
   import HowToEnter from '~/components/magistracy/HowToEnter.vue'
 
   export default {

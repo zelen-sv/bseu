@@ -4,13 +4,26 @@
       {{ $t("pages.second-higher.specialties-data-section.legend") }}
     </div>
     <div class="buttons-toggle">
-      <div class="buttons-toggle__item button buttons-toggle__item_hovered button_toggle_active">
+      <div @click="choseSpecialtiesForm('zaochno')"
+        :class="specialtiesForm == 'zaochno' ? 'button_toggle_active' : ''"
+        class="buttons-toggle__item buttons-toggle__item_hovered button">
         {{ $t('pages.second-higher.specialties-data-section.zaochno') }}
+      </div>
+      <div @click="choseSpecialtiesForm('remote')"
+        :class="specialtiesForm == 'remote' ? 'button_toggle_active' : ''"
+        class="buttons-toggle__item buttons-toggle__item_hovered  button">
+        {{ $t('pages.second-higher.specialties-data-section.remote') }}
       </div>
     </div>
     <div>
-      <specialties-list :loading="$apollo.queries.specialties.loading"
-                        :specialties="specialties"/>
+      <div v-show="specialtiesForm == 'zaochno'">
+        <specialties-list :loading="$apollo.queries.zaochnoSpecialties.loading"
+                          :specialties="zaochnoSpecialties"/>
+      </div>
+      <div v-show="specialtiesForm == 'remote'">
+        <specialties-list :loading="$apollo.queries.remoteSpecialties.loading"
+                          :specialties="remoteSpecialties"/>
+      </div>
     </div>
   </div>
 </template>
@@ -25,18 +38,37 @@
     },
     data () {
       return {
-        current_state: true,
-        specialties: []
+        specialtiesForm: 'zaochno',
+        zaochnoSpecialties: [],
+        remoteSpecialties: []
       }
     },
     apollo: {
       $loadingKey: 'loading',
-      specialties: {
+      zaochnoSpecialties: {
         query: specialtiesByDataQuery,
         variables: {
           education_type: "Second",
           education_form: "Zaochno"
+        },
+        update (data) {
+          return data.specialties
         }
+      },
+      remoteSpecialties: {
+        query: specialtiesByDataQuery,
+        variables: {
+          education_type: "Second",
+          education_form: "Remote"
+        },
+        update (data) {
+          return data.specialties
+        }
+      }
+    },
+    methods: {
+      choseSpecialtiesForm (form) {
+        this.specialtiesForm = form
       }
     }
   }

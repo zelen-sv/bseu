@@ -1,0 +1,14 @@
+.countries-select .v-select .dropdown-menu {
+  min-width: 150px;
+}
+
+.countries-select .v-select .vs__selected-options {
+  flex-grow: unset;
+  flex-wrap: unset;
+}
+
+.countries-select .v-select .selected-tag {
+  max-width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+}

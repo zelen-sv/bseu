@@ -18,7 +18,7 @@
     },
     computed: {
       visaMode () {
-        return this.$store.getters.trainingAndCoursesViseMode
+        return this.$store.getters.trainingAndCoursesPageViseMode
       }
     }
   }

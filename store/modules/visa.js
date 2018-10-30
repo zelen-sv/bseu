@@ -40,7 +40,7 @@ const getters = {
   firstHigherPageViseMode: (state) => state.firstHigher.visa,
   secondHigherPageViseMode: (state) => state.secondHigher.visa,
   magistracyPageViseMode: (state) => state.magistracy.visa,
-  trainingAndCoursesViseMode: (state) => state.trainingAndCourses.visa
+  trainingAndCoursesPageViseMode: (state) => state.trainingAndCourses.visa
 }
 
 const visaModule = {

@@ -1,4 +1,5 @@
 const nodeExternals = require('webpack-node-externals');
+require('dotenv').config()
 
 module.exports = {
   /*
@@ -24,7 +25,7 @@ module.exports = {
         '@/assets/scss/variables/index.scss',
         '@/assets/scss/common/index.scss',
     ]],
-
+    '@nuxtjs/axios', '@nuxtjs/dotenv',
     ['nuxt-i18n', {
       vueI18n: {
         silentTranslationWarn: true
@@ -60,12 +61,19 @@ module.exports = {
     ['@nuxtjs/apollo']
   ],
   plugins: [
-    '~plugins/vue-scrollto', '~plugins/vue-svgicon', '~plugins/filters.js'
+    '~plugins/vue-scrollto', '~plugins/vue-svgicon', '~plugins/filters.js',
+    { src: '~plugins/vue-tel-input.js', ssr: false },
+    { src: '~plugins/v-select.js', ssr: false },
+    { src: '~plugins/v-scroll-lock.js', ssr: false },
+    { src: '~plugins/vue-scrollactive.js', ssr: false },
   ],
   apollo: {
     clientConfigs: {
       default: '~/plugins/default-apollo-config.js'
     }
+  },
+  axios: {
+    baseURL: process.env.API_LINK ? process.env.API_LINK : '/api'
   },
   build: {
     extend (config, { isDev, isClient }) {

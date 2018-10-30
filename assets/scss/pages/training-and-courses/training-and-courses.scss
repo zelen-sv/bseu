@@ -1,6 +1,9 @@
 .training-and-courses {
   width: 100%;
   display: flex;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    padding-top: 80px;
+  }
 }
 
 .training-and-courses__sidebar {

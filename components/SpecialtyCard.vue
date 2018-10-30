@@ -1,7 +1,7 @@
 <template>
   <div class="specialty-card">
     <div class="specialty-card__image-conteiner">
-      <img class="specialty-card__image" src="@/assets/images/specialty-card.jpeg" alt="Specialty Link">
+      <img class="specialty-card__image" :src="specialty.image" alt="Specialty Link">
     </div>
     <div class="specialty-card__data">
       <div class="specialty-card__education-form">{{ $t('educationType.' + specialty.educationType) }}</div>

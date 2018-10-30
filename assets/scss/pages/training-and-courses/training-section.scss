@@ -4,6 +4,9 @@
   justify-content: space-between;
   width: 100%;
   padding: 45px 0;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    padding-bottom: 0px;
+  }
 }
 
 .training-section__icon-container {
@@ -11,7 +14,14 @@
   flex-direction: column;
   align-items: center;
   width: 20%;
-
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  @media only screen and (max-width: $breakpoint_mobile) {
+    width: 100%;
+    padding-bottom: 40px;
+  }
 }
 
 .training-section__icon {

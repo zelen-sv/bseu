@@ -1,0 +1,18 @@
+.phone-input {
+  padding: 1px 0;
+  width: 258px;
+}
+
+.phone-input_incorrect {
+  border: 1px $border_error solid !important;
+}
+
+.phone-input ul {
+  z-index: 100;
+}
+
+.phone-input input {
+  font-size: 16px;
+  line-height: 18px;
+}
+

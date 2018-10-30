@@ -1,8 +1,9 @@
 <template>
   <div class="visa-documents">
     <div class="documents-list__description">
-      <p>{{ $t("pages.second-higher.admission-documents.description-p1") }}</p>
-      <p v-html="$t('pages.second-higher.admission-documents.description-p2')"></p>
+      <p>{{ $t("components.documents-list.admission-documents.description-p1") }}</p>
+      <p v-html="$t('components.documents-list.admission-documents.description-p2')"></p>
+      <p v-html="$t('components.documents-list.admission-documents.description-no-visa')"></p>
       <document-file-link :text="$t('components.documents-list.document-link')"/>
     </div>
     <div class="documents-list__sections">
@@ -12,25 +13,25 @@
         </div>
         <div class="documents-list__section-data">
           <div class="documents-list__section-title">
-            {{ $t("pages.second-higher.admission-documents.online-application") }}
+            {{ $t("components.documents-list.admission-documents.online-application") }}
           </div>
           <div class="documents-list__section-common">
-            {{ $t("pages.second-higher.admission-documents.application-details") }}
+            {{ $t("components.documents-list.admission-documents.application-details") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.application-document-1") }}
+            -{{ $t("components.documents-list.admission-documents.application-document-1") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.application-document-2") }}
+            -{{ $t("components.documents-list.admission-documents.application-document-2") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.application-document-3") }}
+            -{{ $t("components.documents-list.admission-documents.application-document-3") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.application-document-4") }}
+            -{{ $t("components.documents-list.admission-documents.application-document-4") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.application-document-5") }}
+            -{{ $t("components.documents-list.admission-documents.application-document-5") }}
           </div>
         </div>
       </div>
@@ -41,25 +42,25 @@
         </div>
         <div class="documents-list__section-data">
           <div class="documents-list__section-title">
-            {{ $t("pages.second-higher.admission-documents.passport-copy") }}
+            {{ $t("components.documents-list.admission-documents.passport-copy") }}
           </div>
           <div class="documents-list__section-common">
-            {{ $t("pages.second-higher.admission-documents.passport-info") }}
+            {{ $t("components.documents-list.admission-documents.passport-info") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.passport-fullname") }}
+            -{{ $t("components.documents-list.admission-documents.passport-fullname") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.passport-number") }}
+            -{{ $t("components.documents-list.admission-documents.passport-number") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.passport-term") }}
+            -{{ $t("components.documents-list.admission-documents.passport-term") }}
           </div>
           <div class="documents-list__section-item">
-            -{{ $t("pages.second-higher.admission-documents.passport-country") }}
+            -{{ $t("components.documents-list.admission-documents.passport-country") }}
           </div>
           <div class="documents-list__section-item documents-list__section-item_selected">
-            + {{ $t("pages.second-higher.admission-documents.passport-translate") }}
+            + {{ $t("components.documents-list.admission-documents.passport-translate") }}
           </div>
         </div>
       </div>
@@ -70,13 +71,13 @@
         </div>
         <div class="documents-list__section-data">
           <div class="documents-list__section-title">
-            {{ $t("pages.second-higher.admission-documents.education-documents-copy") }}
+            {{ $t("components.documents-list.admission-documents.education-documents-copy") }}
           </div>
           <div class="documents-list__section-common">
-            {{ $t("pages.second-higher.admission-documents.education-documents-info") }}
+            {{ $t("components.documents-list.admission-documents.education-documents-info") }}
           </div>
           <div class="documents-list__section-item documents-list__section-item_selected">
-            + {{ $t("pages.second-higher.admission-documents.education-documents-translate") }}
+            + {{ $t("components.documents-list.admission-documents.education-documents-translate") }}
           </div>
         </div>
       </div>

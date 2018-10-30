@@ -2,6 +2,7 @@
   <transition name="modal-fade">
     <div v-if="visible" class="modal__backdrop" @click.self.prevent="close" aria-label="Close modal">
       <div class="modal"
+           v-scroll-lock="visible"
            aria-labelledby="modalTitle"
            aria-describedby="modalDescription">
         <component :is="component"></component>
@@ -14,29 +15,17 @@
   import Vue from 'vue';
 
   export default {
-    data() {
-      return {
-        component: null,
-      };
-    },
     computed: {
       visible () {
         return this.$store.getters['modalState']
       },
-      modalComponent () {
-        return this.$store.getters['modalComponent']
-      }
-    },
-    watch: {
-      modalComponent (name) {
-        if (!name) return;
+      component () {
+        let componentName = this.$store.getters['modalComponent']
+        if (componentName) {
+          Vue.component(componentName, () => import(`@/components/modal/${componentName}`))
 
-        Vue.component(name, () => import(`@/components/modal/${name}`))
-        this.component = name
-      },
-      visible (state) {
-        let bodyClassList = document.body.classList
-        state ? bodyClassList.add('modal-open') : bodyClassList.remove('modal-open')
+          return componentName
+        }
       }
     },
     methods: {

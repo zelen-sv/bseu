@@ -7,7 +7,7 @@
       <images-header />
       <bseu-section />
       <specialties-data-section />
-      <admission-documents />
+      <admission-documents page="firstHigher" />
       <arriving-documents />
       <how-to-enter />
     </div>
@@ -24,8 +24,8 @@
   import Sidebar from '~/components/first-higher/Sidebar.vue'
   import BseuSection from '~/components/first-higher/BseuSection.vue'
   import SpecialtiesDataSection from '~/components/first-higher/SpecialtiesDataSection.vue'
-  import AdmissionDocuments from '~/components/first-higher/AdmissionDocuments.vue'
-  import ArrivingDocuments from '~/components/first-higher/ArrivingDocuments.vue'
+  import AdmissionDocuments from '~/components/AdmissionDocuments.vue'
+  import ArrivingDocuments from '~/components/ArrivingDocuments.vue'
   import HowToEnter from '~/components/first-higher/HowToEnter.vue'
 
   export default {

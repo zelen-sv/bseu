@@ -7,7 +7,7 @@
       <images-header />
       <bseu-section />
       <specialties-data-section />
-      <admission-documents />
+      <admission-documents page="secondHigher" />
       <arriving-documents />
       <how-to-enter />
     </div>
@@ -24,8 +24,8 @@
   import Sidebar from '~/components/second-higher/Sidebar.vue'
   import BseuSection from '~/components/second-higher/BseuSection.vue'
   import SpecialtiesDataSection from '~/components/second-higher/SpecialtiesDataSection.vue'
-  import AdmissionDocuments from '~/components/second-higher/AdmissionDocuments.vue'
-  import ArrivingDocuments from '~/components/second-higher/ArrivingDocuments.vue'
+  import AdmissionDocuments from '~/components/AdmissionDocuments.vue'
+  import ArrivingDocuments from '~/components/ArrivingDocuments.vue'
   import HowToEnter from '~/components/second-higher/HowToEnter.vue'
 
   export default {
