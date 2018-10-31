@@ -9,13 +9,12 @@
         <logo class="footer__logo" />
       </div>
       <div class="footer__column footer__column_right_align">
-        <div class="footer__phone">8 017 280 87 16</div>
         <div class="footer__phone footer__phone_with_messangers">+375 25 691 10 35</div>
         <div class="footer__messangers">(Viber, Telegram, Whatsapp)</div>
         <div class="footer__mail">inter.bseu@yandex.ru</div>
       </div>
     </div>
-    <div class="footer__text">{{ $t("components.main-footer.development") }}</div>
+    <div class="footer__text footer__text_small">{{ $t("components.main-footer.development") }}</div>
   </div>
 </template>
 

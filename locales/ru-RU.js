@@ -2,6 +2,7 @@ import popularSpecialties from './ru/popularSpecialties.js'
 import trainingProfiles from './ru/trainingProfiles.js'
 import monthes from './ru/monthes.js'
 import form from './ru/form.js'
+import documents from './ru/documents.js'
 
 export default {
   "pages": {
@@ -60,52 +61,7 @@ export default {
             active: false
           }
         ],
-        documents: [
-          {
-            title: 'Каталог специальностей (магистратура)',
-            document_link: 'documents/magistracy.pdf'
-          },
-          {
-            title: 'Каталог специальностей (первое высшее)',
-            document_link: 'documents/first-higher.pdf'
-          },
-          {
-            title: 'Название документа 3',
-            document_link: '#'
-          },
-          {
-            title: 'Название документа 4',
-            document_link: '#'
-          },
-          {
-            title: 'Название документа 5',
-            document_link: '#'
-          },
-          {
-            title: 'Название документа 6',
-            document_link: '#'
-          },
-          {
-            title: 'Название документа 7',
-            document_link: '#'
-          },
-          {
-            title: 'Название документа 8',
-            document_link: '#'
-          },
-          {
-            title: 'Название документа 9',
-            document_link: '#'
-          },
-          {
-            title: 'Название документа 10',
-            document_link: '#'
-          },
-          {
-            title: 'Название документа 11',
-            document_link: '#'
-          }
-        ]
+        documents: documents
       }
     },
     "first-higher": {
@@ -164,9 +120,9 @@ export default {
       },
       "bseu-section": {
         "legend": "Магистратура в БГЭУ",
-        "description_p1": "Eu duo petentium suavitate, sit ut oblique interesset. Te dicant nullam singulis quo. <br />Te dicant nullam singulis quo.",
-        "description_p2": "Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum persius cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu.",
-        "description_p3": "Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu, mea quaestio delicata ad, cum eu quot case explicari. Ius te dico intellegam. Amet quando aeterno cu vel. Reque postulant referrentur ad duo. Wisi error aliquid cum cu, malorum persius cu mei. Vis scripta eleifend ex, ei ius saepe decore libris. Vis alia veniam constituam cu, mea quaestio delicata ad, cum eu quot case explicari. Ius te dico intellegam. Amet quando aeterno cu vel."
+        "description_p1": "Магистратура БГЭУ – место, которое благодаря должному техническому оснащению, высокой квалификации преподавателей и профессионально организованному учебному процессу позволяет обрести принципиально новые знания на качественно ином уровне. Степень магистра становится все более популярной и востребованной. Выпускник с подобным дипломом востребован компаниями государственного и частного сектора.",
+        "description_p2": "Обучение на второй ступени высшего образования в БГЭУ открыто для всех желающих. Втом числе для иностранных граждан. Всего предусмотрено 42 программы, часть из которых предлагается на иностранном (английском) языке. Поступающий может выбрать научно-ориентированное либо практико-ориентированное направление. По окончании магистратуры БГЭУ иностранцам выдается диплом государственного образца Республики Беларусь.",
+        "description_p3": "Вступительные испытания (экзамены) проходят в устном порядке. Срок подачи документов для иностранных граждан – ежегодно с 27 июня по 30 октября. Для поступления на избранную специальность магистратуры БГЭУ к этому моменту необходимо получить высшее образование первой ступени и иметь соответствующий подтверждающий документ (диплом). Гражданам Узбекистана потребуется прохождение процедуры признания диплома в Отделе признания иностранных документов об образовании РИВШ."
       },
       "specialties-data-section": {
         "legend": "Наши специальности",
