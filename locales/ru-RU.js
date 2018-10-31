@@ -278,7 +278,8 @@ export default {
   "educationType": {
     "First": "Первое высшее",
     "Second": "Второе высшее",
-    "Magistracy": "Магистратура"
+    "Magistracy": "Магистратура",
+    "Retraining": "Переподготовка"
   },
   "visaMode": {
     "with-visa": "ТРЕБУЕТСЯ ВИЗА",
