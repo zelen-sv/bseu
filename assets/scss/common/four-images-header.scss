@@ -1,9 +1,9 @@
-.images-header {
+.four-images-header {
   width: 100%;
   display: flex;
 }
 
-.images-header__picture {
+.four-images-header__picture {
   width: 25%;
   height: 40vh;
   object-fit: cover;
@@ -12,15 +12,7 @@
   }
 }
 
-.images-header__picture_left {
-  object-position: left;
-}
-
-.images-header__picture_right {
-  object-position: right;
-}
-
-.images-header__picture_mobile {
+.four-images-header__picture_mobile {
   @media only screen and (max-width: $breakpoint_mobile) {
     width: 100%;
     display: block;

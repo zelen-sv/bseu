@@ -1,140 +1,58 @@
-export const POPULAR_SPECIALTIES_FIRST = [
-  {
-    "education_form": "Первое высшее",
-    "title": "Мировая экономика",
-    "price": "3000 $ год",
-    "image_href": ""
+export const headerImages = {
+  firstHigher: {
+    images: [
+      "picture_first-higher-1-min.jpg", "picture_first-higher-2-min.jpg",
+      "picture_first-higher-3-min.jpg", "picture_first-higher-4-min.jpg"
+    ],
+    mainImage: "picture_first-higher-1-min.jpg"
   },
-  {
-    "education_form": "Первое высшее",
-    "title": "Мировая экономика",
-    "price": "3000 $ год",
-    "image_href": ""
+  secondHigher: {
+    images: [
+      "picture_second-higher-1-min.jpg", "picture_second-higher-2-min.jpg",
+      "picture_second-higher-3-min.jpg", "picture_second-higher-4-min.jpg"
+    ],
+    mainImage: "picture_second-higher-1-min.jpg"
   },
-  {
-    "education_form": "Первое высшее",
-    "title": "Мировая экономика",
-    "price": "3000 $ год",
-    "image_href": ""
+  magistracy: {
+    images: [
+      "picture_magistracy-1-min.jpg", "picture_magistracy-2-min.jpg",
+      "picture_magistracy-3-min.jpg", "picture_magistracy-4-min.jpg"
+    ],
+    mainImage: "picture_magistracy-4-min.jpg"
   },
-  {
-    "education_form": "Первое высшее",
-    "title": "Мировая экономика",
-    "price": "3000 $ год",
-    "image_href": ""
+  trainingAndCourses: {
+    images: [
+      "picture_training-and-courses-1-min.jpg", "picture_training-and-courses-2-min.jpg",
+      "picture_training-and-courses-3-min.jpg", "picture_training-and-courses-4-min.jpg"
+    ],
+    mainImage: "picture_training-and-courses-2-min.jpg"
+  },
+  coursesRussian: {
+    images: [
+      "picture_courses-russian-1-min.jpg", "picture_courses-russian-2-min.jpg",
+      "picture_courses-russian-3-min.jpg", "picture_courses-russian-4-min.jpg"
+    ],
+    mainImage: "picture_courses-russian-2-min.jpg"
+  },
+  requalification: {
+    images: [
+      "picture_requalification-1-min.jpg", "picture_requalification-2-min.jpg",
+      "picture_requalification-3-min.jpg", "picture_requalification-4-min.jpg"
+    ],
+    mainImage: "picture_requalification-1-min.jpg"
+  },
+  refresherTraining: {
+    images: [
+      "picture_refresher-training-1-min.jpg", "picture_refresher-training-2-min.jpg",
+      "picture_refresher-training-3-min.jpg", "picture_refresher-training-4-min.jpg"
+    ],
+    mainImage: "picture_refresher-training-4-min.jpg"
+  },
+  internship: {
+    images: [
+      "picture_internship-1-min.jpg", "picture_internship-2-min.jpg",
+      "picture_internship-3-min.jpg", "picture_internship-4-min.jpg"
+    ],
+    mainImage: "picture_internship-4-min.jpg"
   }
-]
-
-export const POPULAR_SPECIALTIES_SECOND = [
-  {
-    "education_form": "Первое высшее",
-    "title": "Мировая экономика",
-    "price": "3000 $ год",
-    "image_href": ""
-  },
-  {
-    "education_form": "Первое высшее",
-    "title": "Мировая экономика",
-    "price": "3000 $ год",
-    "image_href": ""
-  },
-  {
-    "education_form": "Первое высшее",
-    "title": "Мировая экономика",
-    "price": "3000 $ год",
-    "image_href": ""
-  },
-  {
-    "education_form": "Первое высшее",
-    "title": "Мировая экономика",
-    "price": "3000 $ год",
-    "image_href": ""
-  }
-]
-
-export const ADMISSION_TABS_DATA = [
-  {
-    component_name: "BachelorAdmission",
-    title: "Первое высшее"
-  },
-  {
-    component_name: "SecondBachelorAdmission",
-    title: "Второе высшее"
-  },
-  {
-    component_name: "MagistracyAdmission",
-    title: "Магистратура"
-  },
-  {
-    component_name: "FellowshipAdmission",
-    title: "Аспирантура"
-  },
-  {
-    component_name: "TransferAdmission",
-    title: "Перевод из другого ВУЗа"
-  }
-]
-
-export const FAQ_DOCUMENTS = [
-  {
-    title: 'Название документа 1',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 2',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 3',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 4',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 5',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 6',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 7',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 8',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 9',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 10',
-    document_link: '#'
-  },
-  {
-    title: 'Название документа 11',
-    document_link: '#'
-  }
-]
-
-export const SPECIALTIES = [
-  {
-    departament: {
-      title: 'Название факультета',
-      specialties: [
-        {
-          qualification: 'Название квалификации',
-          description: 'Описание',
-          cost: '1000',
-          term: '4 года',
-          form: 'Очная'
-        }
-      ]
-    }
-  }
-]
+}

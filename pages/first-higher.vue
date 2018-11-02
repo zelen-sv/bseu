@@ -4,7 +4,7 @@
       <sidebar />
     </div>
     <div class="first-higher__content">
-      <images-header />
+      <four-images-header page="firstHigher" />
       <bseu-section />
       <specialties-data-section />
       <admission-documents visaMode="firstHigher" />
@@ -20,7 +20,7 @@
 
 
 <script>
-  import ImagesHeader from '~/components/first-higher/ImagesHeader.vue'
+  import FourImagesHeader from '~/components/FourImagesHeader.vue'
   import Sidebar from '~/components/first-higher/Sidebar.vue'
   import BseuSection from '~/components/first-higher/BseuSection.vue'
   import SpecialtiesDataSection from '~/components/first-higher/SpecialtiesDataSection.vue'
@@ -30,7 +30,7 @@
 
   export default {
     components: {
-      ImagesHeader,
+      FourImagesHeader,
       Sidebar,
       BseuSection,
       SpecialtiesDataSection,

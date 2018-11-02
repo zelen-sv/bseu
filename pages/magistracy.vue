@@ -4,7 +4,7 @@
       <sidebar />
     </div>
     <div class="magistracy__content">
-      <images-header />
+      <four-images-header page="magistracy" />
       <bseu-section />
       <specialties-data-section />
       <admission-documents visaMode="magistracy" />
@@ -20,7 +20,7 @@
 
 
 <script>
-  import ImagesHeader from '~/components/magistracy/ImagesHeader.vue'
+  import FourImagesHeader from '~/components/FourImagesHeader.vue'
   import Sidebar from '~/components/magistracy/Sidebar.vue'
   import BseuSection from '~/components/magistracy/BseuSection.vue'
   import SpecialtiesDataSection from '~/components/magistracy/SpecialtiesDataSection.vue'
@@ -30,7 +30,7 @@
 
   export default {
     components: {
-      ImagesHeader,
+      FourImagesHeader,
       Sidebar,
       BseuSection,
       SpecialtiesDataSection,

@@ -4,7 +4,7 @@
       <sidebar />
     </div>
     <div class="second-higher__content">
-      <images-header />
+      <four-images-header page="secondHigher" />
       <bseu-section />
       <specialties-data-section />
       <admission-documents visaMode="secondHigher" />
@@ -20,7 +20,7 @@
 
 
 <script>
-  import ImagesHeader from '~/components/second-higher/ImagesHeader.vue'
+  import FourImagesHeader from '~/components/FourImagesHeader.vue'
   import Sidebar from '~/components/second-higher/Sidebar.vue'
   import BseuSection from '~/components/second-higher/BseuSection.vue'
   import SpecialtiesDataSection from '~/components/second-higher/SpecialtiesDataSection.vue'
@@ -30,7 +30,7 @@
 
   export default {
     components: {
-      ImagesHeader,
+      FourImagesHeader,
       Sidebar,
       BseuSection,
       SpecialtiesDataSection,

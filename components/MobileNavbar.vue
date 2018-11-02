@@ -24,8 +24,8 @@
           <nuxt-link :to="localePath('magistracy')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.magistracy") }}
           </nuxt-link>
-          <nuxt-link to="" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
-            {{ $t("components.navbar.prepare-courses") }}
+          <nuxt-link :to="localePath('requalification')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+            {{ $t("components.navbar.requalification") }}
           </nuxt-link>
           <nuxt-link to="" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.about-university") }}

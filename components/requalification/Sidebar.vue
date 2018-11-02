@@ -8,12 +8,12 @@
         {{ $t("pages.requalification.sidebar.requalification") }}
       </div>
     </a>
-    <a class="sidebar__link scrollactive-item" href="#training">
+    <a class="sidebar__link scrollactive-item" href="#refresher-training">
       <div class="sidebar__icon">
         <svgicon icon="rising-bar-arrow" width="21" height="21"></svgicon>
       </div>
       <div class="sidebar__text">
-        {{ $t("pages.requalification.sidebar.training") }}
+        {{ $t("pages.requalification.sidebar.refresher-training") }}
       </div>
     </a>
     <a class="sidebar__link scrollactive-item" href="#internship">
