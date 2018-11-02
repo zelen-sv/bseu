@@ -7,9 +7,9 @@
       <images-header />
       <bseu-section />
       <specialties-data-section />
-      <admission-documents page="firstHigher" />
+      <admission-documents visaMode="firstHigher" />
       <arriving-documents />
-      <how-to-enter />
+      <admission-process visaMode="firstHigher" />
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@
   import SpecialtiesDataSection from '~/components/first-higher/SpecialtiesDataSection.vue'
   import AdmissionDocuments from '~/components/AdmissionDocuments.vue'
   import ArrivingDocuments from '~/components/ArrivingDocuments.vue'
-  import HowToEnter from '~/components/first-higher/HowToEnter.vue'
+  import AdmissionProcess from '~/components/AdmissionProcess.vue'
 
   export default {
     components: {
@@ -36,7 +36,7 @@
       SpecialtiesDataSection,
       AdmissionDocuments,
       ArrivingDocuments,
-      HowToEnter
+      AdmissionProcess
     }
   }
 </script>

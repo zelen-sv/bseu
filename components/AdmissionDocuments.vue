@@ -5,18 +5,18 @@
     </div>
     <div class="buttons-toggle">
       <div @click="setVisaMode(true)"
-        :class="visaMode ? 'button_toggle_active' : ''"
+        :class="visa ? 'button_toggle_active' : ''"
         class="buttons-toggle__item buttons-toggle__item_hovered button">
         {{ $t("visaMode.with-visa") }}
       </div>
       <div @click="setVisaMode(false)"
-        :class="visaMode ? '' : 'button_toggle_active'"
+        :class="visa ? '' : 'button_toggle_active'"
         class="buttons-toggle__item buttons-toggle__item_hovered  button">
         {{ $t("visaMode.visa-free") }}
       </div>
     </div>
-    <visa-documents v-show="visaMode"/>
-    <no-visa-documents v-show="!visaMode"/>
+    <visa-documents v-show="visa"/>
+    <no-visa-documents v-show="!visa"/>
   </div>
 </template>
 
@@ -26,7 +26,7 @@
 
   export default {
     props: {
-      page: {
+      visaMode: {
         type: String,
         default: 'home'
       }
@@ -35,17 +35,17 @@
       visaDocuments, noVisaDocuments
     },
     computed: {
-      visaMode () {
-        let currentPageVisaMode = this.page + 'PageViseMode'
-        return this.$store.getters[currentPageVisaMode]
+      visa () {
+        let currentVisaMode = this.visaMode + 'ViseMode'
+        return this.$store.getters[currentVisaMode]
       }
     },
     methods: {
       setVisaMode (state) {
         if (state) {
-          this.$store.dispatch('setVisaMode', this.page)
+          this.$store.dispatch('setVisaMode', this.visaMode)
         } else {
-          this.$store.dispatch('setVisaFreeMode', this.page)
+          this.$store.dispatch('setVisaFreeMode', this.visaMode)
         }
       },
     }

@@ -7,9 +7,9 @@
       <images-header />
       <training-section />
       <training-cost-data />
-      <admission-documents page="trainingAndCourses" />
+      <admission-documents visaMode="trainingAndCourses" />
       <arriving-documents />
-      <how-to-enter />
+      <admission-process visaMode="trainingAndCourses" />
       <second-images-header />
       <courses-section />
       <courses-data-section />
@@ -29,7 +29,7 @@
   import TrainingCostData from '~/components/training-and-courses/TrainingCostData.vue'
   import AdmissionDocuments from '~/components/AdmissionDocuments.vue'
   import ArrivingDocuments from '~/components/ArrivingDocuments.vue'
-  import HowToEnter from '~/components/training-and-courses/HowToEnter.vue'
+  import AdmissionProcess from '~/components/AdmissionProcess.vue'
   import SecondImagesHeader from '~/components/training-and-courses/SecondImagesHeader.vue'
   import CoursesSection from '~/components/training-and-courses/CoursesSection.vue'
   import CoursesDataSection from '~/components/training-and-courses/CoursesDataSection.vue'
@@ -42,7 +42,7 @@
       TrainingCostData,
       AdmissionDocuments,
       ArrivingDocuments,
-      HowToEnter,
+      AdmissionProcess,
       SecondImagesHeader,
       CoursesSection,
       CoursesDataSection

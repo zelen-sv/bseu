@@ -1,43 +1,12 @@
 .training-section__icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
   padding: 45px 0;
   @media only screen and (max-width: $breakpoint_tablet) {
     padding-bottom: 0px;
   }
 }
 
-.training-section__icon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 20%;
-  @media only screen and (max-width: $breakpoint_tablet) {
-    width: 50%;
-    padding-bottom: 40px;
-  }
-  @media only screen and (max-width: $breakpoint_mobile) {
-    width: 100%;
-    padding-bottom: 40px;
-  }
-}
-
-.training-section__icon {
-  width: 130px;
-  padding-bottom: 30px;
-}
-
 .training-section__additionally {
   font-size: 15px;
   line-height: 18px;
   color: $dark_blue;
-}
-
-.training-section__icon-text {
-  text-align: center;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: bold;
 }

@@ -24,10 +24,10 @@
           <nuxt-link :to="localePath('magistracy')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.magistracy") }}
           </nuxt-link>
-          <nuxt-link :to="localePath('graduate-school')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link to="" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.prepare-courses") }}
           </nuxt-link>
-          <nuxt-link :to="localePath('about-university')" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
+          <nuxt-link to="" v-on:click.native="toggleMobileMenu()" tag="div" class="mobile-navbar__menu-item">
             {{ $t("components.navbar.about-university") }}
           </nuxt-link>
       </div>

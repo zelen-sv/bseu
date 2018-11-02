@@ -7,9 +7,9 @@
       <images-header />
       <bseu-section />
       <specialties-data-section />
-      <admission-documents page="secondHigher" />
+      <admission-documents visaMode="secondHigher" />
       <arriving-documents />
-      <how-to-enter />
+      <admission-process visaMode="secondHigher"/>
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@
   import SpecialtiesDataSection from '~/components/second-higher/SpecialtiesDataSection.vue'
   import AdmissionDocuments from '~/components/AdmissionDocuments.vue'
   import ArrivingDocuments from '~/components/ArrivingDocuments.vue'
-  import HowToEnter from '~/components/second-higher/HowToEnter.vue'
+  import AdmissionProcess from '~/components/AdmissionProcess.vue'
 
   export default {
     components: {
@@ -34,9 +34,9 @@
       Sidebar,
       BseuSection,
       SpecialtiesDataSection,
-      HowToEnter,
       AdmissionDocuments,
-      ArrivingDocuments
+      ArrivingDocuments,
+      AdmissionProcess
     }
   }
 </script>

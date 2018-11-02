@@ -1,0 +1,33 @@
+.row-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.row-icons__icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  @media only screen and (max-width: $breakpoint_mobile) {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}
+
+.row-icons__icon {
+  width: 130px;
+  padding-bottom: 30px;
+}
+
+.row-icons__icon-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="training-profiles-list">
+  <div class="training-profiles-list price-table">
     <div class="training-profiles-list__item training-profiles-list__item_hovered"
          v-for="profile in profiles"
          :key="profile.id">

@@ -13,15 +13,18 @@ const state = {
   },
   trainingAndCourses: {
     visa: true
+  },
+  requalification: {
+    visa: true
   }
 }
 
 const mutations = {
-  VISA_MODE (state, page) {
-    state[page].visa = true
+  VISA_MODE (state, mode) {
+    state[mode].visa = true
   },
-  VISA_FREE_MODE (state, page) {
-    state[page].visa = false
+  VISA_FREE_MODE (state, mode) {
+    state[mode].visa = false
   }
 }
 
@@ -36,11 +39,12 @@ const actions = {
 
 
 const getters = {
-  homePageViseMode: (state) => state.home.visa,
-  firstHigherPageViseMode: (state) => state.firstHigher.visa,
-  secondHigherPageViseMode: (state) => state.secondHigher.visa,
-  magistracyPageViseMode: (state) => state.magistracy.visa,
-  trainingAndCoursesPageViseMode: (state) => state.trainingAndCourses.visa
+  homeViseMode: (state) => state.home.visa,
+  firstHigherViseMode: (state) => state.firstHigher.visa,
+  secondHigherViseMode: (state) => state.secondHigher.visa,
+  magistracyViseMode: (state) => state.magistracy.visa,
+  trainingAndCoursesViseMode: (state) => state.trainingAndCourses.visa,
+  requalificationViseMode: (state) => state.requalification.visa
 }
 
 const visaModule = {

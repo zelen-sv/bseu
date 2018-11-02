@@ -28,7 +28,7 @@
     },
     computed: {
       visaMode () {
-        return this.$store.getters.homePageViseMode
+        return this.$store.getters.homeViseMode
       }
     },
     methods: {

@@ -7,9 +7,9 @@
       <images-header />
       <bseu-section />
       <specialties-data-section />
-      <admission-documents page="magistracy" />
+      <admission-documents visaMode="magistracy" />
       <arriving-documents />
-      <how-to-enter />
+      <admission-process visaMode="magistracy" />
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@
   import SpecialtiesDataSection from '~/components/magistracy/SpecialtiesDataSection.vue'
   import AdmissionDocuments from '~/components/AdmissionDocuments.vue'
   import ArrivingDocuments from '~/components/ArrivingDocuments.vue'
-  import HowToEnter from '~/components/magistracy/HowToEnter.vue'
+  import AdmissionProcess from '~/components/AdmissionProcess.vue'
 
   export default {
     components: {
@@ -34,7 +34,7 @@
       Sidebar,
       BseuSection,
       SpecialtiesDataSection,
-      HowToEnter,
+      AdmissionProcess,
       AdmissionDocuments,
       ArrivingDocuments
     }

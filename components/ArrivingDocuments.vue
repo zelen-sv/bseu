@@ -10,17 +10,6 @@
         </div>
         <div class="documents-list__section-data">
           <div class="documents-list__section-title">
-            {{ $t("components.documents-list.arriving-documents.original-invitation") }}
-          </div>
-        </div>
-      </div>
-
-      <div class="documents-list__section">
-        <div class="documents-list__section-icon">
-          <div class="dot dot_blue"></div>
-        </div>
-        <div class="documents-list__section-data">
-          <div class="documents-list__section-title">
             {{ $t("components.documents-list.arriving-documents.original-education-document") }}
           </div>
           <div class="documents-list__section-item documents-list__section-item_selected">
@@ -53,9 +42,6 @@
           </div>
           <div class="documents-list__section-item">
             -{{ $t("components.documents-list.arriving-documents.medical-certificate-vich") }}
-          </div>
-          <div class="documents-list__section-item">
-            -{{ $t("components.documents-list.arriving-documents.medical-certificate-ebola") }}
           </div>
           <div class="documents-list__section-item">
             -{{ $t("components.documents-list.arriving-documents.medical-certificate-climat") }}

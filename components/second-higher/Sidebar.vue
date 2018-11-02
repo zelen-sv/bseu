@@ -32,7 +32,7 @@
         {{ $t("pages.second-higher.sidebar.local-documents") }}
       </div>
     </a>
-    <a class="sidebar__link scrollactive-item" href="#how-to-enter">
+    <a class="sidebar__link scrollactive-item" href="#admission-process">
       <div class="sidebar__icon">
         <svgicon icon="question" width="20" height="20"></svgicon>
       </div>
