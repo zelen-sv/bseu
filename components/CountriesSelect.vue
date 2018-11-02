@@ -9,6 +9,8 @@
 </template>
 
 <script>
+  import { countryNames } from '~/utils/countriesDataList.js'
+
   export default {
     model: {
       prop: 'modelValue',
@@ -26,13 +28,9 @@
       }
     },
     mounted () {
-      this.getCountries()
+      this.countries = countryNames
     },
     methods: {
-      async getCountries() {
-        const countries = await this.$axios.$get('https://restcountries.eu/rest/v2/all')
-        this.countries = countries.map((country) => { return country.name } )
-      },
       updateCountry () {
         this.$emit('input', this.country)
       }
