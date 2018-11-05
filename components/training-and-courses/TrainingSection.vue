@@ -3,6 +3,10 @@
     <div class="content-section__legend">{{ $t("pages.training-and-courses.training-section.legend") }}</div>
     <p>{{ $t('pages.training-and-courses.training-section.description_p1') }}</p>
     <p>{{ $t("pages.training-and-courses.training-section.description_p2") }}</p>
+    <p class="content-section__list-text">{{ $t("pages.training-and-courses.training-section.dot_text_1") }}</p>
+    <p class="content-section__list-text">{{ $t("pages.training-and-courses.training-section.dot_text_2") }}</p>
+    <p class="content-section__list-text">{{ $t("pages.training-and-courses.training-section.dot_text_3") }}</p>
+    <p class="content-section__list-text">{{ $t("pages.training-and-courses.training-section.dot_text_4") }}</p>
     <p>{{ $t("pages.training-and-courses.training-section.description_p3") }}</p>
     <p>{{ $t("pages.training-and-courses.training-section.description_p4") }}</p>
     <div class="row-icons training-section__icons">

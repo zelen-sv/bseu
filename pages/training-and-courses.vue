@@ -14,7 +14,6 @@
       </div>
       <div id="courses-russian">
         <four-images-header page="coursesRussian" />
-        <second-images-header />
         <courses-section />
         <courses-data-section />
       </div>
