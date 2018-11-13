@@ -83,7 +83,7 @@ export default {
     },
     "magistracy": {
       "sidebar": {
-        "bseu-education": "BDYU Magistratura",
+        "bseu-education": "Magistratura",
         "specialties-list": "Список специальностей",
         "admission-documents": "Документы для поступления",
         "local-documents": "Документы по приезду",

@@ -1,0 +1,35 @@
+.tinted-header {
+  width: 100%;
+  display: flex;
+  height: 40vh;
+  background: url(/assets/images/about-university-header.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tinted-header__color-part {
+  width: 25%;
+  height: inherit;
+  opacity: 0.5;
+}
+
+.tinted-header__color-part_white_blue{
+  background-color: $white_blue;
+}
+
+.tinted-header__color-part_yellow {
+  background-color: $yellow;
+}
+
+.tinted-header__color-part_light_yellow {
+  background-color: $light_yellow;
+}
+
+.tinted-header__color-part_dark_pink {
+  background-color: $dark_pink;
+}
+
+
+

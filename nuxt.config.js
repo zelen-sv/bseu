@@ -62,6 +62,7 @@ module.exports = {
   ],
   plugins: [
     '~plugins/vue-scrollto', '~plugins/vue-svgicon', '~plugins/filters.js',
+    { src: '~plugins/v-viewer.js', ssr: false },
     { src: '~plugins/vue-tel-input.js', ssr: false },
     { src: '~plugins/v-select.js', ssr: false },
     { src: '~plugins/v-scroll-lock.js', ssr: false },

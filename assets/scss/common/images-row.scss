@@ -1,0 +1,22 @@
+.images-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.images-row__item {
+  width: 23%;
+  object-fit: cover;
+  cursor: pointer;
+  padding: 1%;
+  @media only screen and (max-width: $breakpoint_tablet) {
+    width: 46%;
+    padding: 2%;
+    padding-bottom: 40px;
+  }
+  @media only screen and (max-width: $breakpoint_mobile) {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}
