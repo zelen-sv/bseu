@@ -4,71 +4,36 @@
       {{ $t("pages.second-higher.specialties-data-section.legend") }}
     </div>
     <div class="buttons-toggle">
-      <div @click="choseSpecialtiesForm('zaochno')"
-        :class="specialtiesForm == 'zaochno' ? 'button_toggle_active' : ''"
+      <div @click="choseEducationForm('zaochno')"
+        :class="educationForm == 'zaochno' ? 'button_toggle_active' : ''"
         class="buttons-toggle__item buttons-toggle__item_hovered button">
-        {{ $t('pages.second-higher.specialties-data-section.zaochno') }}
+        {{ $t('educationForm.zaochno') }}
       </div>
-      <div @click="choseSpecialtiesForm('remote')"
-        :class="specialtiesForm == 'remote' ? 'button_toggle_active' : ''"
+      <div @click="choseEducationForm('remote')"
+        :class="educationForm == 'remote' ? 'button_toggle_active' : ''"
         class="buttons-toggle__item buttons-toggle__item_hovered  button">
-        {{ $t('pages.second-higher.specialties-data-section.remote') }}
+        {{ $t('educationForm.remote') }}
       </div>
     </div>
-    <div>
-      <div v-show="specialtiesForm == 'zaochno'">
-        <specialties-list :loading="$apollo.queries.zaochnoSpecialties.loading"
-                          :specialties="zaochnoSpecialties"/>
-      </div>
-      <div v-show="specialtiesForm == 'remote'">
-        <specialties-list :loading="$apollo.queries.remoteSpecialties.loading"
-                          :specialties="remoteSpecialties"/>
-      </div>
-    </div>
+    <education-program-specialties-data education_program="second" :education_form="educationForm" />
   </div>
 </template>
 
 <script>
-  import SpecialtiesList from "@/components/SpecialtiesList.vue"
-  import {specialtiesByDataQuery} from "@/queries/specialtiesByDataQuery.js"
+  import EducationProgramSpecialtiesData from "@/components/EducationProgramSpecialtiesData.vue"
 
   export default {
     components: {
-      SpecialtiesList
+      EducationProgramSpecialtiesData
     },
     data () {
       return {
-        specialtiesForm: 'zaochno',
-        zaochnoSpecialties: [],
-        remoteSpecialties: []
-      }
-    },
-    apollo: {
-      $loadingKey: 'loading',
-      zaochnoSpecialties: {
-        query: specialtiesByDataQuery,
-        variables: {
-          education_type: "Second",
-          education_form: "Zaochno"
-        },
-        update (data) {
-          return data.specialties
-        }
-      },
-      remoteSpecialties: {
-        query: specialtiesByDataQuery,
-        variables: {
-          education_type: "Second",
-          education_form: "Remote"
-        },
-        update (data) {
-          return data.specialties
-        }
+        educationForm: 'zaochno'
       }
     },
     methods: {
-      choseSpecialtiesForm (form) {
-        this.specialtiesForm = form
+      choseEducationForm (form) {
+        this.educationForm = form
       }
     }
   }

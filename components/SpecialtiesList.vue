@@ -32,7 +32,7 @@
     },
     computed: {
       faculties () {
-        let specialtyFaculties = this.specialties.map(specialty => { return specialty.faculty.title })
+        let specialtyFaculties = this.specialties.map(specialty => { return specialty.faculty })
 
         return  [...new Set(specialtyFaculties)]
       }
@@ -43,7 +43,7 @@
         this.$store.dispatch('activateSpecialty', specialty)
       },
       facultySpecialties (faculty) {
-        return this.specialties.filter(specialty => { return specialty.faculty.title == faculty })
+        return this.specialties.filter(specialty => { return specialty.faculty == faculty })
       }
     }
   }

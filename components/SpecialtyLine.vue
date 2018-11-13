@@ -16,7 +16,7 @@
       title: String,
       qualification: Array,
       term: String,
-      price: Number
+      price: String
     },
     computed: {
       qualificationsList () {

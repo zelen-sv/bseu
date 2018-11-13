@@ -5,7 +5,7 @@
     </div>
     <div class="buttons-toggle">
       <div class="buttons-toggle__item buttons-toggle__item_hovered button_toggle_active button">
-        {{ $t('educationForm.Zaochno') }}
+        {{ $t('educationForm.zaochno') }}
       </div>
     </div>
     <div class="specialties-list">

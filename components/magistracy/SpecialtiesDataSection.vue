@@ -4,69 +4,36 @@
       {{ $t("pages.magistracy.specialties-data-section.legend") }}
     </div>
     <div class="buttons-toggle">
-      <div @click="choseSpecialtiesForm('ochno')"
-        :class="specialtiesForm == 'ochno' ? 'button_toggle_active' : ''"
+      <div @click="choseEducationForm('ochno')"
+        :class="educationForm == 'ochno' ? 'button_toggle_active' : ''"
         class="buttons-toggle__item buttons-toggle__item_hovered button">
-        {{ $t('pages.magistracy.specialties-data-section.ochno') }}
+        {{ $t('educationForm.ochno') }}
       </div>
-      <div @click="choseSpecialtiesForm('zaochno')"
-        :class="specialtiesForm == 'zaochno' ? 'button_toggle_active' : ''"
+      <div @click="choseEducationForm('zaochno')"
+        :class="educationForm == 'zaochno' ? 'button_toggle_active' : ''"
         class="buttons-toggle__item buttons-toggle__item_hovered  button">
-        {{ $t('pages.magistracy.specialties-data-section.zaochno') }}
+        {{ $t('educationForm.zaochno') }}
       </div>
     </div>
-    <div v-show="specialtiesForm == 'ochno'">
-      <specialties-list :loading="$apollo.queries.ochnoSpecialties.loading"
-                        :specialties="ochnoSpecialties"/>
-    </div>
-    <div v-show="specialtiesForm == 'zaochno'">
-      <specialties-list :loading="$apollo.queries.zaochnoSpecialties.loading"
-                        :specialties="zaochnoSpecialties"/>
-    </div>
+    <education-program-specialties-data education_program="magistracy" :education_form="educationForm" />
   </div>
 </template>
 
 <script>
-  import SpecialtiesList from "@/components/SpecialtiesList.vue"
-  import {specialtiesByDataQuery} from "@/queries/specialtiesByDataQuery.js"
+  import EducationProgramSpecialtiesData from "@/components/EducationProgramSpecialtiesData.vue"
 
   export default {
     components: {
-      SpecialtiesList
+      EducationProgramSpecialtiesData
     },
     data () {
       return {
-        specialtiesForm: 'ochno',
-        ochnoSpecialties: [],
-        zaochnoSpecialties: []
-      }
-    },
-    apollo: {
-      $loadingKey: 'loading',
-      ochnoSpecialties: {
-        query: specialtiesByDataQuery,
-        variables: {
-          education_type: "Magistracy",
-          education_form: "Ochno"
-        },
-        update (data) {
-          return data.specialties
-        }
-      },
-      zaochnoSpecialties: {
-        query: specialtiesByDataQuery,
-        variables: {
-          education_type: "Magistracy",
-          education_form: "Zaochno"
-        },
-        update (data) {
-          return data.specialties
-        }
+        educationForm: 'ochno'
       }
     },
     methods: {
-      choseSpecialtiesForm (form) {
-        this.specialtiesForm = form
+      choseEducationForm (form) {
+        this.educationForm = form
       }
     }
   }

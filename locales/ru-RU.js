@@ -256,6 +256,15 @@ export default {
       "link_news": "Новости",
       "development": "Разработка сайта, продвижение и коммуникации - ООО “Акториус”"
     },
+    "specialty-modal": {
+      "term_text_1": "Срок обучения",
+      "term_text_2": "(кол-во лет)",
+      "price": "Стоимость",
+      "price_in_year": "в год",
+      "education_form_text": "Обучение",
+      "description_title": "Чему вы научитесь",
+      "qualification_title": "Кем вы станете",
+    },
     "documents-list": {
       "admission-documents": {
         "legend": "Документы необходимые для поступления",
@@ -321,9 +330,9 @@ export default {
     "application_button": "Подача заявления онлайн"
   },
   "educationForm": {
-    "Ochno": "Очное",
-    "Zaochno": "Заочно",
-    "Remote": "Дистанционно"
+    "ochno": "Очно",
+    "zaochno": "Заочно",
+    "remote": "Дистанционно"
   },
   "educationType": {
     "First": "Первое высшее",

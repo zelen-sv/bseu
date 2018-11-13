@@ -56,9 +56,7 @@ module.exports = {
       ],
       lazy: true,
       langDir: 'locales/'
-    }],
-
-    ['@nuxtjs/apollo']
+    }]
   ],
   plugins: [
     '~plugins/vue-scrollto', '~plugins/vue-svgicon', '~plugins/filters.js',
@@ -68,11 +66,6 @@ module.exports = {
     { src: '~plugins/v-scroll-lock.js', ssr: false },
     { src: '~plugins/vue-scrollactive.js', ssr: false },
   ],
-  apollo: {
-    clientConfigs: {
-      default: '~/plugins/default-apollo-config.js'
-    }
-  },
   axios: {
     baseURL: process.env.API_LINK ? process.env.API_LINK : '/api'
   },
