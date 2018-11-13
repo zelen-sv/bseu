@@ -334,11 +334,11 @@ export default {
     "zaochno": "Заочно",
     "remote": "Дистанционно"
   },
-  "educationType": {
-    "First": "Первое высшее",
-    "Second": "Второе высшее",
-    "Magistracy": "Магистратура",
-    "Retraining": "Переподготовка"
+  "educationProgram": {
+    "first": "Первое высшее",
+    "second": "Второе высшее",
+    "magistracy": "Магистратура",
+    "retraining": "Переподготовка"
   },
   "visaMode": {
     "with-visa": "ТРЕБУЕТСЯ ВИЗА",
