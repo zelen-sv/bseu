@@ -74,7 +74,7 @@ module.exports = {
     exclude: [
       '/admin/**'
     ]
-  }
+  },
   build: {
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
