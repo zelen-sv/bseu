@@ -2,10 +2,15 @@
   <div class="footer">
     <div class="footer__columns">
       <div class="footer__column">
-        <div class="footer__link footer__link_active">{{ $t("components.main-footer.link_main") }}</div>
-        <div class="footer__link">{{ $t("components.main-footer.link_questions") }}</div>
-        <div class="footer__link">{{ $t("components.main-footer.link_documents") }}</div>
-        <div class="footer__link">{{ $t("components.main-footer.link_news") }}</div>
+        <nuxt-link :to="localePath('index')" tag="div" class="footer__link">
+          {{ $t("components.main-footer.link_1") }}
+        </nuxt-link>
+        <nuxt-link :to="localePath('about-university')" tag="div" class="footer__link">
+          {{ $t("components.main-footer.link_2") }}
+        </nuxt-link>
+        <nuxt-link :to="localePath('bseu-application')" tag="div" class="footer__link">
+          {{ $t("components.main-footer.link_3") }}
+        </nuxt-link>
         <logo class="footer__logo" />
       </div>
       <div class="footer__column footer__column_right_align">

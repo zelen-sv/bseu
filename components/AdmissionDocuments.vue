@@ -3,6 +3,9 @@
     <div class="documents-list__title content-section__legend">
       {{ $t("components.documents-list.admission-documents.legend") }}
     </div>
+    <div class="documents-list__icon">
+      <svgicon icon="notes" width="150" height="195" color="rgba(174,174,174,1)"></svgicon>
+    </div>
     <div class="buttons-toggle">
       <div @click="setVisaMode(true)"
         :class="visa ? 'button_toggle_active' : ''"
@@ -21,6 +24,7 @@
 </template>
 
 <script>
+  import '@/components/icons/notes.js'
   import visaDocuments from '~/components/visaDocuments.vue'
   import noVisaDocuments from '~/components/noVisaDocuments.vue'
 

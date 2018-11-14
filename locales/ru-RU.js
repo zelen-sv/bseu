@@ -250,10 +250,9 @@ export default {
       "documents-button": "Подача заявления"
     },
     "main-footer": {
-      "link_main": "Главная",
-      "link_questions": "Частые вопросы",
-      "link_documents": "Подача заявления онлайн",
-      "link_news": "Новости",
+      "link_1": "Главная",
+      "link_2": "Об университете",
+      "link_3": "Подача заявления онлайн",
       "development": "Разработка сайта, продвижение и коммуникации - ООО “Акториус”"
     },
     "specialty-modal": {

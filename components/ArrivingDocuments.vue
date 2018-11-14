@@ -3,6 +3,9 @@
     <div class="documents-list__title content-section__legend">
       {{ $t("components.documents-list.arriving-documents.legend") }}
     </div>
+    <div class="documents-list__icon">
+      <svgicon icon="departures" width="200" height="156" color="rgba(179,179,179,1)"></svgicon>
+    </div>
     <div class="documents-list__sections">
       <div class="documents-list__section">
         <div class="documents-list__section-icon">
@@ -77,3 +80,9 @@
     </div>
   </div>
 </template>
+
+<script>
+  import '@/components/icons/departures.js'
+
+  export default {}
+</script>
