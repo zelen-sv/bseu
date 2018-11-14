@@ -25,7 +25,7 @@ module.exports = {
         '@/assets/scss/variables/index.scss',
         '@/assets/scss/common/index.scss',
     ]],
-    '@nuxtjs/axios', '@nuxtjs/dotenv',
+    '@nuxtjs/axios', '@nuxtjs/dotenv', '@nuxtjs/sitemap',
     ['nuxt-i18n', {
       vueI18n: {
         silentTranslationWarn: true
@@ -69,6 +69,12 @@ module.exports = {
   axios: {
     baseURL: process.env.API_LINK ? process.env.API_LINK : '/api'
   },
+  sitemap: {
+    generate: true,
+    exclude: [
+      '/admin/**'
+    ]
+  }
   build: {
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
