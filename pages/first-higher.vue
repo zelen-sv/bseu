@@ -37,6 +37,12 @@
       AdmissionDocuments,
       ArrivingDocuments,
       AdmissionProcess
-    }
+    },
+    head: {
+      title: 'Университет БГЭУ | Первое высшее',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Выбери для себя образовательную программу высшего профессионального образования!' }
+      ]
+    },
   }
 </script>

@@ -48,6 +48,12 @@
       AdmissionProcess,
       CoursesSection,
       CoursesDataSection
-    }
+    },
+    head: {
+      title: 'Университет БГЭУ | Подготовка и курсы',
+      meta: [
+        { hid: 'description', name: 'description', content: 'На подготовительном отделении обучаются иностранные граждане, желающие в дальнейшем получить высшее образование в БГЭУ или других университетах на русском языке.' }
+      ]
+    },
   }
 </script>

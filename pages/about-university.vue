@@ -33,6 +33,12 @@
       HostelSection,
       SportCenterSection,
       StudentLifeSection
-    }
+    },
+    head: {
+      title: 'Университет БГЭУ | Об университете',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Изучите информацию об университете БГЭУ.  Преимущества обучения, общежитие, спорткомплекс, студенческий досуг в ведущем вузе страны.' }
+      ]
+    },
   }
 </script>

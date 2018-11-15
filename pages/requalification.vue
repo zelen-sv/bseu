@@ -51,6 +51,12 @@
       AdmissionProcess,
       SectionRefresherTraining,
       SectionInternship
-    }
+    },
+    head: {
+      title: 'Университет БГЭУ | Переподготовка',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Выбери для себя программу по переподготовке для обучения в университете БГЭУ' }
+      ]
+    },
   }
 </script>

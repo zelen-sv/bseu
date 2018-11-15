@@ -37,6 +37,12 @@
       AdmissionDocuments,
       ArrivingDocuments,
       AdmissionProcess
-    }
+    },
+    head: {
+      title: 'Университет БГЭУ | Второе высшее',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Выбери для себя образовательную программу второго высшего профессионального образования!' }
+      ]
+    },
   }
 </script>

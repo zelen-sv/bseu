@@ -20,6 +20,12 @@
     },
     components: {
       ApplicationForm
-    }
+    },
+    head: {
+      title: 'Университет БГЭУ | Форма заявления',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Онлайн приглашение на учебу.' }
+      ]
+    },
   }
 </script>

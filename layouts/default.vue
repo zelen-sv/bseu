@@ -19,6 +19,11 @@
   export default {
     components: {
       Navbar, MainFooter, MobileNavbar, Modal, ImageSeparator
+    },
+    head: {
+      meta: [
+        { name: 'og:image', content: 'https://inter.bseu.by' + require('~/assets/images/logo-bseu.png') }
+      ]
     }
   }
 </script>

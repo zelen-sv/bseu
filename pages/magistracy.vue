@@ -37,6 +37,12 @@
       AdmissionProcess,
       AdmissionDocuments,
       ArrivingDocuments
-    }
+    },
+    head: {
+      title: 'Университет БГЭУ | Магистратура',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Выбери для себя магистерскую программу для обучения в университете БГЭУ' }
+      ]
+    },
   }
 </script>
