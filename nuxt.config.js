@@ -75,6 +75,9 @@ module.exports = {
       '/admin/**'
     ]
   },
+  generate: {
+      fallback: "404.html"
+  },
   build: {
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {

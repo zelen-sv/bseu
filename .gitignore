@@ -1,6 +1,6 @@
 # dependencies
 node_modules
-
+static/sitemap.xml
 # logs
 npm-debug.log
 
