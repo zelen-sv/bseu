@@ -24,7 +24,8 @@
     head: {
       title: 'Университет БГЭУ | Форма заявления',
       meta: [
-        { hid: 'description', name: 'description', content: 'Онлайн приглашение на учебу.' }
+        { hid: 'description', name: 'description', content: 'Онлайн приглашение на учебу.' },
+        { hid: 'keywords', name: 'keywords', content: 'заявка на поступление, онлайн заявление' }
       ]
     },
   }

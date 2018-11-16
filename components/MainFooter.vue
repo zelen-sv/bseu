@@ -11,7 +11,7 @@
         <nuxt-link :to="localePath('bseu-application')" tag="div" class="footer__link">
           {{ $t("components.main-footer.link_3") }}
         </nuxt-link>
-        <logo class="footer__logo" />
+        <a href="http://www.bseu.by" target="_blank" class="footer__logo-link"><logo class="footer__logo" /></a>
       </div>
       <div class="footer__column footer__column_right_align">
         <div class="footer__phone footer__phone_with_messangers">+375 25 691 10 35</div>

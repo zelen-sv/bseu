@@ -26,6 +26,13 @@
   export default {
     components: {
       HomeHeader, BseuSection, SpecialtiesSection, SelectAdmission, FaqComponent
-    }
+    },
+    head: {
+      title: 'Университет БГЭУ | Главная страница',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Обучение в университете БГЭУ. Первое и второе высшее образование, подготовка к поступлению вуз для иностранных абитуриентов.' },
+        { hid: 'keywords', name: 'keywords', content: 'университет бгэу, обучение для иностранцев, специальности бгэу' }
+      ]
+    },
   }
 </script>
