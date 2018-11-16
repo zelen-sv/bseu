@@ -1,8 +1,8 @@
 <template>
   <div class="courses-data-section content-section">
-    <div class="courses-data-section__title content-section__legend">
+    <h1 class="courses-data-section__title content-section__legend">
       {{ $t("pages.training-and-courses.courses-data-section.legend") }}
-    </div>
+    </h1>
     <p class="courses-data-section__text">
       {{ $t("pages.training-and-courses.courses-data-section.text") }}
     </p>

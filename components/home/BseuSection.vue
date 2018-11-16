@@ -1,7 +1,7 @@
 <template>
   <div class="bseu-section section">
     <div class="bseu-section__text">
-      <h3 class="section__side-legend">{{ $t("pages.home.bseu-section.legend") }}</h3>
+      <h1 class="section__side-legend">{{ $t("pages.home.bseu-section.legend") }}</h1>
       <div class="bseu-section__description">
         <p v-html="$t('pages.home.bseu-section.description_p1')"></p>
         <p>{{ $t("pages.home.bseu-section.description_p2") }}</p>

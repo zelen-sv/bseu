@@ -7,7 +7,7 @@
           <circle-cross @click.native="back"/>
         </div>
       </div>
-      <div class="application-header__title">{{ $t("pages.bseu-application.application-header.title") }}</div>
+      <h1 class="application-header__title">{{ $t("pages.bseu-application.application-header.title") }}</h1>
       <div class="application-header__text">
         {{ $t("pages.bseu-application.application-header.text") }}
       </div>

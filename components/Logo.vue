@@ -1,6 +1,6 @@
 <template>
   <div class="logo" :style="{ color: current_color }">
-    <img src="@/assets/images/logo-bseu.png" class="logo__img"/>
+    <img src="@/assets/images/logo-bseu.png" class="logo__img" alt="logo"/>
     <div class="logo__text">бгэу</div>
   </div>
 </template>

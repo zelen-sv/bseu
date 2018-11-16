@@ -1,8 +1,8 @@
 <template>
   <div class="requalification-specialties-data content-section">
-    <div class="requalification-specialties-data__title content-section__legend">
+    <h1 class="requalification-specialties-data__title content-section__legend">
       {{ $t("pages.requalification.requalification-specialties-data.legend") }}
-    </div>
+    </h1>
     <div class="buttons-toggle">
       <div class="buttons-toggle__item buttons-toggle__item_hovered button_toggle_active button">
         {{ $t('educationForm.zaochno') }}

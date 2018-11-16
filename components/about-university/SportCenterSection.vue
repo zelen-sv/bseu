@@ -10,7 +10,7 @@
     <p>{{ $t("pages.about-university.sport-center-section.description_p3") }}</p>
     <div v-viewer.static="" class="images-row hostel-viewer-images">
       <template v-for="{original, thumbnail} in images">
-        <img :src="thumbnail" :data-source="original" class="images-row__item" :key="original.id">
+        <img :src="thumbnail" :data-source="original" class="images-row__item" alt="sport center image" :key="original.id">
       </template>
     </div>
   </div>

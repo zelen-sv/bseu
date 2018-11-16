@@ -3,6 +3,7 @@
     <img v-for="image in images"
          :key="image.id"
          :src="require(`@/assets/images/header-images/${image}`)"
+         alt='header image'
          :class="image == mainImage ? 'four-images-header__picture_mobile': ''"
          class="four-images-header__picture">
   </div>
