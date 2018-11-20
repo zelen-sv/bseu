@@ -1,7 +1,7 @@
 export default [
   {
-    title: "Банковское дело",
-    qualification: ["Специалист банковского дела"],
+    title: "Bank işi",
+    qualification: ["Ykdysatçy"],
     term: "18 мес",
     price: 1500
   },
@@ -12,20 +12,20 @@ export default [
     price: 1500
   },
   {
-    title: "Бухгалтерский учет и контроль в промышленности ",
-    qualification: ["бухгалтер-экономист"],
+    title: "Senagatda buhgalter hasabatlylygy, barlag we audit",
+    qualification: ["Ykdysatçy"],
     term: "18 мес",
     price: 1500
   },
   {
-    title: "Логстика",
+    title: "Logistika",
     qualification: ["специалист по логистике-экономист"],
     term: "18 мес",
     price: 1500
   },
   {
-    title: "Маркетинг",
-    qualification: ["маркетолог"],
+    title: "Marketing",
+    qualification: ["marketolog"],
     term: "18 мес",
     price: 1500
   },
@@ -42,8 +42,8 @@ export default [
     price: 1500
   },
   {
-    title: "Экономика и управление в предпринимательской деятельности",
-    qualification: ["экономист-менеджер"],
+    title: "Senagat kärhanasynda ykdysadyýet we dolandyryş",
+    qualification: ["Ykdysatçy menedžer"],
     term: "18 мес",
     price: 1500
   },
@@ -78,8 +78,8 @@ export default [
     price: 1500
   },
   {
-    title: "Финансовый менеджмент",
-    qualification: ["менеджер-экономист"],
+    title: "Maliýe dolandyryşy",
+    qualification: ["Ykdysatçy"],
     term: "20 мес",
     price: 1500
   },
@@ -90,14 +90,14 @@ export default [
     price: 1500
   },
   {
-    title: "Правоведение",
-    qualification: ["юрист"],
+    title: "Hukukşynaslyk",
+    qualification: ["Kanunçy"],
     term: "21 мес",
     price: 1500
   },
   {
-    title: "Коммерческая деятельность на рынке товаров потребительского спроса",
-    qualification: ["экономист"],
+    title: "Halkyň sarp edýän harytlary bazarynda täjirçilik işleri",
+    qualification: ["Ykdysatçy"],
     term: "22 мес",
     price: 1500
   },
@@ -108,14 +108,14 @@ export default [
     price: 1500
   },
   {
-    title: "Международный маркетинг",
-    qualification: ["маркетолог"],
+    title: "Halkara marketing",
+    qualification: ["marketolog"],
     term: "22 мес",
     price: 1500
   },
   {
-    title: "Экономика труда",
-    qualification: ["экономист"],
+    title: "Zähmet ykdysadyýeti",
+    qualification: ["Ykdysatçy-menedžer"],
     term: "24 мес",
     price: 1500
   }
