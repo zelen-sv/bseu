@@ -1,18 +1,18 @@
 export default [
   {
-    title: "Профиль Экономический",
+    title: "Ykdysadyýet Profili",
     price: "2000"
   },
   {
-    title: "Профиль Иностранный язык",
+    title: "Daşary ýurt dili Profili",
     price: "3000"
   },
   {
-    title: "Профиль Медицинский (на английском языке)",
+    title: "Lukmançylyk Profili (iňlis dilinde)",
     price: "2600"
   },
   {
-    title: "Профиль Медицинский (на русском языке)",
+    title: "Lukmançylyk Profili (rus dilinde)",
     price: "1700"
   }
 ]

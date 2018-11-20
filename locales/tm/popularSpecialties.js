@@ -1,47 +1,47 @@
-export default [
+  export default [
   {
-    title: "Мировая экономика",
+    title: "Dünýä ykdysadyýeti",
     faculty: {
-      title: "Факультет международных экономических отношений"
+      title: "Halkara ykdysady gatnaşyklar fakulteti"
     },
     term: "4",
     price: "3000",
     educationForm: "Ochno",
     educationType: "First",
-    description: "Привлечение инвесторов из-за рубежа, а также организация сотрудничества с ними по всем актуальным вопросам – ключевая задача специалиста профиля. Помимо финансовой отчетности и моделирования, составления планов потребуется владение навыками коммуникации с различными структурами (банковскими учреждениями, финансовыми организациями, компаниями).Экономист международного профиля не только владеет лучшими зарубежными наработками и практикой, но и занимается взаимодействием с иностранными контрагентами и партнерами. Управление внешнеэкономической деятельностью требует высокой квалификации во многих экономических направлениях национальной и международной экономики.",
-    qualification: ["экономист"],
+    description: "Halkara profilli ykdysatçy diňe bir daşary ýurt ykdysady işleri we tejribesi başarnyklaryna däl, eýsem daşary ýurt kontragent we hyzmatdaşlary bilen bilelikde işlemek başarnygyna hem eýe bolmalydyr. Daşary ykdysadyýet işini dolandyrmak üçin birnäçe milli we halkara ykdysadyýet ugurlary boýunça kwalifikasiýalara eýe bolmak gereklidir.",
+    qualification: ["Ykdysatçy"],
     image: require("@/assets/images/popular_specialty_1.jpg")
   },
   {
-    title: "Правоведение",
+    title: "Hukukşynaslyk",
     faculty: {
-      title: "Факультет права"
+      title: "Hukuk fakulteti"
     },
     term: "4",
     price: "3000",
     educationForm: "Ochno",
     educationType: "First",
-    description: "Торговля между государствами и частными субъектами хозяйствования – перспективное направление. Правоведы, способные сопроводить сложные формы расчетов (аккредитив, инкассо, прочие варианты) всегда востребованы. Уровень зарплаты, как правило, значительно выше аналогичных специалистов, работающих на внутреннем рынке. Особенно уверенно владеющих одним из основных иностранных языков. Юридическое сопровождение бизнеса требует комплексных знаний в области юриспруденции и экономики. Подготовленный специалист такого профиля может выступать гарантом внешнеэкономических сделок, привлечения заемных средств, лизинговых операций, взаимодействия с многочисленными контрагентами. Юрист-экономист – эксперт, владеющий знаниями в области налогообложения, фондового рынка и бирж, заключения разнообразных договоров, денежных документов об обеспечении платежа.",
-    qualification: ["юрист"],
+    description: "Reglamentirleme we hojalyk işleriniň yzarlanmagy bilen meşgullanýan hünärmenleriň taýýarlanmagy boýunça öňde barýan ugurlardan biridir. Bu hünär kadalaşdyryjy hukuk kanunlarynyň we milli ykdysadyýetiň esaslaryna düşünmegi talap edýär. Hojalyk pudagy hukukşynasy hünärmenleri iş berýänler tarapyndan uly talapdan peýdalanýandyr. Işewürligiň kanun taýdan yzarlanmagy, hukukşynaslyk we ykdysadyýet pudaklarynda köp-ugurly bilimiň bar bolmagyny talap edýär. Şeýle profilde taýýarlanan hünärmen, daşary ykdysadyýet ylalaşyklarynyň, karz serişdeleriniň çekilmeginiň, lizing işleriniň, köp sanly kontragentler bilen aragatnaşygyň kepili bolup çykyş eder. Ykdysatçy hukukşynas – salgyt salma, gazna bazary we biržalar, dürli şertnamalaryň baglaşylmagy, töleg üpjünçiligi barada pul resminamalary hünärmenidir.",
+    qualification: ["Kanunçy"],
     image: require("@/assets/images/popular_specialty_2.jpg")
   },
   {
-    title: "Бизнес-администрирование",
+    title: "Işewürligi-dolandyryş",
     faculty: {
-      title: "Факультет международных экономических отношений"
+      title: "Halkara ykdysady gatnaşyklar fakulteti"
     },
     term: "4",
     price: "3000",
     educationForm: "Ochno",
     educationType: "First",
-    description: "Управленцы экономического профиля – это топ-менеджеры, способные должным образом организовать и регулировать различные процессы, происходящие в отдельно взятом субъекте хозяйствования. В процессе подготовки студента немаловажное значение уделяется овладению навыками управления в рыночной экономике. Основное внимание посвящено двум направлениям: хозяйственное право и экономическая теория. Практика неотделима от теории, поскольку экономическое обоснование проекта, определенные управленческие решения, связанные с планирование и развитием субъекта основаны на конкретных экономических законах.",
-    qualification: ["менеджер-экономист"],
+    description: "Ykdysadyýet profilli dolandyryjylar – aýratyn hojalyk subýektinde bolup geçýän dürli işleri gerekli bolşy ýaly gurnamagy we kadalaşdyrylmagy başarýan ýokary derejeli menedžerlerdir. Bu talyplaryň taýýarlanmagynda dolandyryş we bazar ykdysadyýeti başarynklaryna aýratyn üns berilýär. Aýratyn ähmiýet iki ugra berlen: hojalyk kanuny we ykdysadyýet nazaryýeti. Amalyýeti nazaryýetden aýyrmak mümkin däl, sebäbi taslamanyň ykdysady taýdan esaslandyrylmagy, subýektiň meýilleşdirilmegi we ösdürilmegi bilen baglanşykly belli dolandyryş başarnyklary anyk ykdysadyýet kanunlaryna esaslandyrylandyr.",
+    qualification: ["Ykdysatçy-menedžer"],
     image: require("@/assets/images/popular_specialty_3.jpg")
   },
   {
     title: "Туристическая индустрия",
     faculty: {
-      title: "Факультет коммерции и туристической индустрии"
+      title: "Täjirçilik we syýahat pudagy fakulteti"
     },
     term: "4",
     price: "3000",
@@ -52,42 +52,42 @@ export default [
     image: require("@/assets/images/popular_specialty_4.jpg")
   },
   {
-    title: "Международная экономика и коммерческая дипломатия",
+    title: "Halkara ykdysadyýet we täjirçilik diplomatiýasy",
     faculty: {
-      title: "Практико-ориентированная магистратура"
+      title: "Amalyýete gönükdirilen magistratura"
     },
     term: "1",
     price: "3200",
     educationForm: "Ochno",
     educationType: "Magistracy",
-    description: "Мировая экономика не стоит на месте. Современные тенденции быстро обновляются. В рамках данной программы слушатели обретают знания принципиально нового порядка. Магистр сможет найти применение в международной экономике, политике и дипломатии. Преподавание ведется на русском и английском языках. Вторая степень освоения экономических знаний на качественно ином уровне. Магистр экономики способен занимать самые высокие должности в компаниях любого уровня. Может стать преподавателем экономических дисциплин. При выборе программы следует учитывать наиболее близкую сферу: банковская деятельность, региональная, национальная и международная торговля, финансы, экономическая теория и прочие направления.",
-    qualification: ["магистр экономики"],
+    description: "Bu programma doly iňlis dilinde geçirilýär. Bu özüniň daşary ýurt dilini kämilleşdirmek isleýän belarus talyplar üçin bolşy ýaly daşary ýurtly talyplar üçin hem peýdaly tejribe bolar. Täjirçilik diplomatiýasy – döwletlerarasy gatnaşyklary kadalaşdyrmak üçin täze esasy ugur bolup durýar. Ykdysadyýet bilimleriniň hil taýdan başga derejede özleşdirilýän ikinji dereje. Ykdysadyýet magistri islendik derejedäki kompaniýada iň ýokary derejeli wezipeleri alyp biler. Ykdysadyýet sapaklarynda mugallymçylyk edip biler. Programma saýlanan wagty has golaý pudagy saýlamak gereklidri: bank işleri, sebitleýin, milli ýa-da halkara söwda, maliýe, ykdysadyýet nazaryýeti we beýleki ugurlar.",
+    qualification: ["Ykdysadyýet magistri"],
     image: require("@/assets/images/popular_specialty_5.jpeg")
   },
   {
-    title: "Топ менеджемент",
+    title: "Top-menedžment",
     faculty: {
-      title: "Практико-ориентированная магистратура"
+      title: "Amalyýete gönükdirilen magistratura"
     },
     term: "1,5",
     price: "2200",
     educationForm: "Zaochno",
     educationType: "Magistracy",
-    description: "К руководителям «высшего звена» предъявляются повышенные требования в плане владения специальными экономическими знаниями, а также владения управленческими навыками. Данная программа направлена на подготовку высококвалифицированных менеджеров, способных безошибочно руководить подразделениями и структурами компании. Владение экономическими и управленческими навыками позволяет одновременно совмещать несколько руководящих должностей. Прохождение программы позволит пройти дальше по карьерной лестнице специалисту. Информация об управлении коллективом, основными бизнес-процессами поможет как уже состоявшимся руководителям, так и прочим работникам.",
-    qualification: ["магистр экономики и управления"],
+    description: "“Iň ýokary halka” dolandyryjylaryna ýörite ykdysady bilim derejeleri we dolandyryş başarnyklaryna degişlilikde ýokarlandyrylan talaplar bildirilýär. Bu programma kompaniýanyň bölümleri we gurluşlaryny ýalňyşsyz dolandyrmaga ukyply ýokary kwalifikasiýaly menedžerleriň ýetişdirilmegine gönükdirilendir. Ykdysady we dolandyryjylyk başarnyklaryny özleşdirmek birnäçe dolandyryjylyk wezipelerini bilelikde ýöretmäge rugsat berýär. Programmanyň geçilmegi, hünärmeniň iş durmuşynda basgançaklardan has ýokary çykmagyna rugsat berer. Işgärleri, esasy işewürlik proseslerini dolandyrmak hakynda maglumatlar eýýäm ýetişen dolandyryjylara bolşy ýaly beýleki işgärlere hem kömek eder.",
+    qualification: ["Ykdysadyýet we dolandyryş magistri"],
     image: require("@/assets/images/popular_specialty_6.jpg")
   },
   {
-    title: "Международный бизнес",
+    title: "Halkara işewürlik",
     faculty: {
-      title: "Практико-ориентированная магистратура"
+      title: "Amalyýete gönükdirilen magistratura"
     },
     term: "1",
     price: "3200",
     educationForm: "Ochno",
     educationType: "Magistracy",
-    description: "Каждой из стран свойственна присущая им специфика в области организации бизнес-процессов. Поэтому для компаний, заинтересованных в выходе на зарубежные рынки, принципиально важно привлечь в штат квалифицированного экономиста и эксперта в одном лице. Программа, подходящая для практиков, имеющих определенный опыт работы в сфере и желающих повысить свою квалификацию с целью занятия на более оплачиваемых должностей и карьерного роста. Выпускник может стать директором компании, а также менеджером высшего звена самых разнообразных направлений бизнеса.",
-    qualification: ["магистр экономики и управления"],
+    description: "Her bir döwletiň işewürlik-prosesleri dolandyrmaga degişli aýratyn häsiýetleri bardyr. Şol sebäpden hem daşary ýurt bazarlaryna çykmaga gyzyklanma bildirýär kompaniýalar üçin, bir şahysda ýokary hilli ykdysatçyny we hünärmeni işgärleriniň arasyna almak örän ähmiýetlidir. Bu programma, pudakda belli mukdarda iş tejribesi bolan we has köp tölenýän wezipelere geçmek hem iş durmuşynda has köp üstünlik gazanmak üçin öz kwalifikasiýasyny ýokarlandyrmak isleýänler üçin amatlydyr. Uçurum, kompaniýanyň müdiri ýa-da işewürligiň dürli görnüşlerindäki ugurlarynda iň ýokary derejeli menedžer wezipesinde işläp biler.",
+    qualification: ["Işewürlik-dolandyryş magistri"],
     image: require("@/assets/images/popular_specialty_7.jpg")
   },
   {
