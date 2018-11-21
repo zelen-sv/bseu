@@ -1,5 +1,5 @@
 <template>
-    <specialties-list :loading="loading" :specialties="specialties"/>
+    <specialties-list :loading="educationProgramState.loading" :specialties="specialtiesByEducationForm"/>
 </template>
 
 <script>
@@ -19,20 +19,15 @@
         default: 'ochno'
       }
     },
-    data () {
-      return {
-        loading: true
-      }
-    },
     mounted () {
-      let payload = { education_program: this.education_program, locale: this.$i18n.locale }
-      this.$store.dispatch('getSpecialtiesByEducationProgram', payload)
-      this.loading = false
+      this.$store.dispatch('getSpecialties', this.education_program)
     },
     computed: {
-      specialties () {
-        let specialties = this.$store.getters.specialtiesByEducationProgram(this.education_program)
-        return specialties.filter(specialty => specialty.education_form == this.education_form)
+      educationProgramState () {
+        return this.$store.state.specialties[this.education_program]
+      },
+      specialtiesByEducationForm () {
+        return this.educationProgramState.specialtiesList.filter(specialty => specialty.education_form == this.education_form)
       }
     }
   }

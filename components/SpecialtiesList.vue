@@ -20,7 +20,7 @@
   export default {
     props: {
       specialties: {
-        type: Array
+        default: []
       },
       loading: {
         type: Boolean,
@@ -40,7 +40,7 @@
     methods: {
       openSpecialtyModal(specialty) {
         this.$store.dispatch('showModal', 'SpecialtyModal')
-        this.$store.dispatch('activateSpecialty', specialty)
+        this.$store.dispatch('setCurrentSpecialty', specialty)
       },
       facultySpecialties (faculty) {
         return this.specialties.filter(specialty => { return specialty.faculty == faculty })

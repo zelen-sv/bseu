@@ -31,7 +31,7 @@
     methods: {
       openSpecialtyModal(specialty) {
         this.$store.dispatch('showModal', 'SpecialtyModal')
-        this.$store.dispatch('activateSpecialty', specialty)
+        this.$store.dispatch('setCurrentSpecialty', specialty)
       }
     }
   }
