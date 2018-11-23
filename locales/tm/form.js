@@ -21,7 +21,7 @@ export default {
     "education_type": {
       "label": "Okuw maksatnamasy",
       "bakalavr": "Birinji ýokary (Bakalawrlyk)",
-      "magistracy": "магистратура",
+      "magistracy": "Magistratura",
       "second-higher": "Ikinji ýokary",
       "training": "Taýýarlyk bölümi",
       "courses": "Rus dili kurslary"

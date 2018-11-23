@@ -2,7 +2,7 @@
   <div class="countries-select">
     <v-select :options="countries"
               v-model="country"
-              placeholder="Выберите страну"
+              :placeholder="$t('components.countries-select.placeholder')"
               max-height="200px"
               @input="updateCountry" />
   </div>

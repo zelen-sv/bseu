@@ -18,10 +18,10 @@ export default {
         "description_p1": "Ýurduň ykdysadyýet profilli öňde baryjy ýokary bilim berýän okuw jaýydyr,<br /> ol hemişe ösmäge we netijeli bilim beriş şekil we usullary gözlemäge dowam edýär.",
         "description_p2": "Bu uniwersitetde ykdysadyýet, dolandyryş, hukuk, aragatnaşyk pudaklary üçin dürli ugurlarda hünärmenler taýýarlanylýarlar.",
         "description_p3": "BDYU-nyň okuw-bilim infrastruktura kompleksi şulardan emele gelýär: 11 fakultet, 49 bölüm, ykdysadyýet hünärmenleriniň kwalifikasiýany ýokarlandyryş we täzeden taýýarlyk Instituty, magistr taýýarlyk Instituty, şahamçalary: Minsk täjirçilik kolledži, Minsk maliýe-ykdysadyýet kolledži, Nowogruk söwda-ykdysadyýet kolledži; kitaphana, talyp şäherçesi, sport we söwda kompleksi.",
-        "details": "Подробнее об университете"
+        "details": "Uniwersitet hakynda"
       },
       "questions-section": {
-        "legend": "Часто задаваемые вопросы",
+        "legend": "Ýygylyk bilen soralýan soraglar",
         "show_questions": "Ähli soraglary gör >",
         "hide_questions": "Скрыть часть вопросов <"
       },
@@ -42,8 +42,8 @@ export default {
       "sidebar": {
         "bseu-education": "BDYU-da ýokary bilim",
         "specialties-list": "Hünärmenlikleriň sanawy",
-        "admission-documents": "Документы для поступления",
-        "local-documents": "Документы по приезду",
+        "admission-documents": "Giriş üçin resminamalar",
+        "local-documents": "Gelen wagtyňyzda resminamalaryňyz",
         "admission": "Nädip girmeli"
       },
       "bseu-section": {
@@ -65,8 +65,8 @@ export default {
       "sidebar": {
         "bseu-education": "BDYU-da ikinji ýokary bilim",
         "specialties-list": "Hünärmenlikleriň sanawy",
-        "admission-documents": "Документы для поступления",
-        "local-documents": "Документы по приезду",
+        "admission-documents": "Giriş üçin resminamalar",
+        "local-documents": "Gelen wagtyňyzda resminamalaryňyz",
         "admission": "Nädip girmeli"
       },
       "bseu-section": {
@@ -88,8 +88,8 @@ export default {
       "sidebar": {
         "bseu-education": "Magistratura",
         "specialties-list": "Hünärmenlikleriň sanawy",
-        "admission-documents": "Документы для поступления",
-        "local-documents": "Документы по приезду",
+        "admission-documents": "Giriş üçin resminamalar",
+        "local-documents": "Gelen wagtyňyzda resminamalaryňyz",
         "admission": "Nädip girmeli"
       },
       "bseu-section": {
@@ -250,12 +250,12 @@ export default {
       "second-higher": "Ikinji ýokary bilim",
       "first-higher": "Birinji ýokary bilim",
       "prepare-courses": "Taýýarlyk we kurslar",
-      "documents-button": "Подача заявления"
+      "documents-button": "Arza tabşyr"
     },
     "main-footer": {
-      "link_1": "Главная",
-      "link_2": "Частые вопросы",
-      "link_3": "ONLAÝN ARZA TABŞYRMAK",
+      "link_1": "Baş sahypa",
+      "link_2": "Uniwersitet hakynda",
+      "link_3": "Onlaýn arza tabşyrmak",
       "development": "Web sahypanyň taýýarlanmagy, öňe sürülmegi we aragatnaşyk – JÇJ ‘Aktorius’"
     },
     "specialty-modal": {
@@ -263,7 +263,7 @@ export default {
       "term_text_2": "(ýyl sany)",
       "price": "Bahasy",
       "price_in_year": "ýyllyk",
-      "education_form_text": "Обучение",
+      "education_form_text": "Okuw",
       "description_title": "Nämeler öwrenersiňiz",
       "qualification_title": "Kim bolarsyňyz",
     },
@@ -329,7 +329,7 @@ export default {
       "year": "Ýyl"
     },
     "countries-select": {
-      "placeholder": "Выберите страну"
+      "placeholder": "Yurdyňyzy saýlaň"
     },
     "phone-input": {
       "placeholder": "Belgini ýazyň"
@@ -338,15 +338,15 @@ export default {
     "application_button": "ONLAÝN ARZA TABŞYRMAK"
   },
   "educationForm": {
-    "Ochno": "Gündizki görnüş",
-    "Zaochno": "Gaýybana",
-    "Remote": "Uzakdan"
+    "ochno": "Gündizki görnüş",
+    "zaochno": "Gaýybana",
+    "remote": "Uzakdan"
   },
-  "educationType": {
-    "First": "Birinji ýokary (Bakalawrlyk)",
-    "Second": "Ikinji ýokary",
-    "Magistracy": "Magistratura",
-    "Retraining": "Kämilleşdirme"
+  "educationProgram": {
+    "first": "Birinji ýokary (Bakalawrlyk)",
+    "second": "Ikinji ýokary",
+    "magistracy": "Magistratura",
+    "retraining": "Kämilleşdirme"
   },
   "visaMode": {
     "with-visa": "WIZA GEREK",

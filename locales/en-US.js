@@ -18,7 +18,7 @@ export default {
         "description_p1": "is the leading institution of economic profile for higher education in the country, </br> it is in constant development and search for effective forms and methods of education.",
         "description_p2": "The university provides training for specialists of wide range of specialties in the field of economics, management, law, and communications.",
         "description_p3": "The infrastructure of the educational and scientific complex of the BSEU consists of 11 faculties, 49 departments, the Institute for Advanced Studies and Retraining of Economic Personnel, the Institute for Master's Degree, branches: Minsk Trade College, Minsk Finance and Economics College, Novogrudok Trade and Economics College; library, student campus, sports and shopping complexes.",
-        "details": "Подробнее об университете"
+        "details": "About university"
       },
       "questions-section": {
         "legend": "Frequently asked Questions",
@@ -42,8 +42,8 @@ export default {
       "sidebar": {
         "bseu-education": "Higher education BSEU",
         "specialties-list": "List of specialties",
-        "admission-documents": "Документы для поступления",
-        "local-documents": "Документы по приезду",
+        "admission-documents": "Documents for entrance",
+        "local-documents": "Documents on your arrival",
         "admission": "How to join"
       },
       "bseu-section": {
@@ -250,7 +250,7 @@ export default {
       "second-higher": "Second higher education",
       "first-higher": "First higher education",
       "prepare-courses": "Training and courses",
-      "documents-button": "Подача заявления"
+      "documents-button": "Online application"
     },
     "main-footer": {
       "link_1": "Main",
@@ -329,7 +329,7 @@ export default {
       "year": "Year"
     },
     "countries-select": {
-      "placeholder": "Выберите страну"
+      "placeholder": "Сhoose country"
     },
     "phone-input": {
       "placeholder": "Enter the number"
