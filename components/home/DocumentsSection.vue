@@ -3,7 +3,7 @@
     <div class="documents-section__cards_list">
       <div v-for="document_item in current_documents" :key="document_item.id" class="documents-section__card">
         <div class="documents-section__card-title">{{ document_item.title }}</div>
-        <document-file-link class="documents-section__card-link" text="Скачать" :link="document_item.document_link"/>
+        <document-file-link class="documents-section__card-link" :text="$t('pages.home.faq-component.download')" :link="document_item.document_link"/>
       </div>
     </div>
     <div class="documents-section__controls">

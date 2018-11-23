@@ -4,7 +4,7 @@
       <v-select :options="rangeDays"
                 :required="required"
                 v-model="day"
-                placeholder="День"
+                :placeholder="$t('components.date-picker.day')"
                 max-height="300px"
                 @input="updateDate" />
     </div>
@@ -12,7 +12,7 @@
       <v-select :options="rangeMonthes"
                 :required="required"
                 v-model="month"
-                placeholder="Месяц"
+                :placeholder="$t('components.date-picker.month')"
                 max-height="300px"
                 @input="updateDate" />
     </div>
@@ -20,7 +20,7 @@
       <v-select :options="rangeYears"
                 :required="required"
                 v-model="year"
-                placeholder="Год"
+                :placeholder="$t('components.date-picker.year')"
                 max-height="300px"
                 @input="updateDate"/>
     </div>

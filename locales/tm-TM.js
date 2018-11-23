@@ -10,7 +10,7 @@ export default {
   "pages": {
     "home": {
       "home-header": {
-        "title": "Это выбор лучших",
+        "title": "Bu iň gowularyň saýlaýany",
         "button": "ONLAÝN ARZA TABŞYRMAK"
       },
       "bseu-section": {
@@ -22,9 +22,11 @@ export default {
       },
       "questions-section": {
         "legend": "Часто задаваемые вопросы",
+        "show_questions": "Ähli soraglary gör >",
+        "hide_questions": "Скрыть часть вопросов <"
       },
       "specialties-section": {
-        "legend": "Популярные специальности",
+        "legend": "Meşhur hünärler",
         specialties: popularSpecialties
       },
       "select-admission": {
@@ -32,13 +34,14 @@ export default {
       },
       "faq-component": {
         questions: questions,
-        documents: documents
+        documents: documents,
+        "download": "Düşürip al"
       }
     },
     "first-higher": {
       "sidebar": {
         "bseu-education": "BDYU-da ýokary bilim",
-        "specialties-list": "Список специальностей",
+        "specialties-list": "Hünärmenlikleriň sanawy",
         "admission-documents": "Документы для поступления",
         "local-documents": "Документы по приезду",
         "admission": "Nädip girmeli"
@@ -51,8 +54,8 @@ export default {
       },
       "specialties-data-section": {
         "legend": "Biziň hünärmenliklerimiz",
-        "ochno": "очно",
-        "zaochno": "заочно"
+        "ochno": "Gündizki görnüş",
+        "zaochno": "Gaýybana"
       },
       "how-to-enter": {
         "legend": "Nädip girmeli"
@@ -61,7 +64,7 @@ export default {
     "second-higher": {
       "sidebar": {
         "bseu-education": "BDYU-da ikinji ýokary bilim",
-        "specialties-list": "Список специальностей",
+        "specialties-list": "Hünärmenlikleriň sanawy",
         "admission-documents": "Документы для поступления",
         "local-documents": "Документы по приезду",
         "admission": "Nädip girmeli"
@@ -74,8 +77,8 @@ export default {
       },
       "specialties-data-section": {
         "legend": "Biziň hünärmenliklerimiz",
-        "zaochno": "Заочно",
-        "remote": "Дистанционно"
+        "zaochno": "Gaýybana",
+        "remote": "Uzakdan"
       },
       "how-to-enter": {
         "legend": "Nädip girmeli"
@@ -84,7 +87,7 @@ export default {
     "magistracy": {
       "sidebar": {
         "bseu-education": "Magistratura",
-        "specialties-list": "Список специальностей",
+        "specialties-list": "Hünärmenlikleriň sanawy",
         "admission-documents": "Документы для поступления",
         "local-documents": "Документы по приезду",
         "admission": "Nädip girmeli"
@@ -97,8 +100,8 @@ export default {
       },
       "specialties-data-section": {
         "legend": "Biziň hünärmenliklerimiz",
-        "zaochno": "Заочно",
-        "ochno": "Очно"
+        "zaochno": "Gaýybana",
+        "ochno": "Gündizki görnüş"
       },
       "how-to-enter": {
         "legend": "Nädip girmeli"
@@ -119,10 +122,10 @@ export default {
         "description_p2": "Dört programma göz öňünde tutulan, şolaryň çäklerinde daşary ýurtly talyplaryň uýgunlaşmagy ýöredilýär. Olar okuwyň dowamynda talyp tarapyndan özleşdiriljek hünär tarapyndan anyklanylýar:",
         "description_p3": "Uniwersitetiň taýýarlyk bölümi kursuň gutarmagy, ony üstünlik bilen tamamlan gatnaşyjylara goşmaça giriş synaglaryna gatnaşmazdan okuwa dowam etmäge ygtyýar berýän şahadatnamanyň berilmegi bilen netijelenýär (gaýybana däl, magistratura ýa-da aspirantura). Sapaklar 8-10 adamlyk uly bolmadyk toparlar bilen geçirilýär.",
         "description_p4": "Daşary ýurtlylar üçin taýýarlyk bölümi – bu diňe bir rus dili boýunça başarnyklary däl-de eýsem geljekki hünärmenligiň esaslary bilen tanyşmak üçin hem ajaýyp mümkinçilikdir. Sapaklaryň dowamynda ýörite usullar ulanylýar, daşary ýurtlar üçin ýörite taýýarlanan okuw kitaplarynan peýdalanylýar. Synplar, kompýuterler we wideo materiallaryň görülmegi üçin beýleki enjamlar bilen enjamlaşdyrylandyr. Gerekli bolan ýagdaýynda okuwçylar talyp umumy ýaşaýyş jaýlarynda ýaşar ýaly ýer bilen üpjün edilerler (okuw töleginiň daşyndan – aýda 40-50 ABŞ dollary). Sapaklar, öwredýän ugurlaryny kämil derejede bilýän tejribeli mugallymlar tarapyndan geçiriler.",
-        "icon-1": "Поступай без экзаменов *",
-        "icon-2": "Группы по 8 - 10 человек",
-        "icon-3": "Срок обучения 10 месяцев",
-        "icon-4": "Общежитие 40-50$/ месяц",
+        "icon-1": "Synagsyz gir *",
+        "icon-2": "8-10 adamlyk toparlar",
+        "icon-3": "Okuw möhleti 10 aý",
+        "icon-4": "Umumy ýaşaýyş jaýy aýlyk 40-50$",
         "additionally": "*  Taýýarlyk bölümini üstünlik bilen gutaran we gerekli derejede bilimini tassyklaýan resminamalary bolan daşary ýurt raýatyna oňa uniwersitetde goşmaça giriş synagyna gatnaşmazdan talyp, magistr, aspirant hökmünde bilim almaga hukuk berýän döwlet derejeli şahadatnama berilýär.",
       },
       "training-cost-data": {
@@ -164,9 +167,9 @@ export default {
       },
       "bseu-section": {
         "legend": "Belarus döwlet ykdysadyýet uniwersiteti",
-        "description_p1": "Решение – поступить в BDYU для иностранных граждан в любом случае выигрышное. Данный ВУЗ является ведущим научно-практическим центром Беларуси. Осваиваемые здесь специальности являются актуальными, а подготавливаемые специалисты всегда востребованы в своих странах. Белорусское экономическое образование, полученное в рамках первой ступени, находится на хорошем счету во многих зарубежных странах, а сам университет постоянно занимает уверенные позиции в профильных рейтингах.",
-        "description_p2": "Иностранные граждане получают BDYU-da ýokary bilim на платной основе. Приемная кампания длится с 30 августа до 15 октября. Наравне с остальными студентами сформированные учебные группы после успешного прохождения вступительных экзаменов приступают к занятиям. При необходимости перед непосредственным изучением экономики в BDYU возможна адаптация в рамках подготовительного факультета (изучение русского, белорусского языков, подготовка к вступительным экзаменам).",
-        "description_p3": "Желаете стать успешным маркетологом, освоить международную логистику или бизнес-администрирование? Доступен широкий выбор специальностей BDYU, полный перечень которых представлен далее на этой странице. Выбирайте подходящее направление!"
+        "description_p1": "BDYU-ne girmek karary, daşary ýurt raýatlary üçin hemme tarapdan bähbitli netije berer. Bu ýokary okuw jaýy Belarusyň öňde barýan ylmy-tejribe merkezi bolup durýar. Bu ýerde özleşdirilýän hünärler döwür bilen laýyk gelýär we bu ýokary okuw jaýyny gutaran talyplar öz ýurtlarynda talap edilýän hünärmenler bolýarlar. 1-nji basgançak çäklerinde alnan Belarus ykdysadyýet bilimi daşary ýurtlaryň köpüsinden abraýdan peýdalanýar, uniwersitetiň özi bolsa profil sanawnamalarynda hemişe ýokary derejeleri eýeleýär.",
+        "description_p2": "Daşary ýurt raýatlary, BDYU-da tölegli esasda ýokary bilim alýarlar. Kabul ediş çäreleri 30-njy awgustdan 15-nji oktýabra çenli dowam edýär. Beýleki talyplar bilen bilelikde, taýýarlanan okuw toparlary giriş synaglaryndan üstünlik bilen geçenlerinden soň sapaklara başlaýarlar. Gerekli bolan ýagdaýynda BDYU-da ykdysadyýet öwrenmäge başlamazdan öň, taýýarlyk fakultetiniň çäklerinde uýgunlaşma geçmek hem mümkindir (rus, belarus dillerini öwrenmek, giriş synaglaryna taýýarlanmak).",
+        "description_p3": "Üstünlikli marketolog bolmak, halkara logistikany ýa-da işewürlik-dolandyryşy özleşdirmek isleýäňizmi? BDYU-da saýlamak üçin hünärmenlikleriň dürli görnüşleri bar, şu sahypanyň aşagynda olaryň sanawnamasy görkezilendir. Özüňize laýyk ugry saýlap alyň!"
       },
       "hostel-section": {
         "legend": "Umumy ýaşaýyş jaýy",
@@ -194,9 +197,9 @@ export default {
     },
     "bseu-application": {
       "application-header": {
-        "title": "Подача онлайн заявления",
+        "title": "Onlaýn arza tabşyr",
         "text": "BDYU-nyň okuw-bilim infrastruktura kompleksi şulardan emele gelýär: 11 fakultet, 49 bölüm, ykdysadyýet hünärmenleriniň kwalifikasiýany ýokarlandyryş we täzeden taýýarlyk Instituty, magistr taýýarlyk Instituty, şahamçalary: Minsk täjirçilik kolledži, Minsk maliýe-ykdysadyýet kolledži, Nowogruk söwda-ykdysadyýet kolledži; kitaphana, talyp şäherçesi, sport we söwda kompleksi.",
-        "warning": "Обращаем Ваше внимание, что все поля обязательны для заполнения"
+        "warning": "Ähli ýerleriň doldurylmalydygynyň gereklidigini ýatdan çykarmaň"
       }
     },
     "requalification": {
@@ -242,19 +245,27 @@ export default {
   "components": {
     "navbar": {
       "magistracy": "Magistratura",
-      "about-university": "Об университете",
+      "about-university": "Uniwersitet hakynda",
       "requalification": "Kämilleşdirme",
-      "second-higher": "Второе высшее",
-      "first-higher": "Первое высшее",
-      "prepare-courses": "Подготовка и курсы",
+      "second-higher": "Ikinji ýokary bilim",
+      "first-higher": "Birinji ýokary bilim",
+      "prepare-courses": "Taýýarlyk we kurslar",
       "documents-button": "Подача заявления"
     },
     "main-footer": {
-      "link_main": "Главная",
-      "link_questions": "Частые вопросы",
-      "link_documents": "ONLAÝN ARZA TABŞYRMAK",
-      "link_news": "Новости",
-      "development": "Разработка сайта, продвижение и коммуникации - ООО “Акториус”"
+      "link_1": "Главная",
+      "link_2": "Частые вопросы",
+      "link_3": "ONLAÝN ARZA TABŞYRMAK",
+      "development": "Web sahypanyň taýýarlanmagy, öňe sürülmegi we aragatnaşyk – JÇJ ‘Aktorius’"
+    },
+    "specialty-modal": {
+      "term_text_1": "Okuw möhleti",
+      "term_text_2": "(ýyl sany)",
+      "price": "Bahasy",
+      "price_in_year": "ýyllyk",
+      "education_form_text": "Обучение",
+      "description_title": "Nämeler öwrenersiňiz",
+      "qualification_title": "Kim bolarsyňyz",
     },
     "documents-list": {
       "admission-documents": {
@@ -312,22 +323,28 @@ export default {
       "details": "* bize geljek wagtyňyzy habar beriň we biz, gerekli bolsa sizi howa menzilinde garşylarys"
     },
     "date-picker": {
-      "monthes": monthes
+      "monthes": monthes,
+      "day": "Gün",
+      "month": "Aý",
+      "year": "Ýyl"
+    },
+    "countries-select": {
+      "placeholder": "Выберите страну"
     },
     "phone-input": {
-      "placeholder": "Введите номер"
+      "placeholder": "Belgini ýazyň"
     },
     "form": form,
     "application_button": "ONLAÝN ARZA TABŞYRMAK"
   },
   "educationForm": {
-    "Ochno": "Очное",
-    "Zaochno": "Заочно",
-    "Remote": "Дистанционно"
+    "Ochno": "Gündizki görnüş",
+    "Zaochno": "Gaýybana",
+    "Remote": "Uzakdan"
   },
   "educationType": {
-    "First": "Первое высшее",
-    "Second": "Второе высшее",
+    "First": "Birinji ýokary (Bakalawrlyk)",
+    "Second": "Ikinji ýokary",
     "Magistracy": "Magistratura",
     "Retraining": "Kämilleşdirme"
   },

@@ -1,26 +1,26 @@
 export default [
   {
-    title: 'Hünärmenlikleriň katalogy (birinji ýokary)',
+    title: 'Catalog of specialties (first higher)',
     document_link: 'documents/first-higher-specialties.pdf'
   },
   {
-    title: 'Hünärmenlikleriň katalogy (magistr derejesi)',
+    title: 'Catalog of specialties (master’s degree)',
     document_link: 'documents/magistracy-specialties.pdf'
   },
   {
-    title: 'Aspirantura we doktorantura',
+    title: 'Postgraduate and doctoral studies',
     document_link: 'documents/graduate-school.pdf'
   },
   {
-    title: 'Talyplaryň okuwynyň gurnalmagy we şertleri',
+    title: 'Organization and terms of training students',
     document_link: 'documents/training-dates.pdf'
   },
   {
-    title: 'Umumy şertler we möhletler',
+    title: 'General terms and conditions',
     document_link: 'documents/general-position.pdf'
   },
   {
-    title: 'Migrasiýa kanunçylygy',
+    title: 'Migration law',
     document_link: 'documents/immigration-law.pdf'
   }
 ]

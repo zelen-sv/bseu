@@ -3,55 +3,55 @@ export default {
     "all_fields_required": "Заполнены не все поля!",
   },
   "form-fields": {
-    "second_name": "Фамилия",
-    "first_name": "Имя",
+    "second_name": "Familiýa",
+    "first_name": "At",
     "gender": {
-      "label": "Пол",
-      "male": "мужской",
-      "female": "женский"
+      "label": "Jyns",
+      "male": "Erkek",
+      "female": "Aýal"
     },
-    "birthday": "Дата рождения",
-    "nationality": "Гражданство",
-    "passport_id": "Номер паспорта",
-    "passport_starts_at": "Дата выдачи паспорта",
-    "passport_ends_at": "Дата окончания паспорта",
-    "passport_authority": "Орган выдавший паспорт",
+    "birthday": "Doglan senesi",
+    "nationality": "Raýatlyk",
+    "passport_id": "Pasport belgisi",
+    "passport_starts_at": "Berlen senesi",
+    "passport_ends_at": "Pasportyň möhleti",
+    "passport_authority": "Pasporty beren edara",
     "email": "Email",
-    "phone": "Номер телефона",
+    "phone": "Telefon belgisi",
     "education_type": {
-      "label": "Программа обучения",
-      "bakalavr": "первое высшее (бакалавриат)",
+      "label": "Okuw maksatnamasy",
+      "bakalavr": "Birinji ýokary (Bakalawrlyk)",
       "magistracy": "магистратура",
-      "second-higher": "второе высшее",
-      "training": "подготовительное отделение",
-      "courses": "курсы русского языка"
+      "second-higher": "Ikinji ýokary",
+      "training": "Taýýarlyk bölümi",
+      "courses": "Rus dili kurslary"
     },
     "education_form": {
-      "label": "Форма обучения",
+      "label": "Okuw görnüşi",
       "ochno": {
-        label: "очно",
+        label: "Gündizki görnüş",
         value: "очно"
       },
       "zaochno": {
-        label: "заочно",
+        label: "Gaýybana",
         value: "заочно"
       },
       "remote": {
-        label: "дистанционно",
+        label: "Uzakdan",
         value: "дистанционно"
       }
     },
     "hostel": {
-      "label": "Потребность в общежитии",
-      "with": "в общежитии нуждаюсь",
-      "without": "в общежитии не нуждаюсь"
+      "label": "Umumy ýaşaýyş jaýy talaby",
+      "with": "Maňa umumy ýaşaýyş jaýynda ýer gerek",
+      "without": "Maňa umumy ýaşaýyş jaýynda ýer gerekli däl"
     },
     "arrival_date": {
-      "label": "Предполагаемая дата въезда в Республику Беларусь",
-      "span": "не заполняй это поле, если еще не купили билеты"
+      "label": "Belaru Respublikasyna gelmegiň meýilleşdirilýän senesi",
+      "span": "eger petekleri satyn almadyk bolsaňyz bu ýeri doldurmaň"
     }
   },
-  "button": "Отправить заявление",
+  "button": "Arzany ugrat",
   "application-modal": {
     "thanks": "Спасибо, ваше заявление отправлено и будет рассмотрено в ближайшее время!",
     "manager": "Наш менеджер свяжется с вами по телефону или по почте"

@@ -22,6 +22,8 @@ export default {
       },
       "questions-section": {
         "legend": "Часто задаваемые вопросы",
+        "show_questions": "Посмотреть все вопросы >",
+        "hide_questions": "Скрыть часть вопросов <"
       },
       "specialties-section": {
         "legend": "Популярные специальности",
@@ -32,7 +34,8 @@ export default {
       },
       "faq-component": {
         questions: questions,
-        documents: documents
+        documents: documents,
+        "download": "Скачать"
       }
     },
     "first-higher": {
@@ -320,7 +323,13 @@ export default {
       "details": "* сообщите нам за 3 дня дату прилета и мы, при необходимости, встретим вас в аэропорту"
     },
     "date-picker": {
-      "monthes": monthes
+      "monthes": monthes,
+      "day": "День",
+      "month": "Месяц",
+      "year": "Год"
+    },
+    "countries-select": {
+      "placeholder": "Выберите страну"
     },
     "phone-input": {
       "placeholder": "Введите номер"

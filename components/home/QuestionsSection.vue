@@ -61,9 +61,9 @@
       },
       questionsState () {
         if (this.show_all_questions) {
-          return "Скрыть часть вопросов <"
+          return this.$t("pages.home.questions-section.hide_questions")
         } else {
-          return "Посмотреть все вопросы >"
+          return this.$t("pages.home.questions-section.show_questions")
         }
       },
       lastQuestions () {
