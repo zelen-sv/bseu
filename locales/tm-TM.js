@@ -23,7 +23,7 @@ export default {
       "questions-section": {
         "legend": "Ýygylyk bilen soralýan soraglar",
         "show_questions": "Ähli soraglary gör >",
-        "hide_questions": "Скрыть часть вопросов <"
+        "hide_questions": "Soraglaryň bir bölegini gizle <"
       },
       "specialties-section": {
         "legend": "Meşhur hünärler",
@@ -274,7 +274,7 @@ export default {
         "without-visa": "WIZA GEREKLI DÄL",
         "description-p1": "Resminamalary 15-nji sentýabrdan giç bolmadyk möhletde ugratmak gereklidir.",
         "description-p2": "Resminamalary onlaýn görnüşde tabşyryň we olaryň gözden geçirilmeginden soň,<br />Size resmi çakylygy haçan ugradyp biljekdigimizi habar bereris!",
-        "description-p2-no-visa": "Подавайте документы онлайн и после их рассмотрения<br />мы свяжемся с вами.",
+        "description-p2-no-visa": "Resminamalary onlaýn tabşyryň<br />olary barlanymyzdan soň siziň bilen habarlaşarys.",
         "online-application": "Onlaýn arzada",
         "application-details": ", hökmany suratda şulary bellemek gerek:",
         "application-document-1": "fakultet",

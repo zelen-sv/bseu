@@ -23,7 +23,7 @@ export default {
       "questions-section": {
         "legend": "Frequently asked Questions",
         "show_questions": "See all questions >",
-        "hide_questions": "Скрыть часть вопросов <"
+        "hide_questions": "Hide part of the questions <"
       },
       "specialties-section": {
         "legend": "Popular specialties",
@@ -86,17 +86,17 @@ export default {
     },
     "magistracy": {
       "sidebar": {
-        "bseu-education": "Магистратура в BSEU",
+        "bseu-education": "The BSEU Master's degree",
         "specialties-list": "List of specialties",
         "admission-documents": "Документы для поступления",
         "local-documents": "Документы по приезду",
         "admission": "How to join"
       },
       "bseu-section": {
-        "legend": "Магистратура в BSEU",
-        "description_p1": "Магистратура BSEU – место, которое благодаря должному техническому оснащению, высокой квалификации преподавателей и профессионально организованному учебному процессу позволяет обрести принципиально новые знания на качественно ином уровне. Степень магистра становится все более популярной и востребованной. Выпускник с подобным дипломом востребован компаниями государственного и частного сектора.",
-        "description_p2": "Обучение на второй ступени высшего образования в BSEU открыто для всех желающих. Втом числе для иностранных граждан. Всего предусмотрено 42 программы, часть из которых предлагается на иностранном (английском) языке. Поступающий может выбрать научно-ориентированное либо практико-ориентированное направление. По окончании магистратуры BSEU иностранцам выдается диплом государственного образца Республики Беларусь.",
-        "description_p3": "Вступительные испытания (экзамены) проходят в устном порядке. Срок подачи документов для иностранных граждан – ежегодно с 27 июня по 30 октября. Для поступления на избранную специальность магистратуры BSEU к этому моменту необходимо получить высшее образование первой ступени и иметь соответствующий подтверждающий документ (диплом). Гражданам Узбекистана потребуется прохождение процедуры признания диплома в Отделе признания иностранных документов об образовании РИВШ."
+        "legend": "The BSEU Master's degree",
+        "description_p1": "The BSEU Master's degree program is a place that, allows one to acquire fundamentally new knowledge at a qualitatively different level, thanks to the proper technical equipment, high qualifications of teachers and professionally organized educational process. Master's degree is becoming increasingly popular and in demand. A graduate with a similar diploma is demanded by both public and private sector companies.",
+        "description_p2": "Education at the second stage of higher education in BSEU is open everyone who wishes to participate, including the foreign citizens. A total of 42 programs are provided, some of which are offered in a foreign (English) language. The applicant can choose a science-oriented or practice-oriented specialty. At the end of the BSEU master's program, foreigners are issued a state diploma of the Republic of Belarus.",
+        "description_p3": "Entrance tests (exams) are held orally. The deadline for submission of documents for foreign citizens is annually from June 27 to October 30. For admission to the chosen specialty of magistracy at BSEU, by this time it is necessary to have a higher education of the first stage and have the appropriate supporting document (diploma). Citizens of Uzbekistan will need to undergo a procedure for the recognition of a diploma of the Department for the Recognition of Foreign Documents on Education NIHE."
       },
       "specialties-data-section": {
         "legend": "Our specialties",
@@ -198,7 +198,7 @@ export default {
     "bseu-application": {
       "application-header": {
         "title": "Apply online",
-        "text": "Инфраструктуру учебно-научного комплекса BSEU составляют 11 факультетов, 49 кафедр, Институт повышения квалификации и переподготовки экономических кадров, Институт магистерской подготовки, филиалы: Минский торговый колледж, Минский финансово-экономический колледж, Новогрудский торгово-экономический колледж; библиотека, студенческий городок, спортивный и торговый комплексы.",
+        "text": "The infrastructure of the educational and scientific complex of the BSEU consists of 11 faculties, 49 departments, the Institute for Advanced Studies and Retraining of Economic Personnel, the Institute for Master's Degree, branches: Minsk Trade College, Minsk Finance and Economics College, Novogrudok Trade and Economics College; library, student campus, sports and shopping complexes.",
         "warning": "Please note that all fields are required"
       }
     },
@@ -206,13 +206,13 @@ export default {
       "sidebar": {
         "requalification": "Retraining",
         "refresher-training": "Further training",
-        "internship": "Стажировка"
+        "internship": "Internship"
       },
       "section-requalification": {
         "legend": "Retraining",
-        "description_p1": "Программа переподготовки BSEU функционирует с 1999 года. Основной ее целью является освоение лицами, имеющими высшее образование, новых востребованных и перспективных специальностей, а также более углубленных практико-ориентированных, знаний. Благодаря новой присвоенной квалификации выпускник факультета может претендовать на высокооплачиваемую должность. Отличный вариант для собственного развития и инвестиции средств с целью обретения новых навыков и знаний.",
-        "description_p2": "В BSEU Retraining проводится на базе высшего образования. Таким образом иностранные граждане, желающие пройти переобучение, должны к моменту зачисления иметь высшее образование первой ступени и подтверждающий документ (диплом). Программа в основном рассчитана на лиц, желающих стать более универсальным специалистом, способным принимать взвешенные и эффективные управленческие решения.",
-        "description_p3": "По окончании иностранным гражданам, успешно завершившим курс переподготовки в BSEU на базе высшего, выдается диплом международного образца на английском языке. Длительность программы – 18-24 месяца в зависимости от избранной специальности (4 сессии). Форма обучения заочная. Стоимость обучения на факультете переподготовки составляет 1500-1700 долларов США за весь курс. Оплата проводится в пять этапов. Полный перечень специальностей и перечень документов можно изучить в тематическом разделе сайта университета.",
+        "description_p1": "The Institute of Advanced Studies of the BSEU is a structural unit of the university that provides additional training for people with higher education. Training in economics, management, financial and legal profile has been conducted since 2006. Recruitment to study groups is carried out both for employees holding senior positions and for graduates who do not have sufficient experience and who wish to acquire new skills and knowledge in a short period of time.",
+        "description_p2": "Advanced training programs of BSEU is open for everyone who wish to participate. Including for foreign citizens. There are four types in total:",
+        "description_p3": "Comprehensive advanced training courses at BSEU are excellent opportunity to significantly deepen your knowledge in a certain specialty during a short time (from 1 week or more). The most popular ones are international marketing, business planning and implementation of investment projects, WTO rules and measures regulating international trade, as well as many other promising courses. Classes are conducted by experienced and qualified teachers. Full-time form of education. If there are free places, foreign students are offered a place to stay in a student dormitory (for an additional fee).",
         "icon-1": "On the basis of higher education",
         "icon-2": "International Diploma",
         "icon-3": "Duration of study 18 - 24 months",
@@ -233,12 +233,12 @@ export default {
         "description_p3": "Комплексные курсы повышения квалификации BSEU – это отличная возможность за короткий срок (от 1 недели и выше) существенно углубить свои знания в определенном направлении. Одними из наиболее востребованных являются международный маркетинг, бизнес планирование и реализация инвестиционных проектов, правила ВТО и меры регулирования международной торговли, а также многие иные перспективные курсы. Занятия проводят опытные и квалифицированные преподаватели. Форма обучения – очная. При наличии мест иностранным слушателям предлагается место для проживания в студенческом общежитии (за дополнительную плату к стоимости обучения)."
       },
       "section-internship":{
-        "legend": "Стажировка",
-        "dot_text_1": "• для магистрантов (стоимость от 150 долларов США);",
-        "dot_text_2": "• для преподавателей (стоимость от 250 долларов США).",
-        "description_p1": "Программа обмена опытом и стажировок BSEU проводится для иностранных граждан на ежегодной основе. Ее цель – получение участниками нового опыта и апробация собственных знаний, умений и навыков. Минимальный срок стажировки составляет 1 неделю (конкретный период определяется индивидуально с учетом персональных пожеланий участника программы и направляющей организации). Рабочими языками являются русский, белорусский и английский.",
-        "description_p2": "В BSEU действует два направления стажировок:",
-        "description_p3": "В цену не входит проезд, проживание и питание. Иностранным гражданам на время пребывания в Беларуси предоставляется место в студенческом общежитии (дополнительно оплачиваемое, стоимости от 15 долларов США в неделю). Программа прорабатывает в индивидуальном порядке с учетом специализации, квалификации и персональных интересов стажера. Подготовка документов и организация визита осуществляется не позднее 30 дней до предполагаемой даты визита. По завершении стажировки выдается специальное свидетельство на одном из рабочих языков.",
+        "legend": "Internship",
+        "dot_text_1": "• for students of master’s degree (cost from $ 150);",
+        "dot_text_2": "• for teachers (cost from $ 250).",
+        "description_p1": "The program of exchange of experience and internships of BSEU is carried out for foreign citizens on annual basis. Its goal for participants is to provide new experience and give opportunity to test their own knowledge and skills. The minimum internship period is 1 week (a specific period is determined individually, taking into account the personal wishes of the program participant and the organization that sends him/her). The study languages are Russian, Belarusian and English.",
+        "description_p2": "In BSEU there are two types of internship:",
+        "description_p3": "The price does not include travel, accommodation and meals. Foreign citizens are provided with a place in a student dormitory at the time of their stay in Belarus (additionally paid, costs from $ 15 per week). The program works out individually, taking into account the specialization, qualifications and personal interests of the intern. Preparation of documents and organization of the visit is done no later than 30 days before the expected date of the visit. Upon completion of the internship, a special certificate is issued in one of the study languages.",
       }
     }
   },
@@ -274,7 +274,7 @@ export default {
         "without-visa": "VISA IS NOT NECESSARY",
         "description-p1": "Documents should be sent before September 15.",
         "description-p2": "Send your documents online, after analyzing them,<br />we will inform You when we can send you the official invitation!",
-        "description-p2-no-visa": "Подавайте документы онлайн и после их рассмотрения<br />мы свяжемся с вами.",
+        "description-p2-no-visa": "Submit documents online and after review,<br />we will contact you.",
         "online-application": "Online application",
         "application-details": ", which must specify:",
         "application-document-1": "faculty",

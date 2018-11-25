@@ -1,27 +1,27 @@
 export default [
   {
-    title: "БГЭУ – что это за университет?",
-    description: "Белорусский государственный экономический университет (БГЭУ) – это ведущий научно-практический-центр в стране. Здесь ежегодно обучаются тысячи студентов, магистрантов и аспирантов (в том числе из-за рубежа). Все они успешно осваивают современные специальности. По окончании ВУЗа можно стать востребованным профессионалом как в Беларуси, так и своей стране по возвращении. Диплом о высшем образовании БГЭУ признается во многих странах по всему миру. Образовательный процесс интересный и содержательный. ",
+    title: "BSEU - what kind of university is that?",
+    description: "Belarusian State Economic University (BSEU) is the leading scientific and practical center in the country. Thousands of students, undergraduates and graduate students (including from abroad) study there annually. All of them successfully master modern specialties. After graduation, you can become a sought-after professional both in Belarus and in your country upon return. The diploma of higher education of BSEU is recognized in many countries around the world. The educational process is interesting and informative.",
     active: false
   },
   {
-    title: "Какие документы нужны иностранцу для поступления?",
-    description: "Иностранные граждане, поступающие в БГЭУ, предоставляют документы в два этапа: до приезда, по приезду. В первом случае необходимо заполнение онлайн-заявления, отправка по e-mail копий страниц паспорта и документов о полном начальном и/или среднем образовании. По прибытии в Беларусь потребуется паспорт с действующей учебной визой, оригинал приглашения, оригинал документа о полном о полном начальном и/или среднем образовании, оригинал свидетельства о рождении, медицинский сертификат о состоянии здоровья, 10 фотографий (формат 3х4 см).",
+    title: "Which documents does a foreigner need for admission?",
+    description: "Foreign citizens entering the BSEU provide documents in two stages: before arrival, upon arrival. In the first case, it is necessary to fill out an online application, sending by e-mail copies of the pages of the passport and documents of complete primary and / or secondary education. Upon arrival in Belarus, you will need a passport with a valid study visa, the original invitation, the original document of complete primary and / or secondary education, the original birth certificate, medical certificate of health, 10 photos (3x4 cm).",
     active: false
   },
   {
-    title: "Как проходит поступление и зачисление в студенты?",
-    description: "Правила поступления в БГЭУ в 2018 году указаны на официальном сайте университете. Первое, что определяет приемная комиссия – уровень владения иностранным гражданином одним из государственных языков Республики Беларусь: русский или белорусский. Это важный момент, поскольку обучение происходит только на государственных языках (на английском обучение не ведется). По результатам собеседования и изучения предоставленных приемной комиссии документов принимается решение о зачислении в студенты.",
+    title: "How does enrollment and registration as a student completed?",
+    description: "Rules for admission to BSEU in 2018 are listed on the official website of the university. The first thing that determines the admissions committee is the level of foreign citizen’s knowledge of one of the official languages ​​of the Republic of Belarus: Russian or Belarusian. This is an important point, since the instruction takes place only in the state languages ​​(there is no instruction in English). According to the results of the interview and study of the documents submitted to the admissions committee, a decision is made about enrollment for education.",
     active: false
   },
   {
-    title: "Можно ли подготовиться к поступлению в БГЭУ?",
-    description: "В случае, если уровень владения русским или белорусским языком окажется недостаточным для освоения содержания учебной программы, приемная комиссия может предложить поступить на специальный подготовительный факультет (подготовительное отделение). Все вопросы поступления можно уточнить у наших специалистов.",
+    title: "Is it possible to prepare for admission to BSEU?",
+    description: "If the level of proficiency in Russian or Belarusian is insufficient to master the content of the curriculum, the admission committee may offer to enter a special preparatory faculty (preparatory department). All questions of enrollment can be clarified with our specialists.",
     active: false
   },
   {
-    title: "Какие специальности наиболее перспективные?",
-    description: "Каждая из содержащихся в списке специальностей по-своему перспективная и востребованная. Вы можете стать специалистом в области управления внешнеэкономической деятельности, международного маркетинга, логистики, рекламной деятельности, бизнес-администрирования, международных инвестиций, туристической индустрии и иных направлениях. В зависимости от ваших предпочтений поможем определиться с наиболее подходящей специальностью.",
+    title: "What specialties are the most promising?",
+    description: "Each of the specialties in the list is promising and in demand. You can become a specialist in the management of foreign economic activity, international marketing, logistics, advertising, business administration, international investment, the tourism industry and other areas. Depending on your preferences, we will help you determine the most appropriate specialty.",
     active: false
   },
   {

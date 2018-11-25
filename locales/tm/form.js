@@ -1,6 +1,6 @@
 export default {
   "errors": {
-    "all_fields_required": "Заполнены не все поля!",
+    "all_fields_required": "Doldurylmadyk ýerler bar!",
   },
   "form-fields": {
     "second_name": "Familiýa",
@@ -53,7 +53,7 @@ export default {
   },
   "button": "Arzany ugrat",
   "application-modal": {
-    "thanks": "Спасибо, ваше заявление отправлено и будет рассмотрено в ближайшее время!",
-    "manager": "Наш менеджер свяжется с вами по телефону или по почте"
+    "thanks": "Sag boluň! Siziň arzaňyz ugradyldy we iň gysga wagtyň içinde bahalandyrylar.",
+    "manager": "Biziň menedžerimiz siziň bilen telefon ýa-da poçta arkaly habarlaşar"
   }
 }

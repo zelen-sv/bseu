@@ -1,6 +1,6 @@
 export default {
   "errors": {
-    "all_fields_required": "Заполнены не все поля!",
+    "all_fields_required": "Not all fields are filled!",
   },
   "form-fields": {
     "second_name": "Surname",
@@ -53,7 +53,7 @@ export default {
   },
   "button": "Submit application",
   "application-modal": {
-    "thanks": "Спасибо, ваше заявление отправлено и будет рассмотрено в ближайшее время!",
-    "manager": "Наш менеджер свяжется с вами по телефону или по почте"
+    "thanks": "Thank you, your application has been sent and will be considered soon!",
+    "manager": "Our manager will contact you by phone or by mail"
   }
 }
