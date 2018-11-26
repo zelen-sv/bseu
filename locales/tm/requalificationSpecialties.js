@@ -72,8 +72,8 @@ export default [
     price: 1500
   },
   {
-    title: "Управление персоналом",
-    qualification: ["специалист по управлению персоналом"],
+    title: "Işgärleri dolandyryş",
+    qualification: ["Işgärleri dolandyryş hünärmeni"],
     term: "20 aý",
     price: 1500
   },
@@ -84,8 +84,8 @@ export default [
     price: 1500
   },
   {
-    title: "Информационное и правовое обеспечение бизнеса",
-    qualification: ["экономист со знанием права"],
+    title: "Telekeçiligiň maglumat we hukuk üpjünçiligi",
+    qualification: ["Ykdysatçy-hukukşynas"],
     term: "21 aý",
     price: 1500
   },
@@ -102,8 +102,8 @@ export default [
     price: 1500
   },
   {
-    title: "Коммуникация в сфере внешнеэкономической деятельности",
-    qualification: ["специалист по коммуникации в сфере внешнеэкономической деятельности"],
+    title: "Daşary ykdysadyýet işi pudagynda aragatnaşyk",
+    qualification: ["Daşary ykdysadyýet işi pudagynda aragatnaşyk hünärmeni"],
     term: "22 aý",
     price: 1500
   },
