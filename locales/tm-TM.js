@@ -148,13 +148,13 @@ export default {
         "legend": "Okuwyň tölwgi (2018-2019)",
         "text": "Okuwyň möhleti we topardaky talyplaryň sany bilen baglanşyklydyr. Baha DOLY kurs üçin görkezilendir.",
         "courses-price-table": {
-          "one-month": "1 месяц (96 часов)",
-          "two-months": "2 месяца (192 часа)",
-          "three-months": "3 месяца (288 часов)",
-          "four-months": "4 месяца (288 часов)",
-          "five-months": "5 месяцев (480 часов)",
-          "six-months": "6 месяцев (576 часов)",
-          "human": "чел"
+          "one-month": "1 aý (96 sagat)",
+          "two-months": "2 aý (192 sagat)",
+          "three-months": "3 aý (288 sagat)",
+          "four-months": "4 aý (288 sagat)",
+          "five-months": "5 aý (480 sagat)",
+          "six-months": "6 aý (576 sagat)",
+          "human": "adam"
         }
       }
     },

@@ -25,8 +25,8 @@ export default [
     active: false
   },
   {
-    title: "Как организованы проживание и досуг?",
-    description: "В материальную базу БГЭУ входит общежитие, специально предназначенное для иностранных граждан. Все комнаты оснащены необходимыми удобствами. Во всех учебных корпусах есть недорогие и уютные столовые и буфеты. Проводятся культурные и спортивные мероприятия. Другие студенты и преподаватели помогают освоиться иностранцам для максимально комфортного проживания в Минске во время учебы. Со своей стороны, мы помогаем решить все организационные и бытовые вопросы, всегда оставаясь на связи.",
+    title: "How are accommodation and leisure organized?",
+    description: "The material base of the Belarusian State Economic University includes a hostel specifically designed for foreign citizens. All rooms are equipped with necessary amenities. In all educational buildings there are inexpensive and cozy canteens and buffets. Cultural and sporting events are held. Other students and teachers help foreigners to get adapted to the most comfortable stay in Minsk during their studies. For our part, we help to solve all organizational and domestic issues, always staying in touch.",
     active: false
   }
 ]

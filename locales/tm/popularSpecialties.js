@@ -77,14 +77,14 @@
     image: require("@/assets/images/popular_specialty_7.jpg")
   },
   {
-    title: "Логистика",
-    faculty: "Институт повышения квалификации и переподготовки экономических кадров",
-    term: "1,5",
-    price: "1700",
+    title: "Logistika",
+    faculty: "Iş dolandyryşyň ýokary mekdebi",
+    term: "3",
+    price: "2200",
     education_form: "zaochno",
-    education_program: "retraining",
-    description: "Уверенное владение и организация международными цепями поставок требует от специалиста соответствующих знаний применительно к специфике конкретного зарубежного рынка. Слушателями осваивается инновационная методология бизнес-процессов с учетом логистики на международном уровне. Владение экономическими и управленческими навыками позволяет одновременно совмещать несколько руководящих должностей. Прохождение программы позволит пройти дальше по карьерной лестнице специалисту. Информация об управлении коллективом, основными бизнес-процессами поможет как уже состоявшимся руководителям, так и прочим работникам.",
-    qualification: ["специалист по логистике-экономист"],
+    education_program: "second",
+    description: "Üpjünçiligiň meýilleşdirilmegi, ykdysady zynjyrlaryň yzarlanmagy, şeýle-de ähli esasy işleriň barlanmagy we dolandyrylmagy – logistik-ykdysatçy ugruny gutaran hünärmeniň işleridir. Beýleki zatlardan başga-da maglumat tehnologiýalary döwründe şeýle hünärmen degişli maglumat akymlaryny ulanmaga, olary wagtynda derňemäge başarnykly bolmalydyr, bu oňa logistika işleri boýunça ynamdar maglumat üpjün etmäge mümkinçilik berer. Logistikanyň esasy – menedžment, marketing, işewürlik-dolandyryş we beýleki meňzeş pudaklardaky bilim bolup durýandyr. Harytlaryň, çeşmeleriň we maýalaryň hereketlerini sazlamagy başarýan hünärmen haýsy ýerde ýerleşýänine garamazdan talap edilýän hünärmendir.",
+    qualification: ["Logistik-ykdysatçy"],
     image: require("@/assets/images/popular_specialty_8.jpg")
   }
 ]

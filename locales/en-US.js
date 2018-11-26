@@ -65,15 +65,15 @@ export default {
       "sidebar": {
         "bseu-education": "Second higher education at BSEU",
         "specialties-list": "List of specialties",
-        "admission-documents": "Документы для поступления",
-        "local-documents": "Документы по приезду",
+        "admission-documents": "Documents for entrance",
+        "local-documents": "Documents on your arrival",
         "admission": "How to join"
       },
       "bseu-section": {
         "legend": "Second higher education at BSEU",
-        "description_p1": "Второе Higher education BSEU – это отличный вариант для обретения углубленных знаний в определенной области либо освоении принципиально новой специальности. В современном, активно изменяющемся мире, важно оказаться подготовленным к новым вызовам и решению самых сложных задач. Так, будущему директору компании окажутся важны знания не только управленческого, но и экономического порядка. Во многом поэтому получение иностранными гражданами в 2018 году второго высшего образования в BSEU стало как никогда ранее популярным направлением",
-        "description_p2": "Повторное поступление в ВУЗ открывает для обучающегося новые возможности. Некоторые в более зрелом возрасте понимают истинную ценность новых знаний и навыков, другие решают изменить свою жизнь в освоении новой для себя профессии. Вместе с тем, многие ценят белорусское высшее образование и для 2 специальности выбирают BSEU – ведущий экономический научно-практический центр.",
-        "description_p3": "Ниже на странице представлены специальности в рамках второго высшего образования в BSEU. При возникновении каких-либо сложностей с выбором мы всегда поможем определиться!"
+        "description_p1": "The second higher education in BSEU is an excellent option for gaining in-depth knowledge in a particular area or mastering a fundamentally new specialty. In modern, actively changing world, it is important to be prepared for new challenges and the solution of the most complex tasks. Therefore, for the future director of the company besides with managerial knowledge, knowledge of economic will also be important. Therefore, in 2018, acquisition of second higher education in BSEU by foreign citizens has become more popular than ever before.",
+        "description_p2": "Re-entry into the university opens up new opportunities for students. Some people understand the true value of new knowledge and skills at more mature years; others decide to change their lives by mastering a new profession. At the same time, many people appreciate Belarusian higher education and for the 2nd specialty choose BSEU - the leading economic scientific and practical center.",
+        "description_p3": "Below on the page the specialties within the framework of the second higher education in BSEU are represented. If you have any difficulties with the choice, we can always help you to make decision!"
       },
       "specialties-data-section": {
         "legend": "Our specialties",
@@ -88,8 +88,8 @@ export default {
       "sidebar": {
         "bseu-education": "The BSEU Master's degree",
         "specialties-list": "List of specialties",
-        "admission-documents": "Документы для поступления",
-        "local-documents": "Документы по приезду",
+        "admission-documents": "Documents for admission",
+        "local-documents": "Documents on arrival",
         "admission": "How to join"
       },
       "bseu-section": {
@@ -114,14 +114,14 @@ export default {
       },
       "training-section": {
         "legend": "Preparatory department ",
-        "dot_text_1": "• Правоведение;",
-        "dot_text_2": "• Экономический;",
-        "dot_text_3": "• Иностранный язык;",
-        "dot_text_4": "• Медицинский.",
-        "description_p1": "Иностранные граждане, желающие обучаться в BSEU, посещают Preparatory department. Преподавание ведется на русском языке, поэтому абитуриентам, которые владеют им в недостаточной мере, потребуется должным образом подготовиться к поступлению в ВУЗ.",
-        "description_p2": "Предусмотрено четыре программы, в рамках которых ведется адаптация иностранных граждан. Они зависят от предполагаемой специальности, которая в последующем будет осваиваться студентом:",
-        "description_p3": "Preparatory department университета по окончании курса успешно завершившим его слушателям выдает удостоверение, позволяющее продолжить обучение без дополнительных вступительных экзаменов (дневное отделение, магистратура или аспирантура). Занятия проводятся в небольших группах по 8-10 человек.",
-        "description_p4": "Preparatory department для иностранцев – это отличный шанс повысить навыки владения не только русским языком, но и основами будущей специальности. В ходе занятий применяются авторские методики, используются специальные учебники для иностранцев. Классы оснащены компьютерным и прочим оборудованием для просмотра видеоматериалов. При необходимости обучающимся на подготовительном отделении предоставляется платное место в студенческом общежитии (40-50 долларов США в месяц – дополнительно к стоимости за обучение). Занятия проводят опытные педагоги со стажем, в совершенстве владеющие преподаваемыми учебными дисциплинами.",
+        "dot_text_1": "• Jurisprudence;",
+        "dot_text_2": "• Economy;",
+        "dot_text_3": "• Foreign language;",
+        "dot_text_4": "• Medical.",
+        "description_p1": "Foreign citizens wishing to study at BSEU attend the preparatory department. Teaching is in Russian, so applicants who do not have enough proficiency in Russian will need to properly prepare for admission to the university.",
+        "description_p2": "There are four programs offered for adaptation of foreign citizens. They depend on the intended specialty, which will be mastered by the student in the future:",
+        "description_p3": "Upon completion of the course, for the participants of the preparatory department of the university that successfully complete the course, a certificate allowing them to continue their studies without additional entrance examinations is issued (full-time, Master's degree or post-graduate courses). Classes are held in small groups of 8-10 people.",
+        "description_p4": "The preparatory department for foreigners is an excellent chance to improve skills, not only in Russian, but also the basics of the future specialty. During the lessons, original methods and special textbooks for foreigners are used. Classes are equipped with computer and other equipment for viewing video. If necessary, students at the preparatory department are provided with a paid place in a student dormitory (40-50 US dollars per month - in addition to the tuition fee). Classes are conducted by experienced teachers, perfectly fluent in the taught academic disciplines.",
         "icon-1": "Enter without exams *",
         "icon-2": "Groups of 8-10 people",
         "icon-3": "Duration of training is 10 months",
@@ -140,21 +140,21 @@ export default {
       },
       "courses-section": {
         "legend": "Russian language courses",
-        "description_p1": "Освоение большинства специальностей в Белорусском государственном экономическом университете проводится на русском языке. Поэтому иностранным гражданам, желающимизучить специальность в этом ВУЗе, необходимо завершить Russian language courses. Они организованы кафедрами белорусского и русских языков. Занятия проводят опытнейшие педагоги, успешно обучившие множество будущих студентов.",
-        "description_p2": "В зависимости от навыков владения русским языком предусмотрено несколько уровней обучения: от начального до продвинутого. Формирование учебных групп курсов русского языка в BSEU проводится по мере поступления заявок от абитуриентов. Максимальный ихразмер – 8 человек. Занятия проводятся не реже пяти раз в неделю. Такая интенсивность предполагает быстрое и качественное освоение новым и весьма сложным для иностранных обучающихся языком. При необходимости в студенческом общежитии на время обучения может быть выделено платное место (40-50 долларов США в месяц).",
-        "description_p3": "Стоимость преподаваемого русского языка на подготовительных курсах иностранцам зависит от размера сформированной группы, интенсивности занятий и конкретной программы. Занятия базируются на авторских методиках, эффективность которых была множество раз успешно апробирована. Важной особенностью курса является знакомство срусской и белорусской культурами и национальными традициями белорусского народа. Организуются экскурсии по знаковым местам с посещением музеев, театров."
+        "description_p1": "The study of most specialties in the Belarusian State University of Economics is carried out in Russian. Therefore, foreign citizens wishing to study a specialty in this university should complete the Russian language courses. The departments of Belarusian and Russian languages organize them. Classes are conducted by experienced teachers who have successfully trained many prospective students.",
+        "description_p2": "Depending on the skills of proficiency in Russian, there are several levels of training: from primary to advanced. Formation of training groups of Russian language courses at the BSEU is carried out as applications are received from applicants. The maximum size of a group is 8 people. Classes are held at least five times a week. Such intensity implies fast and high-quality mastering of a new and very difficult language for foreign students. If necessary, a paid place ($ 40-50 per month) can be allocated at the time of study in a student dormitory.",
+        "description_p3": "The cost of the Russian language taught at the preparatory courses for foreigners depends on the size of the formed group, the intensity of classes and the specific program. Classes are based on original techniques, the effectiveness of which has been successfully tested many times. An important feature of the course is familiarity with the Russian and Belarusian cultures and national traditions of the Belarusian people. Excursions to symbolic places with visits to museums and theaters are organized."
       },
       "courses-data-section": {
         "legend": "Cost of education (2018-2019)",
         "text": "Depends on the duration of training and the number of people in the group. The price is for the whole course.",
         "courses-price-table": {
-          "one-month": "1 месяц (96 часов)",
-          "two-months": "2 месяца (192 часа)",
-          "three-months": "3 месяца (288 часов)",
-          "four-months": "4 месяца (288 часов)",
-          "five-months": "5 месяцев (480 часов)",
-          "six-months": "6 месяцев (576 часов)",
-          "human": "чел"
+          "one-month": "1 month (96 hours)",
+          "two-months": "2 month (192 hours)",
+          "three-months": "3 month (288 hours)",
+          "four-months": "4 month (288 hours)",
+          "five-months": "5 month (480 hours)",
+          "six-months": "6 month (576 hours)",
+          "human": "people"
         }
       }
     },
@@ -167,9 +167,9 @@ export default {
       },
       "bseu-section": {
         "legend": "Belarus State Economic University",
-        "description_p1": "Решение – поступить в BSEU для иностранных граждан в любом случае выигрышное. Данный ВУЗ является ведущим научно-практическим центром Беларуси. Осваиваемые здесь специальности являются актуальными, а подготавливаемые специалисты всегда востребованы в своих странах. Белорусское экономическое образование, полученное в рамках первой ступени, находится на хорошем счету во многих зарубежных странах, а сам университет постоянно занимает уверенные позиции в профильных рейтингах.",
-        "description_p2": "Иностранные граждане получают Higher education BSEU на платной основе. Приемная кампания длится с 30 августа до 15 октября. Наравне с остальными студентами сформированные учебные группы после успешного прохождения вступительных экзаменов приступают к занятиям. При необходимости перед непосредственным изучением экономики в BSEU возможна адаптация в рамках подготовительного факультета (изучение русского, белорусского языков, подготовка к вступительным экзаменам).",
-        "description_p3": "Желаете стать успешным маркетологом, освоить международную логистику или бизнес-администрирование? Доступен широкий выбор специальностей BSEU, полный перечень которых представлен далее на этой странице. Выбирайте подходящее направление!"
+        "description_p1": "The decision to enter the BSEU for foreign citizens in any case advantageous. This university is a leading scientific and practical center of Belarus. Professions mastered here are relevant, and trained specialists are always in demand in their countries. The Belarusian economic education received within the framework of the first stage is in good standing in many foreign countries, and the university itself constantly takes strong positions in profile ratings.",
+        "description_p2": "Foreign citizens receive higher education at BSEU on a paid basis. The reception campaign lasts from August 30 to October 15. Along with the rest of the students, the formed study groups, after successfully passing the entrance exams, start their studies. If necessary, before study of economics at the BSEU, adaptation is possible within the preparatory faculty (studying Russian, Belarusian languages, preparing for entrance exams).",
+        "description_p3": "Would you like to become a successful marketer, master international logistics or business administration? A wide range of BSEU specialties is available, the full list of which is presented later on this page. Choose the right profession!"
       },
       "hostel-section": {
         "legend": "Dormitory",
@@ -224,13 +224,13 @@ export default {
       },
       "section-refresher-training": {
         "legend": "Further training",
-        "dot_text_1": "• программы повышения квалификации;",
-        "dot_text_2": "• обучающие курсы;",
-        "dot_text_3": "• семинары, тенинги, мастер-классы;",
-        "dot_text_4": "• стажировки.",
-        "description_p1": "Институт повышения квалификации BSEU – структурное подразделение университета, осуществляющее дополнительное обучение лиц, владеющих высшим образованием. Профессиональная подготовка по экономическому, управленческому, финансовому и юридическому профилю ведется с 2006 года. Набор в учебные группы проводится как дляработников, занимающих руководящие должности, так и для выпускников, не имеющих достаточного опыта и желающих в короткий промежуток времени обрести новые навыки и знания.",
-        "description_p2": "Программы Further training BSEU открыты для всех желающих. В том числе для иностранных граждан. Всего предусмотрено четыре направления:",
-        "description_p3": "Комплексные курсы повышения квалификации BSEU – это отличная возможность за короткий срок (от 1 недели и выше) существенно углубить свои знания в определенном направлении. Одними из наиболее востребованных являются международный маркетинг, бизнес планирование и реализация инвестиционных проектов, правила ВТО и меры регулирования международной торговли, а также многие иные перспективные курсы. Занятия проводят опытные и квалифицированные преподаватели. Форма обучения – очная. При наличии мест иностранным слушателям предлагается место для проживания в студенческом общежитии (за дополнительную плату к стоимости обучения)."
+        "dot_text_1": "• advanced training programs;",
+        "dot_text_2": "• training courses;",
+        "dot_text_3": "• seminars, trainings, master classes;",
+        "dot_text_4": "• internships.",
+        "description_p1": "The Institute of Advanced Studies of the BSEU is a structural unit of the university that provides additional training for people with higher education. Training in economics, management, financial and legal profile has been conducted since 2006. Recruitment to study groups is carried out both for employees holding senior positions and for graduates who do not have sufficient experience and who wish to acquire new skills and knowledge in a short period of time.",
+        "description_p2": "Advanced training programs of BSEU is open for everyone who wish to participate. Including for foreign citizens. There are four types in total:",
+        "description_p3": "Comprehensive advanced training courses at BSEU are excellent opportunity to significantly deepen your knowledge in a certain specialty during a short time (from 1 week or more). The most popular ones are international marketing, business planning and implementation of investment projects, WTO rules and measures regulating international trade, as well as many other promising courses. Classes are conducted by experienced and qualified teachers. Full-time form of education. If there are free places, foreign students are offered a place to stay in a student dormitory (for an additional fee)."
       },
       "section-internship":{
         "legend": "Internship",
@@ -263,7 +263,7 @@ export default {
       "term_text_2": "(number of years)",
       "price": "Price is",
       "price_in_year": "per year",
-      "education_form_text": "training",
+      "education_form_text": "Training",
       "description_title": "What will you learn",
       "qualification_title": "Who will you become",
     },
@@ -295,7 +295,7 @@ export default {
       },
       "arriving-documents": {
         "legend": "Necessary documents on your arrival",
-        "original-invitation": "Оригинал приглашения",
+        "original-invitation": "Original invitation",
         "original-education-document": "Original of document about education",
         "original-education-document-translate": "a certified translation into Russian with an indication of the studied subjects and marks obtained on them in exams (points)",
         "original-birth-certificate": "Original of birth certificate",
@@ -317,7 +317,7 @@ export default {
       "details": "* let us know 3 days ahead of the arrival date and we will meet you at the airport if necessary"
     },
     "no-visa-admission-scheme": {
-      "first-step": "Оставьте заявку на сайте и мы свяжемся с вами",
+      "first-step": "Leave an application on our web page and we will contact you",
       "second-step": "Send us copies of necessary documents",
       "third-step": "Buy tickets!",
       "details": "* let us know 3 days ahead of the arrival date and we will meet you at the airport if necessary"

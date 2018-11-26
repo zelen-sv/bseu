@@ -1,122 +1,122 @@
 export default [
   {
-    title: "Банковское дело",
-    qualification: ["Специалист банковского дела"],
-    term: "18 мес",
+    title: "Banking",
+    qualification: ["Economist"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Бухгалтерский учет и контроль в предпринимательской деятельности",
-    qualification: ["бухгалтер-экономист"],
-    term: "18 мес",
+    title: "Accounting and control in business",
+    qualification: ["Economist"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Бухгалтерский учет и контроль в промышленности ",
-    qualification: ["бухгалтер-экономист"],
-    term: "18 мес",
+    title: "Accounting, analysis and audit in industry",
+    qualification: ["Economist"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Логстика",
-    qualification: ["специалист по логистике-экономист"],
-    term: "18 мес",
+    title: "Logistics",
+    qualification: ["Logistics-Economist"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Маркетинг",
-    qualification: ["маркетолог"],
-    term: "18 мес",
+    title: "Marketing",
+    qualification: ["Marketer-economist"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Международное торговое сотрудничество",
-    qualification: ["cпециалист по внешнеторговому сотрудничеству"],
-    term: "18 мес",
+    title: "International Trade Cooperation",
+    qualification: ["Specialist in the Foreign Trade Cooperation"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Финансы и кредит в предпринимательской деятельности",
-    qualification: ["экономист по финансам"],
-    term: "18 мес",
+    title: "Finance and credit in Business Activity",
+    qualification: ["Economist"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Экономика и управление в предпринимательской деятельности",
-    qualification: ["экономист-менеджер"],
-    term: "18 мес",
+    title: "Economy and Management in Business Activity",
+    qualification: ["Economist-Manager"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Экономика во внешнеэкономической деятельности",
-    qualification: ["экономист"],
-    term: "18 мес",
+    title: "Foreign Economic Activity Management",
+    qualification: ["Economist"],
+    term: "18 months",
     price: "1500"
   },
   {
-    title: "Деловое администрирование",
-    qualification: ["менеджер-экономист"],
-    term: "20 мес",
+    title: "Business Administration",
+    qualification: ["Manager-Economist"],
+    term: "20 months",
     price: "1500"
   },
   {
-    title: "Менеджмент туристской индустрии",
-    qualification: ["менеджер"],
-    term: "20 мес",
+    title: "Management of the Tourist Industry",
+    qualification: ["Manager"],
+    term: "20 months",
     price: "1500"
   },
   {
-    title: "Операции с ценными бумагами",
-    qualification: ["специалист-аналитик рынка ценных бумаг"],
-    term: "20 мес",
+    title: "Securities Transactions",
+    qualification: ["Expert analyst of the securities market"],
+    term: "20 months",
     price: "1500"
   },
   {
-    title: "Управление персоналом",
-    qualification: ["специалист по управлению персоналом"],
-    term: "20 мес",
+    title: "Human Resource Management ",
+    qualification: ["HR manager"],
+    term: "20 months",
     price: "1500"
   },
   {
-    title: "Финансовый менеджмент",
-    qualification: ["менеджер-экономист"],
-    term: "20 мес",
+    title: "Financial management",
+    qualification: ["Manager-Economist"],
+    term: "20 months",
     price: "1500"
   },
   {
-    title: "Информационное и правовое обеспечение бизнеса",
-    qualification: ["экономист со знанием права"],
-    term: "21 мес",
+    title: "Information and Legal Support of Business",
+    qualification: ["Economist with Knowledge of the Law"],
+    term: "21 months",
     price: "1500"
   },
   {
-    title: "Правоведение",
-    qualification: ["юрист"],
-    term: "21 мес",
+    title: "Jurisprudence",
+    qualification: ["Lawyer"],
+    term: "21 months",
     price: "1500"
   },
   {
-    title: "Коммерческая деятельность на рынке товаров потребительского спроса",
-    qualification: ["экономист"],
-    term: "22 мес",
+    title: "Commercial Activity on Commodity Market of National Consumption",
+    qualification: ["Economist"],
+    term: "22 months",
     price: "1500"
   },
   {
-    title: "Коммуникация в сфере внешнеэкономической деятельности",
-    qualification: ["специалист по коммуникации в сфере внешнеэкономической деятельности"],
-    term: "22 мес",
+    title: "Foreign Economic Activity",
+    qualification: ["specialist in communication in the field of foreign economic activity"],
+    term: "22 months",
     price: "1500"
   },
   {
-    title: "Международный маркетинг",
-    qualification: ["маркетолог"],
-    term: "22 мес",
+    title: "International Marketing",
+    qualification: ["Marketing Specialist"],
+    term: "22 months",
     price: "1500"
   },
   {
-    title: "Экономика труда",
-    qualification: ["экономист"],
-    term: "24 мес",
+    title: "Labor economics",
+    qualification: ["Economist"],
+    term: "24 months",
     price: "1500"
   }
 ]
