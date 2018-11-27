@@ -5,7 +5,7 @@ export default [
   },
   {
     title: "Daşary ýurt dili Profili",
-    price: "3000"
+    price: "2000"
   },
   {
     title: "Lukmançylyk Profili (iňlis dilinde)",

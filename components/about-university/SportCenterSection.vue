@@ -2,12 +2,11 @@
   <div class="content-section" id="sport-center-section">
     <div class="content-section__legend">{{ $t("pages.about-university.sport-center-section.legend") }}</div>
     <p v-html="$t('pages.about-university.sport-center-section.description_p1')"></p>
-    <p>{{ $t("pages.about-university.sport-center-section.description_p2") }}</p>
     <p class="content-section__list-text">{{ $t("pages.about-university.sport-center-section.dot_text_1") }}</p>
     <p class="content-section__list-text">{{ $t("pages.about-university.sport-center-section.dot_text_2") }}</p>
     <p class="content-section__list-text">{{ $t("pages.about-university.sport-center-section.dot_text_3") }}</p>
     <p class="content-section__list-text">{{ $t("pages.about-university.sport-center-section.dot_text_4") }}</p>
-    <p>{{ $t("pages.about-university.sport-center-section.description_p3") }}</p>
+    <p>{{ $t("pages.about-university.sport-center-section.description_p2") }}</p>
     <div v-viewer.static="" class="images-row hostel-viewer-images">
       <template v-for="{original, thumbnail} in images">
         <img :src="thumbnail" :data-source="original" class="images-row__item" alt="sport center image" :key="original.id">

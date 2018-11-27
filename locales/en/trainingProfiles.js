@@ -5,7 +5,7 @@ export default [
   },
   {
     title: "Foreign language Profile",
-    price: "3000"
+    price: "2000"
   },
   {
     title: "Medical Profile (in English)",

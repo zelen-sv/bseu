@@ -8,7 +8,7 @@ export default [
     document_link: 'documents/magistracy-specialties.pdf'
   },
   {
-    title: 'Аспирантура и доктарантура',
+    title: 'Аспирантура и докторантура',
     document_link: 'documents/graduate-school.pdf'
   },
   {
