@@ -68,6 +68,7 @@ module.exports = {
     { src: '~plugins/v-select.js', ssr: false },
     { src: '~plugins/v-scroll-lock.js', ssr: false },
     { src: '~plugins/vue-scrollactive.js', ssr: false },
+    { src: '~plugins/bitrix.js', ssr: false },
   ],
   axios: {
     baseURL: process.env.API_LINK ? process.env.API_LINK : '/api'
