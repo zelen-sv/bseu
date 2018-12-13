@@ -11,10 +11,10 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'og:title', content: 'Университет БГЭУ' },
-      { name: 'og:description', content: 'Обучение в университете БГЭУ. Первое и второе высшее образование, подготовка к поступлению вуз для иностранных абитуриентов.' },
+      { name: 'og:description', content: 'Обучение в университете БГЭУ. Первое и второе высшее образование, подготовка к поступлению в вуз для иностранных абитуриентов.' },
       { name: 'og:type', content: 'website' },
-      { name: 'og:url', content: 'https://inter.bseu.by' }
-      { name: 'og:image', content: 'https://inter.bseu.by/og-logo.png' }
+      { name: 'og:url', content: 'http://inter.bseu.by' },
+      { name: 'og:image', content: 'http://inter.bseu.by/og-logo.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
