@@ -16,6 +16,11 @@
             {{ locale.fullname }}
           </nuxt-link>
         </div>
+        <div class="language-box__select-item">
+          <div class="language-box__select-icon">
+          </div>
+          <a href="http://bseu.by/belarusian/" class="language-box__select-link" target="_blank">Belarus</a>
+        </div>
       </div>
     </div>
   </div>

@@ -49,6 +49,9 @@
           :to="switchLocalePath(locale.code)">
             <div class="circle-text-icon__text">{{ locale.name }}</div>
           </nuxt-link>
+          <a href="http://bseu.by/belarusian/" class="mobile-navbar__language-item circle-text-icon" target="_blank">
+            <div class="circle-text-icon__text">Be</div>
+          </a>
       </div>
     </div>
   </div>
@@ -65,6 +68,17 @@ export default {
   data () {
     return {
       expanded_menu: false
+    }
+  },
+  watch: {
+    expanded_menu (value) {
+      let bitrix_button = document.querySelectorAll('[data-b24-crm-button-cont]')[0]
+
+      if (value) {
+        bitrix_button.style.display = "none"
+      } else {
+        bitrix_button.style.display = "block"
+      }
     }
   },
   methods: {
