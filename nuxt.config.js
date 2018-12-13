@@ -14,6 +14,7 @@ module.exports = {
       { name: 'og:description', content: 'Обучение в университете БГЭУ. Первое и второе высшее образование, подготовка к поступлению вуз для иностранных абитуриентов.' },
       { name: 'og:type', content: 'website' },
       { name: 'og:url', content: 'https://inter.bseu.by' }
+      { name: 'og:image', content: 'https://inter.bseu.by/og-logo.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

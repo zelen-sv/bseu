@@ -13,7 +13,8 @@
   color: black;
   margin: 15px 0;
   cursor: pointer;
-
+  text-decoration: none;
+  display: block;
   &.nuxt-link-exact-active {
     color: $blue;
   }
@@ -49,7 +50,6 @@
 }
 
 .footer__phone {
-  margin: 15px 0;
   font-size: 22px;
   line-height: 26px;
 }
@@ -63,10 +63,17 @@
   font-size: 22px;
   line-height: 26px;
   color: $grey;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__messanger-item {
+  width: 55px;
+  height: 55px;
+  padding-left: 15px;
 }
 
 .footer__mail {
-  margin-top: 25px;
   font-size: 22px;
   line-height: 26px;
 }

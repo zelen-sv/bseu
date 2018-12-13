@@ -14,9 +14,13 @@
         <a href="http://www.bseu.by" target="_blank" class="footer__logo-link"><logo class="footer__logo" /></a>
       </div>
       <div class="footer__column footer__column_right_align">
-        <div class="footer__phone footer__phone_with_messangers">+375 25 691 10 35</div>
-        <div class="footer__messangers">(Viber, Telegram, Whatsapp)</div>
-        <div class="footer__mail">inter.bseu@yandex.ru</div>
+        <a href="tel:+375-25-691-10-35" class="footer__link footer__phone footer__phone_with_messangers">+375 25 691 10 35</a>
+        <div class="footer__link footer__messangers">
+          <a href="#" target="_blank"><img src="@/assets/images/viber-icon.png" class="footer__messanger-item" /></a>
+          <a href="#" target="_blank"><img src="@/assets/images/telegram-icon.png" class="footer__messanger-item" /></a>
+          <a href="#" target="_blank"><img src="@/assets/images/whatsapp-icon.png" class="footer__messanger-item" /></a>
+        </div>
+        <a href="mailto:inter.bseu@yandex.ru" class="footer__link footer__mail">inter.bseu@yandex.ru</a>
       </div>
     </div>
     <div class="footer__text footer__text_small">{{ $t("components.main-footer.development") }}</div>
