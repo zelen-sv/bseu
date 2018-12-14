@@ -39,6 +39,9 @@ module.exports = {
         accurateTrackBounce:true,
       }
     ],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-131004298-1'
+    }],
     ['nuxt-i18n', {
       vueI18n: {
         silentTranslationWarn: true
