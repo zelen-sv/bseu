@@ -16,7 +16,7 @@
       <div class="footer__column footer__column_right_align">
         <a href="tel:+375-25-691-10-35" class="footer__link footer__phone footer__phone_with_messangers">+375 25 691 10 35</a>
         <div class="footer__link footer__messangers">
-          <a href="viber://add?number=%2B375256911035" target="_blank"><img src="@/assets/images/viber-icon.png" class="footer__messanger-item" /></a>
+          <a href="viber://chat?number=+375256911035" target="_blank"><img src="@/assets/images/viber-icon.png" class="footer__messanger-item" /></a>
           <a href="https://t.me/inter_bseu" target="_blank"><img src="@/assets/images/telegram-icon.png" class="footer__messanger-item" /></a>
           <a href="https://wa.me/375256911035" target="_blank"><img src="@/assets/images/whatsapp-icon.png" class="footer__messanger-item" /></a>
           <a href="#"><img src="@/assets/images/imo-icon.png" class="footer__messanger-item" /></a>
