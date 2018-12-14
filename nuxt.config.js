@@ -30,6 +30,15 @@ module.exports = {
         '@/assets/scss/common/index.scss',
     ]],
     '@nuxtjs/axios', '@nuxtjs/dotenv', '@nuxtjs/sitemap',
+    ['@nuxtjs/yandex-metrika',
+      {
+        id: '51568322',
+        webvisor: true,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+      }
+    ],
     ['nuxt-i18n', {
       vueI18n: {
         silentTranslationWarn: true
@@ -69,8 +78,7 @@ module.exports = {
     { src: '~plugins/v-select.js', ssr: false },
     { src: '~plugins/v-scroll-lock.js', ssr: false },
     { src: '~plugins/vue-scrollactive.js', ssr: false },
-    { src: '~plugins/bitrix.js', ssr: false },
-    { src: '~plugins/yandex-metrika.js', ssr: false }
+    { src: '~plugins/bitrix.js', ssr: false }
   ],
   axios: {
     baseURL: process.env.API_LINK ? process.env.API_LINK : '/api'
