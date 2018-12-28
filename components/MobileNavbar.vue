@@ -75,9 +75,9 @@ export default {
       let bitrix_button = document.querySelectorAll('[data-b24-crm-button-cont]')[0]
 
       if (value) {
-        bitrix_button.style.display = "none"
+        tidioChatApi.display(false)
       } else {
-        bitrix_button.style.display = "block"
+        tidioChatApi.display(true)
       }
     }
   },
