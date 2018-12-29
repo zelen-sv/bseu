@@ -19,9 +19,6 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [
-      { src: '//code.tidio.co/n5ooho9tb2vi2jp1e4no2myjvswjag0k.js' }
-    ],
   },
   /*
   ** Customize the progress bar color
@@ -84,7 +81,7 @@ module.exports = {
     { src: '~plugins/v-select.js', ssr: false },
     { src: '~plugins/v-scroll-lock.js', ssr: false },
     { src: '~plugins/vue-scrollactive.js', ssr: false },
-    { src: '~plugins/tidio.js', ssr: false },
+    { src: '~plugins/jivo.js', ssr: false },
   ],
   axios: {
     baseURL: process.env.API_LINK ? process.env.API_LINK : '/api'
