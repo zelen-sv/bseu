@@ -18,20 +18,20 @@
       return {
         images: [
           {
-            thumbnail: require('@/assets/images/sport-center-1-min.jpg'),
-            original: require('@/assets/images/sport-center-1.jpeg')
+            thumbnail: require('@/assets/images/dormitory-1-min.jpg'),
+            original: require('@/assets/images/dormitory-1.jpg')
           },
           {
-            thumbnail: require('@/assets/images/sport-center-2-min.jpg'),
-            original: require('@/assets/images/sport-center-2.jpeg')
+            thumbnail: require('@/assets/images/dormitory-2-min.jpg'),
+            original: require('@/assets/images/dormitory-2.jpg')
           },
           {
-            thumbnail: require('@/assets/images/sport-center-3-min.jpg'),
-            original: require('@/assets/images/sport-center-3.jpeg')
+            thumbnail: require('@/assets/images/dormitory-3-min.jpg'),
+            original: require('@/assets/images/dormitory-3.jpg')
           },
           {
-            thumbnail: require('@/assets/images/sport-center-4-min.jpg'),
-            original: require('@/assets/images/sport-center-4.jpeg')
+            thumbnail: require('@/assets/images/dormitory-4-min.jpg'),
+            original: require('@/assets/images/dormitory-4.jpg')
           },
         ]
       }
