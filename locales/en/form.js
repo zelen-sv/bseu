@@ -20,8 +20,8 @@ export default {
     "phone": "Phone number",
     "education_type": {
       "label": "Education program",
-      "bakalavr": "First Higher (Bachelor)",
-      "magistracy": "Magistratura",
+      "bakalavr": "Bachelor's degree",
+      "magistracy": "Master's degree",
       "second-higher": "Second higher",
       "training": "Preparatory department",
       "courses": "Russian language courses"
